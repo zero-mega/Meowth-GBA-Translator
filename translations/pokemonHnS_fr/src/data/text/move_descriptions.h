@@ -482,7 +482,7 @@ static const u8 sSelfDestructDescription[] = _(
     "met le lanceur K.O.");
 
 static const u8 sEggBombDescription[] = _(
-    "Lance un œuf de force\n"
+    "Lance un oeuf de force\n"
     "sur l'ennemi.");
 
 static const u8 sLickDescription[] = _(
@@ -1090,7 +1090,7 @@ static const u8 sRolePlayDescription[] = _(
     "copie son talent.");
 
 static const u8 sWishDescription[] = _(
-    "Un vœu qui restaure des PV.\n"
+    "Un voeu qui restaure des PV.\n"
     "Il faut du temps pour agir.");
 
 static const u8 sAssistDescription[] = _(

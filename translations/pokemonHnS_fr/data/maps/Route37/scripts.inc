@@ -90,7 +90,7 @@ Route37_Text_TwinsAnnAndAnne1_Beaten:
 
 Route37_Text_TwinsAnnAndAnne1_After:
 	.string "ANN : Je peux deviner ce que pensent\n"
-	.string "ma sœur et mes POKéMON.$"
+	.string "ma soeur et mes POKéMON.$"
 
 Route37_Text_TwinsAnnAndAnne2_Seen:
 	.string "ANNE : ANN et moi, on est\n"
@@ -138,11 +138,11 @@ Route37_Text_Sunny_GaveGift:
 	.string "Oh ! Je m'en souviens maintenant !\p"
 	.string "Un POKéMON qui connaît des attaques\n"
 	.string "électriques devrait la tenir.\p"
-	.string "Ma sœur MONICA a dit que ça renforce\n"
+	.string "Ma soeur MONICA a dit que ça renforce\n"
 	.string "les attaques électriques !$"
 
 Route37_Text_Sunny_Sunday:
-	.string "SUNNY : Mes sœurs et frères\n"
+	.string "SUNNY : Mes soeurs et frères\n"
 	.string "sont MONICA, TUSCANY, WESLEY, ARTHUR, FRIEDA\l"
 	.string "et SANTOS. Ils sont tous\p"
 	.string "plus âgés que moi !$"

@@ -407,17 +407,17 @@ GoldenrodCity_RadioTower_5F_Text_DirectorTidalWingExplanation:
 	.string "OK, je ferais mieux d'aller à mon BUREAU.$"
 
 GoldenrodCity_RadioTower_5F_Text_DirectorLegendary:
-	.string "Ah !\p"
-	.string "Ça me rappelle…\p"
-	.string "Cette aile que je\n"
-	.string "t'ai donnée…\l"
-	.string "Je pense\p"
-	.string "qu'elle\n"
-	.string "est liée au\p"
-	.string "POKéMON\n"
-	.string "LÉGENDAIRE.\p"
-	.string "Continue ton\p"
-	.string "enquête, {PLAYER} !$"
+	.string "Ah!\p"
+	.string "That reminds me…\p"
+	.string "That wing I gave you... I think\n"
+	.string "it's related to the LEGENDARY\l"
+	.string "POKéMON.\p"
+	.string "But! The LEGENDARY POKéMON won't\n"
+	.string "appear with just that wing...\p"
+	.string "Apparently there is something else\n"
+	.string "you need... Or something like that.\p"
+	.string "I wonder what it was...\p"
+	.string "I can't remember.$"
 
 GoldenrodCity_RadioTower_5F_Text_DirectorFakeout:
 	.string "Tu attends quelque chose ? C'est ce\n"

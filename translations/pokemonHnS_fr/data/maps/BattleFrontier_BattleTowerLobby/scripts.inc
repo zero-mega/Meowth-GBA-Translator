@@ -1093,7 +1093,7 @@ BattleFrontier_BattleTowerLobby_Text_NotEnoughValidMonsLv50:
 	.string "POKéMON admissibles. Il vous faut {STR_VAR_2}\p"
 	.string "POKéMON différents pour entrer. Ils doivent\p"
 	.string "aussi tenir des objets de\n"
-	.string "types différents. Les ŒUFS{STR_VAR_1} ne\p"
+	.string "types différents. Les OEUFS{STR_VAR_1} ne\p"
 	.string "sont pas admis. Revenez me\p"
 	.string "voir quand vous serez prêts.$"
 
@@ -1106,14 +1106,14 @@ BattleFrontier_BattleTowerLobby_Text_NotEnoughValidMonsLvOpen:
 	.string "différents pour entrer.\n"
 	.string "Ils doivent aussi tenir des objets\p"
 	.string "de types différents.\p"
-	.string "Les ŒUFS{STR_VAR_1} ne sont pas admis. Revenez me voir quand vous serez prêts.$"
+	.string "Les OEUFS{STR_VAR_1} ne sont pas admis. Revenez me voir quand vous serez prêts.$"
 
 BattleFrontier_BattleTowerLobby_Text_NotEnoughValidMonsLv50Singles:
 	.string "Excusez-moi ! Vous n'avez pas trois\p"
 	.string "POKéMON admissibles. Il vous faut\p"
 	.string "trois POKéMON différents. Ils doivent\n"
 	.string "aussi tenir des objets de\n"
-	.string "types différents. Les ŒUFS{STR_VAR_1} ne\p"
+	.string "types différents. Les OEUFS{STR_VAR_1} ne\p"
 	.string "sont pas admis. Revenez me\p"
 	.string "voir quand vous serez prêts.$"
 
@@ -1123,7 +1123,7 @@ BattleFrontier_BattleTowerLobby_Text_NotEnoughValidMonsLvOpenSingles:
 	.string "faut trois POKéMON différents pour\n"
 	.string "entrer. Ils doivent aussi tenir\p"
 	.string "des objets de types différents.\n"
-	.string "Les ŒUFS{STR_VAR_1} ne sont pas\p"
+	.string "Les OEUFS{STR_VAR_1} ne sont pas\p"
 	.string "admis. Revenez me voir\p"
 	.string "quand vous serez prêts.$"
 
@@ -1132,7 +1132,7 @@ BattleFrontier_BattleTowerLobby_Text_NotEnoughValidMonsLv50Doubles:
 	.string "POKéMON admissibles. Il vous faut\p"
 	.string "quatre POKéMON différents. Ils doivent\n"
 	.string "aussi tenir des objets de\n"
-	.string "types différents. Les ŒUFS{STR_VAR_1} ne\p"
+	.string "types différents. Les OEUFS{STR_VAR_1} ne\p"
 	.string "sont pas admis. Revenez me\p"
 	.string "voir quand vous serez prêts.$"
 
@@ -1142,7 +1142,7 @@ BattleFrontier_BattleTowerLobby_Text_NotEnoughValidMonsLvOpenDoubles:
 	.string "faut quatre POKéMON différents pour\n"
 	.string "entrer. Ils doivent aussi tenir\p"
 	.string "des objets de types différents.\n"
-	.string "Les ŒUFS{STR_VAR_1} ne sont pas\p"
+	.string "Les OEUFS{STR_VAR_1} ne sont pas\p"
 	.string "admis. Revenez me voir\p"
 	.string "quand vous serez prêts.$"
 
@@ -1151,7 +1151,7 @@ BattleFrontier_BattleTowerLobby_Text_NotEnoughValidMonsLv50Multis:
 	.string "POKéMON admissibles. Il vous faut\p"
 	.string "deux POKéMON différents. Ils doivent\n"
 	.string "aussi tenir des objets de\n"
-	.string "types différents. Les ŒUFS{STR_VAR_1} ne\p"
+	.string "types différents. Les OEUFS{STR_VAR_1} ne\p"
 	.string "sont pas admis. Revenez me\p"
 	.string "voir quand vous serez prêts.$"
 
@@ -1161,7 +1161,7 @@ BattleFrontier_BattleTowerLobby_Text_NotEnoughValidMonsLvOpenMultis:
 	.string "faut deux POKéMON différents pour\n"
 	.string "entrer. Ils doivent aussi tenir\p"
 	.string "des objets de types différents.\n"
-	.string "Les ŒUFS{STR_VAR_1} ne sont pas\p"
+	.string "Les OEUFS{STR_VAR_1} ne sont pas\p"
 	.string "admis. Revenez me voir\p"
 	.string "quand vous serez prêts.$"
 
@@ -1394,14 +1394,14 @@ BattleFrontier_BattleTowerLobby_Text_ExplainSalonRules:
 	.string "COMBAT MULTI.$"
 
 BattleFrontier_BattleTowerLobby_Text_ExplainMultiLinkRules:
-	.string "PIERRE : Oh, waouh, {PLAYER}{KUN}.\n"
-	.string "Je suis étonné que tu saches où me trouver.\p"
-	.string "Tu me vois peut-être comme\n"
-	.string "un simple maniaque des roches ?\l"
-	.string "Non, ça ne peut pas être ça.\p"
-	.string "On a combattu côte à côte au\n"
-	.string "CENTRE SPATIAL d'ATALANOPOLIS.\p"
-	.string "Tu devrais avoir une très bonne idée\n"
-	.string "de mon niveau.\p"
-	.string "D'accord, {PLAYER}{KUN}, si tu vas monter\n"
-	.string "un défi sérieux, attends-toi au pire !$"
+	.string "The LINK MULTI BATTLE Mode is for two\n"
+	.string "friends to mount a challenge together.\p"
+	.string "You and your friend must be linked with\n"
+	.string "Wireless Adapters or a GBA Game Link\l"
+	.string "cable.\p"
+	.string "You must choose two POKéMON at\n"
+	.string "the registration counter.\p"
+	.string "These POKéMON must be different\n"
+	.string "from those of your friend.\p"
+	.string "You may not interrupt this challenge\n"
+	.string "in the middle, unlike other modes.$"

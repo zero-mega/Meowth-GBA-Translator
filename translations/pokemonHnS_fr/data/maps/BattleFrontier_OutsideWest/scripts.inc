@@ -444,7 +444,7 @@ BattleFrontier_OutsideWest_Text_BigGuySaidIllLendYouMons:
 	.string "Ça va aller, j'en suis sûr.\p"
 	.string "Je crois...\p"
 	.string "Mais tu te souviens de ce grand type effrayant ?\n"
-	.string "Il a dit : « Je te prête des POKéMON ! »$"
+	.string "Il a dit : “Je te prête des POKéMON !”$"
 
 BattleFrontier_OutsideWest_Text_WhosRaisingThoseRentalMons:
 	.string "C'est l'USINE DE COMBAT.\n"

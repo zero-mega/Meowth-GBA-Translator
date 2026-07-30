@@ -65,7 +65,7 @@ FallarborTown_MoveRelearnersHouse_Text_ImTheMoveTutor:
 	.string "enseigner aux POKéMON.\n"
 	.string "Je peux apprendre une capacité\p"
 	.string "à l'un de tes POKéMON si tu veux.\n"
-	.string "Je le ferai pour une ÉCAILLE CŒUR. J'en collectionne.$"
+	.string "Je le ferai pour une ÉCAILLE COEUR. J'en collectionne.$"
 
 FallarborTown_MoveRelearnersHouse_Text_ThatsAHeartScaleWantMeToTeachMove:
 	.string "Oh ! C'est ça ! C'est une vraie\n"
@@ -90,9 +90,9 @@ FallarborTown_MoveRelearnersHouse_Text_HandedOverHeartScale:
 
 FallarborTown_MoveRelearnersHouse_Text_ComeBackWithHeartScale:
 	.string "Si tes POKéMON doivent apprendre une capacité,\n"
-	.string "reviens avec une ÉCAILLE CŒUR.$"
+	.string "reviens avec une ÉCAILLE COEUR.$"
 
 FallarborTown_MoveRelearnersHouse_Text_CantTeachEgg:
 	.string "Hein ? Il n'y a aucune capacité que\n"
-	.string "je puisse enseigner à un ŒUF.$"
+	.string "je puisse enseigner à un OEUF.$"
 

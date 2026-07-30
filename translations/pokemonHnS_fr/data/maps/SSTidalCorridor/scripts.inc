@@ -295,7 +295,7 @@ SSTidalCorridor_Text_CanRestInCabin2:
 	.string "Ça va prendre un moment avant d'accoster,\n"
 	.string "je suppose. Tu peux te reposer dans\p"
 	.string "ta cabine si tu veux. La\n"
-	.string "tienne est la n° 2. Le\p"
+	.string "tienne est la n  2. Le\p"
 	.string "lit est doux et moelleux. Je\n"
 	.string "peux attester qu'il est confortable !$"
 

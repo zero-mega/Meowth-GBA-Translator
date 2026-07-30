@@ -297,14 +297,14 @@ LavaridgeTown_Text_MayExplainGoGogglesChallengeDad:
 	.string "Je t'ai retrouvé aujourd'hui !\l"
 	.string "Que devrais-je faire ? Demander ton conseil ?\p"
 	.string "Pourquoi pas ? Je te parle déjà !\n"
-	.string "{PLAYER}, tu en as marre de moi ?\p"
+	.string "{KUN}, tu en as marre de moi ?\p"
 	.string "Nah, pas possible.\n"
 	.string "Tu m'écoutes ?\p"
 	.string "Je cherche un conseil--c'est de ça\n"
 	.string "qu'il s'agit.\p"
 	.string "C'est à propos d'un objet à tenir pour\n"
-	.string "mon {STR_VAR_1} qui serait bien.\p"
-	.string "Mon indécision me rend mélancolique.$"
+	.string "mon {PLAYER} qui serait bien.\p"
+	.string "Mon indécision me rend mélancolique.{KUN}$"
 
 LavaridgeTown_Text_BrendanNiceBadgesTakeThis:
 	.string "BRICE : {PLAYER}, salut, ça fait un moment.\n"
@@ -339,39 +339,39 @@ LavaridgeTown_Text_MayExplainGoGogglesChallengeDadNoMints:
 	.string "désert près de\n"
 	.string "la ROUTE 111.\p"
 	.string "Bonne chance,\n"
-	.string "{PLAYER}{KUN} !$"
+	.string "{PLAYER}{KUN} !{PLAYER}{KUN}$"
 
 LavaridgeTown_Text_HaveEggWillYouTakeIt:
-	.string "J'ai ici un ŒUF.\p"
-	.string "J'espérais le faire\n"
-	.string "éclore en le couvrant de\l"
-	.string "sable chaud près des\p"
-	.string "sources thermales.\n"
-	.string "Mais ça ne semble\l"
-	.string "pas fonctionner.\p"
-	.string "Peut-être qu'un\n"
-	.string "meilleur dresseur\p"
-	.string "pourrait le faire éclore.\n"
-	.string "{PLAYER}, veux-tu essayer ?$"
+	.string "I have here an EGG.\p"
+	.string "I'd hoped to hatch it by covering it in\n"
+	.string "hot sand by the hot springs.\l"
+	.string "But that doesn't seem to be enough…\p"
+	.string "I've heard it would be best if it were\n"
+	.string "kept together with POKéMON and\l"
+	.string "carried about.\p"
+	.string "You are a TRAINER, yes?\n"
+	.string "And your POKéMON radiate vitality.\p"
+	.string "So, what say you?\n"
+	.string "Will you take this EGG to hatch?$"
 
 LavaridgeTown_Text_HopeYoullWalkPlentyWithEgg:
 	.string "Bien ! J'espère que tu marcheras beaucoup\n"
-	.string "avec cet ŒUF !$"
+	.string "avec cet OEUF !$"
 
 LavaridgeTown_Text_ReceivedTheEgg:
-	.string "{PLAYER} a reçu l'ŒUF.$"
+	.string "{PLAYER} a reçu l'OEUF.$"
 
 LavaridgeTown_Text_NoRoomForThisEgg:
 	.string "Oh ? Tu as trop de POKéMON.\n"
-	.string "Il n'y a pas de place pour cet ŒUF…$"
+	.string "Il n'y a pas de place pour cet OEUF…$"
 
 LavaridgeTown_Text_AsYouWishThen:
 	.string "Comme tu veux, alors…\p"
 	.string "Si tu changes d'avis sur l'éclosion de cet\n"
-	.string "ŒUF, je serai ici.$"
+	.string "OEUF, je serai ici.$"
 
 LavaridgeTown_Text_EverySoOftenEggFoundAtDayCare:
-	.string "De temps en temps, on trouve un ŒUF\n"
+	.string "De temps en temps, on trouve un OEUF\n"
 	.string "à la PENSION POKéMON.\p"
 	.string "Du moins, c'est ce que raconte la rumeur.$"
 
@@ -416,15 +416,15 @@ LavaridgeTown_Text_HotSpringsClaims:
 
 LavaridgeTown_Text_TownSign:
 	.string "LAVARIDGE\p"
-	.string "« Sources chaudes du CENTRE POKéMON\n"
-	.string "Un excellent endroit pour se détendre ! »$"
+	.string "“Sources chaudes du CENTRE POKéMON\n"
+	.string "Un excellent endroit pour se détendre !”$"
 
 LavaridgeTown_Text_GymSign:
 	.string "ARÈNE POKéMON DE LAVARIDGE\n"
 	.string "CHAMPIONNE : FLORA\l"
-	.string "« Une passion ardente qui brûle ! »$"
+	.string "“Une passion ardente qui brûle !”$"
 
 LavaridgeTown_Text_HerbShopSign:
 	.string "BOUTIQUE D'HERBES POKéMON\n"
-	.string "« Amer mais efficace ! »$"
+	.string "“Amer mais efficace !”$"
 

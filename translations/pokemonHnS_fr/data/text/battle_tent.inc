@@ -52,21 +52,21 @@ FallarborTown_BattleTentLobby_Text_NotEnoughValidMonsLv50:
 	.string "requis pour l'entrée. Ils ne\p"
 	.string "doivent pas non plus tenir\n"
 	.string "des objets identiques. Les\p"
-	.string "ŒUFS{STR_VAR_1} ne sont pas\p"
+	.string "OEUFS{STR_VAR_1} ne sont pas\p"
 	.string "admis. Quand tu seras\n"
 	.string "prêt, reviens nous voir.$"
 
 FallarborTown_BattleTentLobby_Text_NotEnoughValidMonsLvOpen:
-	.string "Mon cher\p"
-	.string "challenger !\n"
-	.string "Tu n'as pas les\p"
-	.string "trois POKéMON\n"
-	.string "requis pour\p"
-	.string "l'entrée.\n"
-	.string "Pour être admis,\p"
-	.string "tu dois apporter\p"
-	.string "trois POKéMON\n"
-	.string "différents.$"
+	.string "My dear challenger!\p"
+	.string "You do not have the three POKéMON\n"
+	.string "required for entry.\p"
+	.string "To qualify, you must bring three\n"
+	.string "different kinds of POKéMON.\p"
+	.string "They also must not hold the same\n"
+	.string "kinds of items.\p"
+	.string "EGGS{STR_VAR_1} ineligible.\p"
+	.string "When you have made your preparations,\n"
+	.string "please do return.$"
 
 FallarborTown_BattleTentLobby_Text_GuideYouToBattleTent:
 	.string "Je vais maintenant te conduire\n"
@@ -148,7 +148,7 @@ VerdanturfTown_BattleTentLobby_Text_ExplainVerdanturfTent:
 	.string "tu seras disqualifié.$"
 
 VerdanturfTown_BattleTentLobby_Text_ReturnFortified:
-	.string "Quand tu auras fortifié ton cœur\n"
+	.string "Quand tu auras fortifié ton coeur\n"
 	.string "et tes POKéMON, tu devras revenir.$"
 
 @ Unused
@@ -158,28 +158,28 @@ VerdanturfTown_BattleTentLobby_Text_WhichLevelMode:
 	.string "Lequel choisis-tu comme défi ?$"
 
 VerdanturfTown_BattleTentLobby_Text_NotEnoughValidMonsLv50:
-	.string "Soupir…\p"
-	.string "Tu n'as pas les\n"
-	.string "trois POKéMON\p"
-	.string "requis pour\n"
-	.string "le défi.\p"
-	.string "Pour entrer, tu\n"
-	.string "dois fournir trois\p"
-	.string "POKéMON différents.\p"
-	.string "Reviens quand\n"
-	.string "tu seras prêt !$"
+	.string "Sigh…\p"
+	.string "You do not have the three POKéMON\n"
+	.string "required for the challenge.\p"
+	.string "To enter, you must provide three\n"
+	.string "different kinds of POKéMON.\p"
+	.string "They also must not be holding\n"
+	.string "the same kinds of items.\p"
+	.string "EGGS{STR_VAR_1} ineligible.\p"
+	.string "Come back when you have made\n"
+	.string "your preparations.$"
 
 VerdanturfTown_BattleTentLobby_Text_NotEnoughValidMonsLvOpen:
-	.string "Soupir…\p"
-	.string "Tu n'as pas les\n"
-	.string "trois POKéMON\p"
-	.string "requis pour\n"
-	.string "le défi.\p"
-	.string "Pour entrer, tu\n"
-	.string "dois fournir trois\p"
-	.string "POKéMON différents.\p"
-	.string "Reviens quand\n"
-	.string "tu seras prêt !$"
+	.string "Sigh…\p"
+	.string "You do not have the three POKéMON\n"
+	.string "required for the challenge.\p"
+	.string "To enter, you must provide three\n"
+	.string "different kinds of POKéMON.\p"
+	.string "They also must not be holding\n"
+	.string "the same kinds of items.\p"
+	.string "EGGS{STR_VAR_1} ineligible.\p"
+	.string "Come back when you have made\n"
+	.string "your preparations.$"
 
 VerdanturfTown_BattleTentLobby_Text_SelectThreeMons:
 	.string "Bien. Maintenant, tu dois choisir\n"
@@ -201,7 +201,7 @@ VerdanturfTown_BattleTentLobby_Text_ResultsWillBeRecorded:
 
 VerdanturfTown_BattleTentLobby_Text_AchievedThreeWinStreak:
 	.string "Pour une série de 3 victoires...\p"
-	.string "Les liens entre ton cœur et tes POKéMON\n"
+	.string "Les liens entre ton coeur et tes POKéMON\n"
 	.string "semblent solides et sincères.$"
 
 VerdanturfTown_BattleTentLobby_Text_FeatWillBeRecorded:

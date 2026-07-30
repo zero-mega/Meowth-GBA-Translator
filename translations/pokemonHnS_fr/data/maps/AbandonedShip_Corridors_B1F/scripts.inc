@@ -75,7 +75,7 @@ AbandonedShip_Corridors_B1F_Text_YayItsAShip:
 
 AbandonedShip_Corridors_B1F_Text_DoorIsLocked:
 	.string "La porte est verrouillée.\p"
-	.string "« STOCKAGE » est peint sur la porte.$"
+	.string "“STOCKAGE” est peint sur la porte.$"
 
 AbandonedShip_Corridors_B1F_Text_InsertedStorageKey:
 	.string "{PLAYER} a inséré et tourné la\n"

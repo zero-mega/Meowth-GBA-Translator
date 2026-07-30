@@ -254,4 +254,4 @@ Route117_Text_RouteSignMauville:
 
 Route117_Text_DayCareSign:
 	.string "POKéMON PENSION\n"
-	.string "« Confiez-nous vos POKéMON. »$"
+	.string "“Confiez-nous vos POKéMON.”$"

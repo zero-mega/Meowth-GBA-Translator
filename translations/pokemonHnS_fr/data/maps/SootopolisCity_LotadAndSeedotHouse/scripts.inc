@@ -152,7 +152,7 @@ SootopolisCity_LotadAndSeedotHouse_Text_DontHaveBigSeedot:
 
 SootopolisCity_LotadAndSeedotHouse_Text_BiggestSeedotInHistory:
 	.string "Le plus grand GRAINIPIOT de l'histoire\n"
-	.string "! Le géant {STR_VAR_3}-{STR_VAR_1} de {STR_VAR_2}\p"
+	.string "! Le géant {STR_VAR_2}-{STR_VAR_3} de {STR_VAR_1}\p"
 	.string "! Un GRAINIPIOT plus grand qu'un\n"
 	.string "NÉNUPIOT ne pouvait rêver mieux !$"
 
@@ -200,6 +200,6 @@ SootopolisCity_LotadAndSeedotHouse_Text_DontHaveBigLotad:
 
 SootopolisCity_LotadAndSeedotHouse_Text_BiggestLotadInHistory:
 	.string "Le plus grand NÉNUPIOT de l'histoire !\n"
-	.string "Le colosse {STR_VAR_3}-{STR_VAR_1} de {STR_VAR_2} !\p"
+	.string "Le colosse {STR_VAR_2}-{STR_VAR_3} de {STR_VAR_1} !\p"
 	.string "Un NÉNUPIOT plus grand qu'un GRAINIPIOT\n"
 	.string "ne pouvait rêver mieux !$"

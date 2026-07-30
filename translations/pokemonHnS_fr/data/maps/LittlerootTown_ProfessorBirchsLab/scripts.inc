@@ -750,17 +750,17 @@ LittlerootTown_ProfessorBirchsLab_EventScript_ScottAboardSSTidalCall::
 	end
 
 LittlerootTown_ProfessorBirchsLab_Text_BirchAwayOnFieldwork:
-	.string "« ACTUALITÉS CONCOURS POKéMON EN DIRECT ! »\p"
-	.string "MC : Désolé d'interrompre la programmation\n"
-	.string "régulière, et merci de nous rejoindre !\p"
-	.string "Nous vous apportons ça en direct de\p"
-	.string "la scène d'un {STR_VAR_1} qui vient de se terminer !\n"
-	.string "Spectateurs : ?!!!!\l"
-	.string "MC : Oh ! On dirait que les participants\p"
-	.string "du CONCOURS arrivent par ici !\n"
-	.string "Je vais essayer de faire une interview\l"
-	.string "improvisée pour vous à la maison !\l"
-	.string "Spectateurs : ?!!!! ?!!!!$"
+	.string "Hunh? PROF. BIRCH?\p"
+	.string "The PROF's away on fieldwork.\n"
+	.string "Ergo, he isn't here.\p"
+	.string "Oh, let me explain what fieldwork is.\p"
+	.string "It is to study things in the natural\n"
+	.string "environment, like fields and mountains,\l"
+	.string "instead of a laboratory.\p"
+	.string "The PROF isn't one for doing desk work.\n"
+	.string "He's the type of person who would\l"
+	.string "rather go outside and experience\l"
+	.string "things than read about them here.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_BirchIsntOneForDeskWork:
 	.string "Le PROF n'est pas du genre à rester\n"
@@ -840,15 +840,15 @@ LittlerootTown_ProfessorBirchsLab_Text_ReceivedPokedex:
 	.string "{PLAYER} a reçu le POKéDEX !$"
 
 LittlerootTown_ProfessorBirchsLab_Text_ExplainPokedex:
-	.string "PROF. SEKO : Le POKéDEX\n"
-	.string "est un outil high-tech\l"
-	.string "qui enregistre\p"
-	.string "automatiquement tout POKéMON\n"
-	.string "que tu rencontres ou attrapes.\p"
-	.string "Mon enfant, SILVER,\n"
-	.string "m'aide aussi\l"
-	.string "avec mes recherches.\l"
-	.string "Bonne chance, {PLAYER}{KUN} !$"
+	.string "PROF. BIRCH: The POKéDEX is a high-tech\n"
+	.string "tool that automatically makes a record\l"
+	.string "of any POKéMON you meet or catch.\p"
+	.string "My kid, SILVER, goes everywhere\n"
+	.string "with it.\p"
+	.string "Whenever my kid catches a rare POKéMON\n"
+	.string "and records its data in the POKéDEX,\l"
+	.string "why, SILVER looks for me while I'm out\l"
+	.string "doing fieldwork, and shows me.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_CountlessPokemonAwait:
 	.string "PROF. SEKO : D'innombrables POKéMON\n"
@@ -863,18 +863,18 @@ LittlerootTown_ProfessorBirchsLab_Text_MayGotPokedexTooTakeThese:
 	.string "quelque chose pour toi aussi !$"
 
 LittlerootTown_ProfessorBirchsLab_Text_CatchCutePokemonWithPokeBalls:
-	.string "Waouh, on ferait mieux de lire cette lettre !\n"
-	.string "Laisse-moi te la lire.\p"
-	.string "…Chers ENQUÊTEURS,\n"
-	.string "J'espère que vous allez bien.\p"
-	.string "J'ai récemment vu {STR_VAR_2} sur un ferry.\n"
-	.string "Le DRESSEUR a trouvé l'objet\p"
-	.string "{STR_VAR_1}. Ça m'a rendu envieux.\n"
-	.string "…Bien joué, {STR_VAR_2} !\p"
-	.string "Téléspectateurs, laissez ça vous motiver à\n"
-	.string "activer vos CHERCH'OBJETS et chercher !\p"
-	.string "J'attends des nouvelles passionnantes\n"
-	.string "de vous tous !$"
+	.string "MAY: It's fun if you can get a lot of\n"
+	.string "POKéMON!\p"
+	.string "I'm going to look all over the place\n"
+	.string "because I want different POKéMON.\p"
+	.string "If I find any cute POKéMON, I'll catch\n"
+	.string "them with POKé BALLS!\p"
+	.string "Oh, and did you know that if you\n"
+	.string "select and use a BALL from the BAG,\p"
+	.string "you can change the POKé BALL\n"
+	.string "a POKéMON uses?\p"
+	.string "Maybe I'll put my POKéMON in a\n"
+	.string "PREMIER BALL. They are so neat!$"
 
 LittlerootTown_ProfessorBirchsLab_Text_OhYourBagsFull:
 	.string "Oh ? Ton SAC est plein.$"
@@ -985,7 +985,7 @@ LittlerootTown_ProfessorBirchsLab_Text_BrendanTakeBreakFromFieldwork:
 
 LittlerootTown_ProfessorBirchsLab_Text_CompletedDexChoosePokemon:
 	.string "PROF. SEKO : Oh, {PLAYER}{KUN} !\n"
-	.string "Jetons un œil à ton POKéDEX.\p"
+	.string "Jetons un oeil à ton POKéDEX.\p"
 	.string "… … … … … …\n"
 	.string "… … … … … …\p"
 	.string "Oui, il n'y a aucun doute.\p"
@@ -1008,7 +1008,7 @@ LittlerootTown_ProfessorBirchsLab_Text_CanHaveAnyOneOfRarePokemon:
 
 LittlerootTown_ProfessorBirchsLab_Text_YoullTakeCyndaquil:
 	.string "PROF. SEKO : Le POKéMON FEU HÉRICENDRE\n"
-	.string "t'a tapé dans l'œil ! Tu es\p"
+	.string "t'a tapé dans l'oeil ! Tu es\p"
 	.string "aussi vif que jamais ! Alors,\p"
 	.string "le HÉRICENDRE est ton choix ?$"
 

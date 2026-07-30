@@ -27,7 +27,7 @@ DayOfWeekSiblingsHouse_Text_Pokedex1:
     .string "Le lire ?$"
 
 DayOfWeekSiblingsHouse_Text_Pokedex2:
-    .string "À mes frères et sœurs :\p"
+    .string "À mes frères et soeurs :\p"
     .string "Nous sommes fiers de servir les\n"
     .string "Dresseurs de POKéMON.\p"
     .string "Quand des Dresseurs vous parlent,\n"

@@ -290,7 +290,7 @@ EverGrandeCity_ChampionsRoom_Text_IntroSpeech:
 	.string "Montre-moi ici et maintenant !$"
 
 EverGrandeCity_ChampionsRoom_Text_IntroSpeech2:
-	.string "{STR_VAR_1}\n"
+	.string "{PLAYER}\n"
 	.string "C'est ce que je devrais dire, hein ?\p"
 	.string "Alors, je vais éviter ça !\n"
 	.string "Je plaisante !\p"
@@ -301,7 +301,7 @@ EverGrandeCity_ChampionsRoom_Text_IntroSpeech2:
 	.string "être DRESSEUR.\n"
 	.string "Je vais partir et gagner des combats\p"
 	.string "contre n'importe quel DRESSEUR.\n"
-	.string "Peut-être que ce sera toi un jour, maître ! C'est tout ! Adieu, mon maître !$"
+	.string "Peut-être que ce sera toi un jour, maître ! C'est tout ! Adieu, mon maître !{KUN}$"
 
 EverGrandeCity_ChampionsRoom_Text_Defeat:
 	.string "Moi, le CHAMPION, succombe\p"

@@ -291,23 +291,23 @@ MeteorFalls_1F_1R_Text_ArchieYesNoTellingWhatMagmaWillDo:
 
 MeteorFalls_1F_1R_Text_ArchieFarewell:
 	.string "ARCHIE : {PLAYER}, tu devrais aussi garder\n"
-	.string "un œil sur la TEAM MAGMA.\p"
+	.string "un oeil sur la TEAM MAGMA.\p"
 	.string "Adieu !$"
 
 MeteorFalls_1F_1R_Text_MeetProfCozmo:
-	.string "Je… Je suis COSMO…\n"
-	.string "Je suis un\p"
-	.string "PROFESSEUR…\n"
-	.string "La TEAM MAGMA m'a\p"
-	.string "demandé de\n"
-	.string "les guider\p"
-	.string "vers les\n"
-	.string "METEORITES…\p"
-	.string "Mais ils\n"
-	.string "m'ont trompé.\p"
-	.string "Ils m'ont même volé\p"
-	.string "la MÉTÉORITE !\n"
-	.string "{PLAYER}, aide-moi !$"
+	.string "I… I'm COZMO…\n"
+	.string "I'm a PROFESSOR…\p"
+	.string "TEAM MAGMA asked me to guide them\n"
+	.string "to METEOR FALLS…\p"
+	.string "But they tricked me.\n"
+	.string "They even took my METEORITE away…\p"
+	.string "And then another similar bunch,\n"
+	.string "TEAM AQUA showed up.\p"
+	.string "After that…\n"
+	.string "I don't understand any of it.\p"
+	.string "But that TEAM MAGMA…\p"
+	.string "What are they going to do with that\n"
+	.string "METEORITE at MT. CHIMNEY?$"
 
 MeteorFalls_1F_1R_Text_WhatsTeamMagmaDoingAtMtChimney:
 	.string "PROF. KOSMO : Mais cette TEAM MAGMA...\p"

@@ -903,8 +903,8 @@ Route110_TrickHousePuzzle5_Movement_MechadollShake:
 
 Route110_TrickHousePuzzle5_Text_WroteSecretCodeLockOpened:
 	.string "{PLAYER} a écrit le code secret sur\n"
-	.string "la porte. « Le MAÎTRE DES\p"
-	.string "PIÈGES est un génie. » …\n"
+	.string "la porte. “Le MAÎTRE DES\p"
+	.string "PIÈGES est un génie.” …\n"
 	.string "… … … … … …\p"
 	.string "… Le verrou s'est ouvert !$"
 

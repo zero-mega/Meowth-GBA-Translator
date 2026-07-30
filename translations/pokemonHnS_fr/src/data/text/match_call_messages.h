@@ -26,7 +26,7 @@ const u8 gText_MatchCallTuber_Ricky_Intro2[] = _("J'aime juste ma bouée.");
 const u8 gText_MatchCallSisAndBro_LilaAndRoy_Strategy[] = _("On partage nos tâches.");
 const u8 gText_MatchCallSisAndBro_LilaAndRoy_Pokemon[] = _("Nous aimons les POKéMON amicaux.");
 const u8 gText_MatchCallSisAndBro_LilaAndRoy_Intro1[] = _("Nous profitons des POKéMON ensemble");
-const u8 gText_MatchCallSisAndBro_LilaAndRoy_Intro2[] = _("comme sœur et frère.");
+const u8 gText_MatchCallSisAndBro_LilaAndRoy_Intro2[] = _("comme soeur et frère.");
 
 const u8 gText_MatchCallCooltrainer_Cristin_Strategy[] = _("Je finis avec des coups puissants !");
 const u8 gText_MatchCallCooltrainer_Cristin_Pokemon[] = _("Un mélange de types différents.");
@@ -96,7 +96,7 @@ const u8 gText_MatchCallGuitarist_Fernando_Intro2[] = _("toi et t'étourdir !");
 const u8 gText_MatchCallGuitarist_Dalton_Strategy[] = _("Je vais t'électrocuter !");
 const u8 gText_MatchCallGuitarist_Dalton_Pokemon[] = _("Ils sont ÉLECTRIK !");
 const u8 gText_MatchCallGuitarist_Dalton_Intro1[] = _("Je veux faire pleurer les gens");
-const u8 gText_MatchCallGuitarist_Dalton_Intro2[] = _("avec des chansons de mon cœur.");
+const u8 gText_MatchCallGuitarist_Dalton_Intro2[] = _("avec des chansons de mon coeur.");
 
 const u8 gText_MatchCallKindler_Bernie_Strategy[] = _("Tout brûler !");
 const u8 gText_MatchCallKindler_Bernie_Pokemon[] = _("Des POKéMON qui brûlent.");

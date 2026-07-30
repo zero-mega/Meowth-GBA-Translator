@@ -21,11 +21,11 @@ CeladonMansion2F_Text_Computer:
 	.string "Quelqu'un était\p"
 	.string "en train de\p"
 	.string "composer un e-mail.\n"
-	.string "« …J'espère que\p"
+	.string "“…J'espère que\p"
 	.string "tu continueras\n"
 	.string "les recherches sur les\p"
 	.string "Systèmes de Stockage.\p"
-	.string "De BILL »$"
+	.string "De BILL”$"
 
 CeladonMansion2F_Text_DevOfficeSign:
 	.string "BUREAU DE DÉVELOPPEMENT HEART & SOUL$"
@@ -70,10 +70,10 @@ CeladonMansion2F_Text_InfiniteBacon:
 	.string "dans pokeemerald expansion !$"
 
 CeladonMansion2F_Text_TixoRebel:
-	.string "Tu as entendu parler de L'ŒUFIFICATION ?\n"
+	.string "Tu as entendu parler de L'OEUFIFICATION ?\n"
 	.string "C'était un bug de la version de test\l"
 	.string "qui transformait aléatoirement des POKéMON en\l"
-	.string "ŒUFS !\p"
+	.string "OEUFS !\p"
 	.string "J'ai développé le correctif !$"
 
 CeladonMansion2F_Text_Phant:

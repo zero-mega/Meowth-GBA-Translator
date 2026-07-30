@@ -250,7 +250,7 @@ Text_PetalburgWoods_Celebi_SignFirstTime:
 	.string "faire apparaître…\p"
 	.string "Ça me rend vraiment triste de voir à quel point\n"
 	.string "je suis devenu faible avec les années.\p"
-	.string "Bref, je vais continuer mon œuvre.\n"
+	.string "Bref, je vais continuer mon oeuvre.\n"
 	.string "À bientôt, jeune homme.$"
 
 Text_PetalburgWoods_Celebi_SignEventFinished:
@@ -277,7 +277,7 @@ Text_PetalburgWoods_Celebi_SignEventChampion:
 	.string "Peut-être se cachent-ils dans des endroits\l"
 	.string "liés à leurs descriptions ?\p"
 	.string "Si tu as le temps, peut-être pourrais-tu\n"
-	.string "jeter un œil. Qu'en penses-tu ?$"
+	.string "jeter un oeil. Qu'en penses-tu ?$"
 
 PetalburgWoods_EventScript_DevonResearcherLeft::
 	lockall

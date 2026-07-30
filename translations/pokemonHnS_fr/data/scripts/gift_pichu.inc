@@ -62,7 +62,7 @@ sText_MysteryGiftEgg:
 	.string "Merci d'utiliser le système\n"
 	.string "CADEAU MYSTÈRE.\p"
 	.string "Du CENTRE POKéMON nous\n"
-	.string "avons un cadeau—un ŒUF POKéMON !\p"
+	.string "avons un cadeau-un OEUF POKéMON !\p"
 	.string "Élève-le avec amour et\n"
 	.string "tendresse.$"
 

@@ -60,10 +60,10 @@ NavelRock_Harbor_Text_SailorReturn:
 FarawayIsland_Entrance_Text_Sign:
 	.string "L'écriture s'efface comme si elle\n"
 	.string "avait été écrite il y a longtemps…\p"
-	.string "« …bre, 6e jour\n"
+	.string "“…bre, 6e jour\n"
 	.string "Si un humain…met le pied ici…\l"
-	.string "encore…ue ce soit une personne au bon cœur…\l"
-	.string "…vec cet espoir, je pars… »$"
+	.string "encore…ue ce soit une personne au bon coeur…\l"
+	.string "…vec cet espoir, je pars…”$"
 
 FarawayIsland_Interior_Text_Mew:
 	.string "Myuu…$"

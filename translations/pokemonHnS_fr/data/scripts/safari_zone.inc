@@ -169,7 +169,7 @@ Route121_SafariZoneGate_SafariZoneEntrance_Text_YouNeedPokeblockCase:
 	.string "fructueuse si vous utilisez des {POKEBLOCK}S.\p"
 	.string "Revenez avec une BOÎTE À {POKEBLOCK}S.\p"
 	.string "Vous pouvez en obtenir une\n"
-	.string "au PARC SAFARI de JOHTO.$"
+	.string "au PARC SAFARI de JOHTO.{POKEBLOCK}$"
 
 SafariZone_South_Text_StillHaveTimeExit:
 	.string "Il te reste du temps. Veux-tu\n"
@@ -235,7 +235,7 @@ Route121_SafariZoneGate_SafariZoneEntrance_Text_TrainerTip:
 	.string "rendre moins enclins à fuir.$"
 
 SafariZone_Southwest_Text_RestHouseSign:
-	.string "« Reposez vos pieds fatigués. »\n"
+	.string "“Reposez vos pieds fatigués.”\n"
 	.string "MAISON DE REPOS$"
 
 SafariZone_RestHouse_Text_Youngster:

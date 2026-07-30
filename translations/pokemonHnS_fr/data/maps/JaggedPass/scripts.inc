@@ -237,7 +237,7 @@ JaggedPass_Text_GruntDefeat:
 
 JaggedPass_Text_GoWhereverYouWant:
 	.string "D'accord, d'accord !\n"
-	.string "J'admets — tu es fort !\p"
+	.string "J'admets - tu es fort !\p"
 	.string "Ne t'inquiète pas pour moi.\n"
 	.string "Va où tu veux !$"
 

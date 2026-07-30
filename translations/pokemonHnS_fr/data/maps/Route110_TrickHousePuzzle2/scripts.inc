@@ -101,8 +101,8 @@ Route110_TrickHousePuzzle2_EventScript_Georgia::
 
 Route110_TrickHousePuzzle2_Text_WroteSecretCodeLockOpened:
 	.string "{PLAYER} a écrit le code secret\n"
-	.string "sur la porte. « Le MAÎTRE\p"
-	.string "DES PIÈGES est malin. » …\n"
+	.string "sur la porte. “Le MAÎTRE\p"
+	.string "DES PIÈGES est malin.” …\n"
 	.string "… … … … … …\p"
 	.string "… Le verrou s'est ouvert !$"
 

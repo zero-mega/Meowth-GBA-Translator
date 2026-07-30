@@ -569,7 +569,7 @@ MauvilleCity_Text_WallyPokenavCall:
 	.string "! TIMMY : Oh,\n"
 	.string "bonjour, {PLAYER} ! Je\p"
 	.string "voulais juste te dire\n"
-	.string "que mon {STR_VAR_1} a\p"
+	.string "que mon {PLAYER} a\p"
 	.string "évolué ! Merci\n"
 	.string "pour tout !$"
 
@@ -578,17 +578,17 @@ MauvilleCity_Text_RegisteredWally:
 	.string "dans le POKéNAV.$"
 
 MauvilleCity_Text_ScottYouDidntHoldBack:
-	.string "SCOTT : Héhé…\n"
-	.string "Je regardais\p"
-	.string "ce match !\n"
-	.string "Tu es ami avec\p"
-	.string "ce garçon WALLY,\n"
-	.string "n'est-ce pas ?\p"
-	.string "Mais tu\n"
-	.string "es encore\p"
-	.string "plus fort !\p"
-	.string "Impressionnant,\n"
-	.string "{PLAYER}{KUN} !$"
+	.string "SCOTT: Hehe…\n"
+	.string "I was watching that match!\p"
+	.string "You're friends with that boy WALLY,\n"
+	.string "aren't you?\p"
+	.string "But you didn't hold anything back\n"
+	.string "and beat him impressively.\p"
+	.string "Yeah! That's what a real POKéMON\n"
+	.string "battle is all about!\p"
+	.string "I idolize TRAINERS like that!\p"
+	.string "… … … … … …\n"
+	.string "I'll be cheering for you!$"
 
 MauvilleCity_Text_WattsonNeedFavorTakeKey:
 	.string "VOLTEK : Oh, {PLAYER}{KUN} !\n"
@@ -649,33 +649,33 @@ MauvilleCity_Text_PokemonCanJumpYouOnBike:
 
 MauvilleCity_Text_CitySign:
 	.string "ATALANOPOLIS\n"
-	.string "« La cité pleine de vie ! »$"
+	.string "“La cité pleine de vie !”$"
 
 MauvilleCity_Text_GymSign:
 	.string "ARÈNE POKéMON DE LAVILLA\n"
 	.string "CHAMPION : VOLTÈRE\l"
-	.string "« L'homme joyeusement électrifiant ! »$"
+	.string "“L'homme joyeusement électrifiant !”$"
 
 MauvilleCity_Text_BikeShopSign:
-	.string "« Roule sur le gravier et secoue\n"
-	.string "ton âme ! »\l"
+	.string "“Roule sur le gravier et secoue\n"
+	.string "ton âme !”\l"
 	.string "CYCLES DE VELO$"
 
 MauvilleCity_Text_GameCornerSign:
-	.string "« Le terrain de jeu pour tous ! »\n"
+	.string "“Le terrain de jeu pour tous !”\n"
 	.string "CASINO DE MYOKARA$"
 
 MauvilleCity_Text_ExplainTV:
-	.string "Salut, tu regardes\p"
-	.string "la télé ?\n"
-	.string "Ils ont ajouté plein\p"
-	.string "de nouvelles émissions\n"
-	.string "cool récemment.\p"
-	.string "La télé c'est génial.\n"
-	.string "J'ai vu mes amis\p"
-	.string "à l'écran !\p"
-	.string "Tu devrais regarder\n"
-	.string "aussi, {PLAYER}{KUN} !$"
+	.string "Hi, do you check out TV at all?\p"
+	.string "They've added a bunch of cool new\n"
+	.string "shows recently.\p"
+	.string "TV is so cool. I've seen my friends on\n"
+	.string "TV just out of the blue.\p"
+	.string "And, sometimes, they even put you on TV\n"
+	.string "without telling you.\p"
+	.string "I wish I would be on TV sometime.\p"
+	.string "That's why I think you should check\n"
+	.string "out TVs whenever you can.$"
 
 MauvilleCity_Text_BeenCheckingOutTV:
 	.string "Salut, tu as regardé la TV ?$"

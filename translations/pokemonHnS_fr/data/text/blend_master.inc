@@ -51,10 +51,10 @@ BerryBlender_Text_BlendMasterNoPokeblockCase:
 	.string "Obtiens la BOÎTE {POKEBLOCK} et dépêche-toi de revenir !$"
 
 BerryBlender_Text_BlendMasterPokeblockCaseFull:
-	.string "Hmm ! Ta BOÎTE POKéBLOCS semble\p"
-	.string "pleine ! Je serai là toute\p"
-	.string "la journée ! Utilise des\n"
-	.string "POKéBLOCS et reviens vite !$"
+	.string "Hmmm!\p"
+	.string "Your {POKEBLOCK} CASE appears to be full!\p"
+	.string "I shall be here all day!\n"
+	.string "Use some {POKEBLOCK}S and hurry back!$"
 
 BerryBlender_Text_WhoaAwesome:
 	.string "Ouah !\n"

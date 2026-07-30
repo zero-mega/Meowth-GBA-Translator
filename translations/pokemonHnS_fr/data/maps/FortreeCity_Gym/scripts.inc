@@ -302,7 +302,7 @@ FortreeCity_Gym_Text_WinonaRematchDefeat:
 
 FortreeCity_Gym_Text_WinonaPostRematch:
 	.string "ALIZÉE : Même si j'ai perdu,\n"
-	.string "les ailes de mon cœur restent intactes.\p"
+	.string "les ailes de mon coeur restent intactes.\p"
 	.string "Je peux m'élever et planer encore\n"
 	.string "et encore.\p"
 	.string "J'en suis convaincue !$"

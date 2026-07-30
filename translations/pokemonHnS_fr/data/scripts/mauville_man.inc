@@ -398,18 +398,18 @@ MauvilleCity_PokemonCenter_1F_Text_FishingPokemonCaughtStory::
 	.string "légendaire de la pêche !$"
 
 MauvilleCity_PokemonCenter_1F_Text_EggsHatchedTitle::
-	.string "Le DRESSEUR couveur d'ŒUFS$"
+	.string "Le DRESSEUR couveur d'OEUFS$"
 
 MauvilleCity_PokemonCenter_1F_Text_EggsHatchedAction::
-	.string "A fait éclore des ŒUFS$"
+	.string "A fait éclore des OEUFS$"
 
 MauvilleCity_PokemonCenter_1F_Text_EggsHatchedStory::
 	.string "Voici l'histoire d'un DRESSEUR\n"
 	.string "nommé {STR_VAR_3}.\p"
 	.string "Ce DRESSEUR a fait éclore {STR_VAR_1} POKéMON\n"
-	.string "à partir d'ŒUFS !\p"
+	.string "à partir d'OEUFS !\p"
 	.string "{STR_VAR_3} est un légendaire\n"
-	.string "couveur d'ŒUFS !$"
+	.string "couveur d'OEUFS !$"
 
 MauvilleCity_PokemonCenter_1F_Text_PokemonEvolvedTitle::
 	.string "Le DRESSEUR Évoluteur$"
@@ -971,6 +971,6 @@ MauvilleCity_PokemonCenter_1F_Text_IveGotNothingNewToTeach:
 
 MauvilleCity_PokemonCenter_1F_Text_HaveYouHeardOfWord:
 	.string "Hé, tu connais le mot\n"
-	.string "« {STR_VAR_1} » ?\p"
+	.string "“{STR_VAR_1}” ?\p"
 	.string "Ça veut dire quoi ? Eh bien…\n"
 	.string "Demande à ton papa ou à ta maman, d'accord ?$"

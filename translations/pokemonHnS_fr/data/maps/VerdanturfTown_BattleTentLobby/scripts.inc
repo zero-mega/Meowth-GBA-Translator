@@ -341,7 +341,7 @@ VerdanturfTown_BattleTentLobby_Text_MonsReluctantToUseDislikedMoves:
 	.string "C'est important !$"
 
 VerdanturfTown_BattleTentLobby_Text_GentleMonsScaryIfAngry:
-	.string "Ma grande sœur est douce d'habitude.\n"
+	.string "Ma grande soeur est douce d'habitude.\n"
 	.string "Mais quand elle se met en colère,\l"
 	.string "elle est vraiment, vraiment effrayante !\p"
 	.string "Je parie qu'un POKéMON doux devient effrayant\n"
@@ -376,7 +376,7 @@ VerdanturfTown_BattleTentLobby_Text_ScottCanMeetToughTrainers:
 	.string "est un endroit où\n"
 	.string "tu peux tester\p"
 	.string "tes compétences.\n"
-	.string "Amuse-toi bien !$"
+	.string "Amuse-toi bien !{PLAYER}{KUN}$"
 
 VerdanturfTown_BattleTentLobby_Text_ScottVisitRegularly:
 	.string "SCOTT : Je viens ici régulièrement en espérant\n"

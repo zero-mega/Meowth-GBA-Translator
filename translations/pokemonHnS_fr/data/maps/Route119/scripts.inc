@@ -604,18 +604,18 @@ Route119_Text_BrendanExplainFly:
 	.string "Bref, je dois y aller.$"
 
 Route119_Text_ScottWayToGoBeSeeingYou:
-	.string "Les DRESSEURS dans la SALLE UNION\n"
-	.string "seront les joueurs autour de toi\p"
-	.string "qui sont aussi entrés dans la SALLE.\n"
-	.string "Tu peux faire toutes sortes de choses\p"
-	.string "ici, comme échanger des salutations.\n"
-	.string "Tu peux entrer deux POKéMON jusqu'au\p"
-	.string "niv. 30 pour un combat en tête-à-tête.\n"
-	.string "Tu peux participer à un chat avec\p"
-	.string "deux à cinq personnes.\n"
-	.string "Ou, tu peux enregistrer un POKéMON\p"
-	.string "pour échange.\n"
-	.string "Veux-tu entrer dans la SALLE ?$"
+	.string "SCOTT: Hahahah!\n"
+	.string "Way to go, {PLAYER}{KUN}!\p"
+	.string "I just passed by a TRAINER riding\n"
+	.string "a BIKE.\p"
+	.string "You just beat that TRAINER, didn't you?\n"
+	.string "It was pretty obvious that you did.\p"
+	.string "The kid looked really upset with\n"
+	.string "a face all red from anger.\p"
+	.string "I sure seem to run into you often.\n"
+	.string "Are you off to FORTREE GYM next?\p"
+	.string "I expect that you'll do well at the GYM.\n"
+	.string "Well, I'll be seeing you!$"
 
 
 Route119_Text_ScottYouWonAtFortreeGym:

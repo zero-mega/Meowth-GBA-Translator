@@ -988,9 +988,9 @@ LilycoveCity_ContestLobby_Text_LadyGaveMePokeblockCase:
 	.string "m'a donné une BOÎTE {POKEBLOCK} !$"
 
 LilycoveCity_ContestLobby_Text_MakePokeblocksDifferentBerries:
-	.string "Fais des POKéBLOCS et mets-les là-dedans.\p"
-	.string "Quand tu fais un POKéBLOC, chacun\n"
-	.string "doit mettre une BAIE différente.$"
+	.string "Make {POKEBLOCK}S and put them in there.\p"
+	.string "When you make a {POKEBLOCK}, everyone\n"
+	.string "has to put in a different BERRY.$"
 
 LilycoveCity_ContestLobby_Text_YourPokemonSpurredMeToPaint:
 	.string "Félicitations ! J'ai fait un\p"
@@ -1005,7 +1005,7 @@ LilycoveCity_ContestLobby_Text_ShouldITakePaintingToMuseum:
 	.string "Qu'en penses-tu ? J'ai confiance\n"
 	.string "dans ce que j'ai fait, mais ça te\p"
 	.string "plaît ?\n"
-	.string "Une œuvre de ce calibre ne\p"
+	.string "Une oeuvre de ce calibre ne\p"
 	.string "détonnerait pas dans un musée\n"
 	.string "d'art.\p"
 	.string "Hein ? Un musée d'art cherche vraiment des tableaux ? Tu crois que je devrais y amener celui-ci ?$"
@@ -1080,7 +1080,7 @@ LilycoveCity_ContestLobby_Text_LavishedCareOnMon:
 
 LilycoveCity_ContestLobby_Text_MadePokeblocksWithFamily:
 	.string "J'ai fait des {POKEBLOCK}S avec Maman, Papa\n"
-	.string "et Grande Sœur. Ils étaient super !\p"
+	.string "et Grande Soeur. Ils étaient super !\p"
 	.string "Je parie que tu peux faire des {POKEBLOCK}S\n"
 	.string "plus lisses et meilleurs si tu as plus de monde.$"
 

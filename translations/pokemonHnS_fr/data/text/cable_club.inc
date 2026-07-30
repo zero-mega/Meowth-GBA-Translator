@@ -252,7 +252,7 @@ MossdeepCity_GameCorner_1F_Text_DescribeWhichGame:
 	.string "Quel jeu dois-je décrire ?$"
 
 MossdeepCity_GameCorner_1F_Text_PokemonJumpInfo:
-	.string "« POKéMON JUMP »\p"
+	.string "“POKéMON JUMP”\p"
 	.string "Fais sauter\n"
 	.string "ton POKéMON\p"
 	.string "par-dessus la corde\n"
@@ -265,13 +265,13 @@ MossdeepCity_GameCorner_1F_Text_PokemonJumpInfo:
 	.string "Amuse-toi bien !$"
 
 MossdeepCity_GameCorner_1F_Text_DodrioBerryPickingInfo:
-	.string "« DODRIO CUEILLE-BAIES » Commande les\p"
-	.string "trois têtes de DODRIO pour attraper\n"
-	.string "les BAIES qui tombent. Appuie à\p"
-	.string "droite, en haut ou à\n"
-	.string "gauche sur la croix pour\p"
-	.string "déplacer les têtes. Pour jouer,\n"
-	.string "il te faut un DODRIO.$"
+	.string "“DODRIO BERRY-PICKING”\p"
+	.string "Command DODRIO's three heads to\n"
+	.string "catch falling BERRIES.\p"
+	.string "Press right, up, or left on the\n"
+	.string "{PLUS} Control Pad to move the heads.\p"
+	.string "To play this game, you must have\n"
+	.string "a DODRIO.$"
 
 MossdeepCity_GameCorner_1F_Text_TalkToOldManToPlay:
 	.string "Si tu veux jouer,\n"
@@ -314,7 +314,7 @@ MossdeepCity_GameCorner_1F_Text_ExplainRequiredMon:
 	.string "types de POKéMON peuvent participer ?$"
 
 MossdeepCity_GameCorner_1F_Text_ShortJumpingPokemonAllowed:
-	.string "« SAUT POKéMON » est\n"
+	.string "“SAUT POKéMON” est\n"
 	.string "ouvert aux POKéMON d'environ 71\p"
 	.string "cm ou moins. Ce qui\n"
 	.string "n'est pas admis, ce sont\p"
@@ -373,19 +373,19 @@ CableClub_Text_ChooseGroupLeaderOfTwo:
 	.string "Décidez lequel d'entre vous deux\n"
 	.string "sera le CHEF.\p"
 	.string "L'autre joueur doit ensuite choisir\n"
-	.string "« REJOINDRE LE GROUPE ».$"
+	.string "“REJOINDRE LE GROUPE”.$"
 
 CableClub_Text_ChooseGroupLeaderOfFour:
 	.string "Décidez lequel d'entre vous quatre\n"
 	.string "deviendra le CHEF DE GROUPE.\p"
 	.string "Les autres joueurs doivent ensuite\n"
-	.string "choisir « REJOINDRE GROUPE ».$"
+	.string "choisir “REJOINDRE GROUPE”.$"
 
 CableClub_Text_ChooseGroupLeader:
 	.string "Décidez qui parmi vous sera\n"
 	.string "le CHEF DE GROUPE.\p"
 	.string "Les autres joueurs doivent ensuite\n"
-	.string "choisir « REJOINDRE LE GROUPE ».$"
+	.string "choisir “REJOINDRE LE GROUPE”.$"
 
 CableClub_Text_WelcomeUnionRoomEnter:
 	.string "Bienvenue au CLUB POKéMON SANS FIL\n"

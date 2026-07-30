@@ -189,6 +189,6 @@ Route121_Text_MtPyrePierSign:
 	.string "Les mots sont à peine lisibles…$"
 
 Route121_Text_SafariZoneSign:
-	.string "« Rempli de POKéMON rares ! »\n"
+	.string "“Rempli de POKéMON rares !”\n"
 	.string "ZONE SAFARI$"
 

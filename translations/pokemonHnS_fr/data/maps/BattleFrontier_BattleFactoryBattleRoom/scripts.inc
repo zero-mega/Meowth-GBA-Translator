@@ -266,7 +266,7 @@ BattleFrontier_BattleFactoryBattleRoom_Text_NolandImFactoryHead:
 	.string "Faire seulement ce genre de choses…\n"
 	.string "Ça peut être inutile !\p"
 	.string "Tu dois expérimenter les choses avec\n"
-	.string "ton cœur et ton corps, tu comprends ?\p"
+	.string "ton coeur et ton corps, tu comprends ?\p"
 	.string "Je t'affronterai dans les mêmes\n"
 	.string "conditions que toi.\p"
 	.string "J'utiliserai aussi des POKéMON de location !$"

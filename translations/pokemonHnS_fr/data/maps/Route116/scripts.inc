@@ -376,18 +376,18 @@ Route116_Text_WantToDigTunnel:
 	.string "Je veux creuser ce tunnel !$"
 
 Route116_Text_DiggingTunnelWhenGoonOrderedMeOut:
-	.string "PAPA : {PLAYER}…\n"
-	.string "J'avais le sentiment que tu viendrais.\p"
-	.string "Je ne refuserais jamais d'accepter\n"
-	.string "un défi de ta part.\p"
-	.string "Tu comprends, n'est-ce pas ?\n"
-	.string "Dans une ARÈNE, peu importe que\l"
-	.string "nous soyons parent et enfant.\p"
-	.string "Hein ? Attends une seconde, {PLAYER}.\n"
-	.string "Tu n'as qu'un seul POKéMON qui peut\p"
-	.string "combattre ?\n"
-	.string "Désolé, mais tu devras revenir\l"
-	.string "avec au moins deux POKéMON.$"
+	.string "Nnn… Roar!\n"
+	.string "What's going on?\p"
+	.string "I was digging the tunnel without any\n"
+	.string "tools when some goon ordered me out!\p"
+	.string "That tunnel's filled with POKéMON\n"
+	.string "that react badly to loud noises.\l"
+	.string "They could cause an uproar.\p"
+	.string "That's why we stopped using heavy\n"
+	.string "equipment for tunneling…\p"
+	.string "I'm worried that the goon will do\n"
+	.string "something stupid and startle the\l"
+	.string "POKéMON into an uproar.$"
 
 Route116_Text_GoonHightailedItOutOfTunnel:
 	.string "Nnn… Roar !\p"
@@ -460,9 +460,9 @@ Route116_Text_RouteSignRustboro:
 
 Route116_Text_RusturfTunnelSign:
 	.string "TUNNEL RONDOUDOU\n"
-	.string "« Relie KANTEBLA et MYSTHERBE.\p"
-	.string "« Le projet du tunnel a été\n"
-	.string "annulé. »$"
+	.string "“Relie KANTEBLA et MYSTHERBE.\p"
+	.string "“Le projet du tunnel a été\n"
+	.string "annulé.”$"
 
 Route116_Text_TunnelersRestHouse:
 	.string "REPOS DES MINEURS$"

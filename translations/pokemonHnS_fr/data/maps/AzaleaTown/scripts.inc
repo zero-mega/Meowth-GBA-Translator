@@ -359,17 +359,17 @@ AzaleaTown_Text_RivalWin:
 	.string "mes POKéMON étaient faibles.$"
 
 AzaleaTown_Text_RivalAfter:
-	.string "Je déteste\p"
-	.string "les faibles.\n"
-	.string "POKéMON, dresseurs. Peu\p"
-	.string "importe qui ou quoi.\n"
-	.string "Je vais devenir\p"
-	.string "fort et éliminer\p"
-	.string "les faibles.\p"
-	.string "C'est mon chemin.\n"
-	.string "{PLAYER}, tu es fort.\p"
-	.string "Respecte ma force\n"
-	.string "ou affronte-moi !$"
+	.string "I hate the weak.\p"
+	.string "POKéMON, trainers. It doesn't\n"
+	.string "matter who or what.\p"
+	.string "I'm going to be strong and wipe\n"
+	.string "out the weak.\p"
+	.string "That goes for TEAM ROCKET too.\p"
+	.string "They act big and tough in a group.\p"
+	.string "But get them alone, and they're weak.\n"
+	.string "I hate them all.\p"
+	.string "You stay out of my way. A weakling\n"
+	.string "like you is only a distraction.$"
 
 AzaleaTown_Text_RivalLoss:
 	.string "…Humph ! Je savais que tu mentais.$"

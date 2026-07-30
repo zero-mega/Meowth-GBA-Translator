@@ -15,19 +15,19 @@ RustboroCity_PokemonCenter_1F_ProbopassEvo::
 	end
 
 RustboroCity_PokemonCenter_1F_ProbopassEvo_Text:
-	.string "LE MONDE DES MAÎTRES\n"
-	.string "Bonjour, téléspectateurs.\p"
-	.string "Vous connaissez peut-être un DRESSEUR\n"
-	.string "nommé {STR_VAR_1}.\l"
-	.string "{STR_VAR_1} est célèbre comme maître de\p"
-	.string "l'attrapage de POKéMON.\n"
-	.string "La quête de {STR_VAR_1} pour les POKéMON dépend\l"
-	.string "entièrement d'une recherche minutieuse à pied.\l"
-	.string "Un jour mémorable, le DRESSEUR a marché\l"
-	.string "environ {STR_VAR_2} pas.\l"
-	.string "Le nombre total de POKéMON attrapés\p"
-	.string "ce jour-là a atteint\n"
-	.string "l'impressionnant {STR_VAR_3} !$"
+	.string "NOSEPASS evolves and changes\n"
+	.string "its typing to ROCK and STEEL.\p"
+	.string "But in order to evolve, it needs\n"
+	.string "to be exposed to a strong\l"
+	.string "magnetic field.\p"
+	.string "It's difficult finding a place\n"
+	.string "like this in HOENN, so scientists\l"
+	.string "discovered that making NOSEPASS\l"
+	.string "hold a THUNDER STONE makes him\l"
+	.string "evolve easier by multiplying\l"
+	.string "its own magnetic field by two!\p"
+	.string "I wonder what THUNDER STONES are\n"
+	.string "made of.$"
 
 RustboroCity_PokemonCenter_1F_EventScript_Nurse::
 	setvar VAR_0x800B, LOCALID_NURSE

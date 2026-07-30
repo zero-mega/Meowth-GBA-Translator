@@ -204,7 +204,7 @@ VictoryRoad_1F_Text_QuincyDefeat:
 	.string "Bien joué !$"
 
 VictoryRoad_1F_Text_QuincyPostBattle:
-	.string "Traverser cet endroit en sécurité — c'est\n"
+	.string "Traverser cet endroit en sécurité - c'est\n"
 	.string "le test final pour tout DRESSEUR visant\n"
 	.string "à devenir le CHAMPION POKéMON.\p"
 	.string "C'est pourquoi on l'appelle la ROUTE\l"

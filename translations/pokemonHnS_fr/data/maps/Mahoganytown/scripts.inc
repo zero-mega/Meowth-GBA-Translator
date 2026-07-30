@@ -315,5 +315,5 @@ ElmPhoneRadioTowerRocketTakeoverText:
 	.string "POKéMON\n"
 	.string "sauvages.\p"
 	.string "Pourrais-tu\n"
-	.string "venir au labo ?$"
+	.string "venir au labo ?{PLAYER}$"
 

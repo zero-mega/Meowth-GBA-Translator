@@ -555,8 +555,8 @@ Route109_Text_ZigzagoonCry:
 
 Route109_Text_SeashoreHouseSign:
 	.string "MAISON DE LA CÔTE\p"
-	.string "« Que des combats brûlants sur le sable brûlant !\n"
-	.string "L'endroit des DRESSEURS brûlants ! »$"
+	.string "“Que des combats brûlants sur le sable brûlant !\n"
+	.string "L'endroit des DRESSEURS brûlants !”$"
 
 Route109_Text_TrainerTipsSign:
 	.string "CONSEILS AUX DRESSEURS\p"

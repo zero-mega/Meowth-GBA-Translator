@@ -1256,7 +1256,7 @@ PetalburgCity_Gym_Text_DadYoureHereWithYourPokemon:
 	.string "réussi à tout\n"
 	.string "déballer si vite.\p"
 	.string "Bonne chance pour\n"
-	.string "ton aventure !$"
+	.string "ton aventure !{PLAYER}$"
 
 PetalburgCity_Gym_Text_DadYoureHereWithYourPokemon2:
 	.string "Cela dit, est-ce que le PROF. SEKO\n"
@@ -1325,7 +1325,7 @@ PetalburgCity_Gym_Text_WallyThankYouBye:
 	.string "dans cette\p"
 	.string "aventure.\n"
 	.string "Je ne t'oublierai\p"
-	.string "jamais !$"
+	.string "jamais !{PLAYER}$"
 
 PetalburgCity_Gym_Text_DadGoCollectBadges:
 	.string "PAPA : Maintenant…\p"
@@ -1352,7 +1352,7 @@ PetalburgCity_Gym_Text_NormanGoToRustboro:
 	.string "battre un DRESSEUR\n"
 	.string "sans BADGES.\p"
 	.string "Va collectionner des\n"
-	.string "BADGES, {PLAYER} !$"
+	.string "BADGES, {PLAYER} !{PLAYER}$"
 
 PetalburgCity_Gym_Text_NormanGoToDewford:
 	.string "PAPA : Je vois… Alors, tu as\n"
@@ -1381,7 +1381,7 @@ PetalburgCity_Gym_Text_NormanIntro:
 	.string "{PLAYER}…\n"
 	.string "Je suis si heureux\p"
 	.string "de te voir grandir.\n"
-	.string "Montre-moi ta force !$"
+	.string "Montre-moi ta force !{PLAYER}$"
 
 PetalburgCity_Gym_Text_NormanDefeat:
 	.string "...\p"
@@ -1574,7 +1574,7 @@ PetalburgCity_Gym_Text_MaryPostBadge:
 	.string "Tu sais ce qu'on essaie d'atteindre\n"
 	.string "en tant que DRESSEURS ?\p"
 	.string "On cherche à devenir des\n"
-	.string "âmes sœurs avec nos POKéMON.$"
+	.string "âmes soeurs avec nos POKéMON.$"
 
 PetalburgCity_Gym_Text_AlexiaIntro:
 	.string "Plus la DÉFENSE est élevée, plus\n"
@@ -1623,7 +1623,7 @@ PetalburgCity_Gym_Text_DoorAppearsLocked:
 	.string "pour le moment…$"
 
 PetalburgCity_Gym_Text_EnterSpeedRoom:
-	.string "« SALLE VITESSE », dit le panneau.\p"
+	.string "“SALLE VITESSE”, dit le panneau.\p"
 	.string "Veux-tu passer ?$"
 
 @ Unused
@@ -1632,33 +1632,33 @@ PetalburgCity_Gym_Text_DoorAppearsLocked2:
 	.string "pour le moment…$"
 
 PetalburgCity_Gym_Text_EnterAccuracyRoom:
-	.string "« SALLE PRÉCISION », indique le panneau.\p"
+	.string "“SALLE PRÉCISION”, indique le panneau.\p"
 	.string "Veux-tu passer ?$"
 
 PetalburgCity_Gym_Text_EnterConfusionRoom:
-	.string "« SALLE CONFUSION », indique le panneau.\p"
+	.string "“SALLE CONFUSION”, indique le panneau.\p"
 	.string "Veux-tu passer ?$"
 
 PetalburgCity_Gym_Text_EnterDefenseRoom:
-	.string "« SALLE DÉFENSE », dit le panneau.\p"
+	.string "“SALLE DÉFENSE”, dit le panneau.\p"
 	.string "Veux-tu passer ?$"
 
 PetalburgCity_Gym_Text_EnterRecoveryRoom:
-	.string "« SALLE RÉCUPÉRATION », indique le panneau.\p"
+	.string "“SALLE RÉCUPÉRATION”, indique le panneau.\p"
 	.string "Veux-tu passer ?$"
 
 PetalburgCity_Gym_Text_EnterStrengthRoom:
-	.string "« SALLE FORCE », indique le panneau.\p"
+	.string "“SALLE FORCE”, indique le panneau.\p"
 	.string "Veux-tu passer ?$"
 
 PetalburgCity_Gym_Text_EnterOHKORoom:
-	.string "« SALLE KO DIRECT », indique le panneau.\p"
+	.string "“SALLE KO DIRECT”, indique le panneau.\p"
 	.string "Veux-tu passer ?$"
 
 PetalburgCity_Gym_Text_EnterGymLeadersRoom:
-	.string "« SALLE DU CHAMPION D'ARÈNE\p"
-	.string "« Venez voir par vous-mêmes quels POKéMON\n"
-	.string "vous attendent ! » dit le panneau.\p"
+	.string "“SALLE DU CHAMPION D'ARÈNE\p"
+	.string "“Venez voir par vous-mêmes quels POKéMON\n"
+	.string "vous attendent !” dit le panneau.\p"
 	.string "Voulez-vous entrer ?$"
 
 PetalburgCity_Gym_Text_GymStatue:
@@ -1693,16 +1693,16 @@ PetalburgCity_Gym_Text_NormanPostRematch:
 	.string "Il s'est déjà réalisé, en fait.$"
 
 PetalburgCity_Gym_Text_NormanRematchNeedTwoMons:
-	.string "Le mode COMBAT MULTI\n"
-	.string "LINK est pour que deux\p"
-	.string "amis montent un défi ensemble.\n"
-	.string "Toi et ton ami devez être connectés avec\p"
-	.string "des Adaptateurs Sans Fil ou un câble\p"
-	.string "Game Link GBA.\n"
-	.string "Tu dois choisir deux POKéMON au\p"
-	.string "comptoir d'inscription.\p"
-	.string "Ces POKéMON doivent être différents\n"
-	.string "de ceux de ton ami.\p"
-	.string "Tu ne peux pas interrompre ce défi\n"
-	.string "au milieu, contrairement aux autres modes.$"
+	.string "DAD: {PLAYER}…\n"
+	.string "I had a feeling that you would come.\p"
+	.string "I would never refuse to accept\n"
+	.string "a challenge from you.\p"
+	.string "You do understand, don't you?\p"
+	.string "Inside a GYM, it doesn't matter that\n"
+	.string "we are a parent and child.\p"
+	.string "Hm? Wait a second, {PLAYER}.\p"
+	.string "Do you only have one POKéMON that is\n"
+	.string "capable of battle?\p"
+	.string "Sorry, but you'll have to come back\n"
+	.string "with at least two POKéMON.$"
 

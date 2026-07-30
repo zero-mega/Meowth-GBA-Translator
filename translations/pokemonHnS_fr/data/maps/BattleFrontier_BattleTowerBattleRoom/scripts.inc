@@ -443,7 +443,7 @@ BattleFrontier_BattleTowerBattleRoom_Text_RestoreMonsToFullHealth:
 
 @ Unused
 BattleFrontier_BattleTowerBattleRoom_Text_ReadyForOpponent:
-	.string "Tu affronteras l'adversaire n° {STR_VAR_1}.\n"
+	.string "Tu affronteras l'adversaire n  {STR_VAR_1}.\n"
 	.string "Es-tu prêt ?$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_ReadyFor2ndOpponent:

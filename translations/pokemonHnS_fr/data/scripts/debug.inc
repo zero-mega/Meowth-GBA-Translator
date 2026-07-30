@@ -128,8 +128,8 @@ Debug_SaveBlock2Size::
 	.string "Espace libre : {STR_VAR_3}b.$"
 
 Debug_PokemonStorageSize::
-	.string "Taille stockage POKéMON : {STR_VAR_1}b/{STR_VAR_2}b.\n"
-	.string "Espace libre : {STR_VAR_3}b.$"
+	.string "Taille stockage POKéMON : {PKMN}b/{STR_VAR_1}b.\n"
+	.string "Espace libre : {STR_VAR_2}b.{STR_VAR_3}$"
 
 Debug_HatchAnEgg::
 	lockall
@@ -157,7 +157,7 @@ DebugScript_HatchAnEgg_CantForceHatch::
 	end
 
 DebugScript_HatchAnEgg_Text_EmptyParty::
-	.string "Tu n'as ni POKéMON ni Œufs.$"
+	.string "Tu n'as ni POKéMON ni OEufs.$"
 
 DebugScript_HatchAnEgg_Text_NotAnEgg::
-	.string "Ce n'est pas un ŒUF de POKéMON.$"
+	.string "Ce n'est pas un OEUF de POKéMON.$"

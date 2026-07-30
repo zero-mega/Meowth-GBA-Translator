@@ -68,7 +68,7 @@ gContestPaintingCute2::
 	.string "de {STR_VAR_1}$"
 
 gContestPaintingCute3::
-	.string "Fais-nous un clin d'œil !\n"
+	.string "Fais-nous un clin d'oeil !\n"
 	.string "Le mignon POKéMON {STR_VAR_1}$"
 
 gContestPaintingSmart1::

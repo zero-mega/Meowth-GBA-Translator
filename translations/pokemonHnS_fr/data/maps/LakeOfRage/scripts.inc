@@ -426,7 +426,7 @@ LakeOfRage_Text_WesleyGaveGift:
 LakeOfRage_Text_WesleyWednesday:
     .string "WESLEY : Puisque tu m'as trouvé, tu as\n"
     .string "sûrement rencontré mes frères et\l"
-    .string "sœurs.\p"
+    .string "soeurs.\p"
     .string "Ou tu as juste eu de la chance ?$"
 
 LakeOfRage_Text_WesleyNotWednesday:

@@ -586,7 +586,7 @@ TinTower_RoofDay_Text_Kimono_Closing1::
 	.string "les temps anciens…\p"
 	.string "Tant ont essayé encore et encore,\n"
 	.string "pour n'échouer que…\p"
-	.string "{PLAYER}, ton cœur en parfaite\n"
+	.string "{PLAYER}, ton coeur en parfaite\n"
 	.string "harmonie avec la Cloche Claire a enfin\p"
 	.string "permis son apparition…\n"
 	.string "{PLAYER}, tu ne vois pas ?\p"

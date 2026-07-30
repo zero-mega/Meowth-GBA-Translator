@@ -30,7 +30,7 @@ FuchsiaCity_Text_Baoba:
 	.string "{PLAYER}, tu dois t'aventurer dans la\n"
 	.string "nouvelle ZONE SAFARI et attraper un POKéMON\l"
 	.string "pour me le montrer. Je dois en savoir plus sur ces\l"
-	.string "POKéMON « exotiques ».\p"
+	.string "POKéMON “exotiques”.\p"
 	.string "S'il te plaît {PLAYER}, mes affaires\n"
 	.string "dépendent de toi !$"
 

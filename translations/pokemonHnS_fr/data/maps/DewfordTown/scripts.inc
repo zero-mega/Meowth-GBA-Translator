@@ -647,16 +647,16 @@ DewfordTown_Text_TinyIslandCommunity:
 
 DewfordTown_Text_TownSign:
 	.string "ALGATIA\n"
-	.string "« Une petite île dans la mer bleue. »$"
+	.string "“Une petite île dans la mer bleue.”$"
 
 DewfordTown_Text_GymSign:
 	.string "ALGATIA ARENE POKéMON\n"
 	.string "CHAMPION : BRAWLY\l"
-	.string "« Une grande vague de combat ! »$"
+	.string "“Une grande vague de combat !”$"
 
 DewfordTown_Text_HallSign:
 	.string "SALLE D'ALGATIA\n"
-	.string "« L'échange d'informations pour tous ! »$"
+	.string "“L'échange d'informations pour tous !”$"
 
 Route104_Text_LandedInDewfordDeliverLetter:
 	.string "M. CORAIL : Ahoy ! Nous avons\n"
@@ -772,42 +772,42 @@ DewfordTown_Text_XIsTheBiggestHappeningThingRight:
 	.string "Je vérifie toujours.\p"
 	.string "Écoute, as-tu entendu\n"
 	.string "parler de ce nouveau\p"
-	.string "« {STR_VAR_2} » ?\n"
+	.string "“{STR_VAR_1}” ?\n"
 	.string "C'est super cool !\l"
 	.string "Tout le monde en\p"
 	.string "parle à ALGATIA !\n"
 	.string "Tu devrais y\l"
-	.string "aller voir !$"
+	.string "aller voir !{STR_VAR_1}{STR_VAR_1}$"
 
 DewfordTown_Text_TellMeWhatsNewAndIn:
 	.string "Hein ?\n"
 	.string "Ce n'est pas branché ?\p"
 	.string "Eh bien, dis-moi ce qui est\n"
-	.string "nouveau et « in » !$"
+	.string "nouveau et “in” !$"
 
 DewfordTown_Text_OfCourseIKnowAboutThat:
 	.string "Hein ?\n"
-	.string "« {STR_VAR_2} » ?\p"
+	.string "“{STR_VAR_2}” ?\p"
 	.string "… …\p"
 	.string "…Euh… Ouais ! C'est ça !\n"
 	.string "Ouais, je le savais ! Je le savais depuis le début !\p"
 	.string "Bien sûr que je connais ça !\n"
-	.string "« {STR_VAR_2} », c'est ça ?\p"
+	.string "“{STR_VAR_2}”, c'est ça ?\p"
 	.string "Ouais, c'est ça, c'est là !\n"
-	.string "« {STR_VAR_2} » n'est pas\l"
+	.string "“{STR_VAR_2}” n'est pas\l"
 	.string "le truc le plus cool, ou quoi ?\p"
 	.string "C'est le truc le plus branché du branché.\n"
 	.string "Tu crois que je ne le saurais pas ?\p"
-	.string "« {STR_VAR_1} »…\n"
+	.string "“{STR_VAR_1}”…\n"
 	.string "C'est, genre, tellement dépassé.\p"
-	.string "Maintenant, « {STR_VAR_2} » c'est\n"
+	.string "Maintenant, “{STR_VAR_2}” c'est\n"
 	.string "ce qui est vital et en phase avec l'époque !$"
 
 DewfordTown_Text_XHuhIThinkYIsCool:
 	.string "Hmm…\n"
-	.string "« {STR_VAR_2} », hein ?\p"
+	.string "“{STR_VAR_2}”, hein ?\p"
 	.string "Mais personnellement, je pense que\n"
-	.string "« {STR_VAR_1} »\l"
+	.string "“{STR_VAR_1}”\l"
 	.string "c'est ce qui est vraiment cool.$"
 
 DewfordTown_Text_HearOfAnyTrendsComeShareWithMe:
@@ -816,5 +816,5 @@ DewfordTown_Text_HearOfAnyTrendsComeShareWithMe:
 
 DewfordTown_Text_YeahDefinitionOfInRightNow:
 	.string "Oui, tout à fait !\p"
-	.string "« {STR_VAR_1} » est la\n"
-	.string "définition du « in » en ce moment.$"
+	.string "“{STR_VAR_1}” est la\n"
+	.string "définition du “in” en ce moment.$"

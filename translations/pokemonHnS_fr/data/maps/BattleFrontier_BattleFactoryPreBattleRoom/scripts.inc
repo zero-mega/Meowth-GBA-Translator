@@ -635,8 +635,8 @@ BattleFrontier_BattleFactoryPreBattleRoom_Text_MessageFromHeadComeRightNow:
 	.string "Désolé de t'avoir fait attendre !\p"
 	.string "J'ai un message du patron de cet établissement,\n"
 	.string "le CHEF D'USINE.\p"
-	.string "Il dit : « On va le faire !\n"
-	.string "Viens ici tout de suite ! »$"
+	.string "Il dit : “On va le faire !\n"
+	.string "Viens ici tout de suite !”$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_PreparedToFaceHead:
 	.string "Le CHEF DE L'USINE te réclame.\n"

@@ -344,7 +344,7 @@ TrainerHill_Entrance_Text_SaveGameBeforeEnter:
 TrainerHill_Entrance_Text_TrainersUpToFloorX:
 	.string "Voyons…\n"
 	.string "Les DRESSEURS ici maintenant sont…\p"
-	.string "Jusqu'à l'étage n° {STR_VAR_1}.$"
+	.string "Jusqu'à l'étage n  {STR_VAR_1}.$"
 
 TrainerHill_Entrance_Text_TrainersInEveryRoom:
 	.string "Voyons…\n"

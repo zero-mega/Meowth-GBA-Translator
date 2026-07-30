@@ -34,6 +34,6 @@ EverGrandeCity_Text_EnteringPokemonLeague:
 
 EverGrandeCity_Text_CitySign:
 	.string "ATELANTIA\p"
-	.string "« Le paradis des fleurs, de la mer\n"
-	.string "et des POKéMON. »$"
+	.string "“Le paradis des fleurs, de la mer\n"
+	.string "et des POKéMON.”$"
 

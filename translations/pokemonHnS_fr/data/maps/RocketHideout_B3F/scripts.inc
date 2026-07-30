@@ -89,14 +89,14 @@ RocketHideout_B3F_Movement_DragoniteLeave:
 	step_end
 
 RocketHideout_B3F_Text_LanceGetPassword:
-    .string "LANCE : Il faut deux\n"
-    .string "mots de passe pour\p"
-    .string "entrer dans le quartier\n"
-    .string "du boss. Ces mots\p"
-    .string "de passe ne sont\n"
-    .string "connus que de nous,\p"
-    .string "la TEAM ROCKET. Tu\n"
-    .string "n'y entreras jamais !$"
+    .string "LANCE: It takes two passwords\n"
+    .string "to get into the boss' quarters.\p"
+    .string "Those passwords are known only\n"
+    .string "to a few ROCKETS.\p"
+    .string "That ROCKET there very graciously\n"
+    .string "told me so.\p"
+    .string "{PLAYER}, let's go get the\n"
+    .string "passwords.$"
 
 RocketHideout_B3F_EventScript_RocketKO::
 	lock
@@ -583,20 +583,20 @@ RocketHideout_B3F_Text_PetrelDisbelief:
     .string "pour l'imiter !$"
 
 RocketHideout_B3F_Text_PetrelReveal:
-    .string "SCOTT : … … … … …\n"
-    .string "… … … … … Zzz…\p"
-    .string "… … … … … Hein ?!\n"
-    .string "Oh, pardon, pardon ! Je faisais la sieste !\p"
-    .string "Je suis venu voir ce CONCOURS POKéMON.\n"
-    .string "Je dois admettre que ça a l'air assez\l"
-    .string "divertissant, mais…\p"
-    .string "Considère-moi comme un puriste--je préfère\n"
-    .string "les combats et les DRESSEURS coriaces.\p"
-    .string "Mais c'est juste moi.\n"
-    .string "{PLAYER}{KUN}, j'espère que tu apprécieras tout\p"
-    .string "comme les ARÈNES, les\n"
-    .string "CONCOURS, la TENTE DE COMBAT,\l"
-    .string "tout le reste !$"
+    .string "PETREL: I am a Team Rocket\n"
+    .string "Executive!\p"
+    .string "You must be trying to sneak into\n"
+    .string "the radio-transmitter room.\p"
+    .string "Well, that's not going to happen.\n"
+    .string "That room is protected with a\l"
+    .string "special password.\p"
+    .string "The password is “Hail GIOVANNI.”\n"
+    .string "Surprised to hear it from me?\p"
+    .string "Knowing the password won't help\n"
+    .string "you though.\p"
+    .string "The door won't open unless I say\n"
+    .string "the password. It only reacts to\l"
+    .string "my voice.$"
 
 RocketHideout_B3F_Text_PetrelBeaten:
     .string "Je… Je n'ai rien pu faire…\p"

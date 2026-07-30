@@ -83,13 +83,13 @@ FallarborTown_Text_HaveYouChallengedFlannery:
 
 FallarborTown_Text_BattleTentSign:
 	.string "TENTE DE COMBAT VERGOIGNON\n"
-	.string "« Que les meilleures équipes se rassemblent ! »$"
+	.string "“Que les meilleures équipes se rassemblent !”$"
 
 FallarborTown_Text_TownSign:
 	.string "ATALAIA\n"
-	.string "« Une communauté agricole aux petits jardins. »$"
+	.string "“Une communauté agricole aux petits jardins.”$"
 
 FallarborTown_Text_MoveTutorSign:
 	.string "MAISON DU MAÎTRE DES CAPACITÉS\n"
-	.string "« De nouvelles attaques enseignées aux POKéMON. »$"
+	.string "“De nouvelles attaques enseignées aux POKéMON.”$"
 

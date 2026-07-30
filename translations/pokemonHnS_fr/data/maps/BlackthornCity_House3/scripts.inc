@@ -86,7 +86,7 @@ BlackthornCity_MoveDeletersHouse_Text_MonOnlyKnowsOneMove:
 	.string "elle ne peut pas être oubliée…$"
 
 BlackthornCity_MoveDeletersHouse_Text_MonsMoveShouldBeForgotten:
-	.string "Hm ! {STR_VAR_2} de {STR_VAR_1} ?\n"
+	.string "Hm ! {STR_VAR_1} de {STR_VAR_2} ?\n"
 	.string "Cette capacité devrait être oubliée ?$"
 
 BlackthornCity_MoveDeletersHouse_Text_MonHasForgottenMove:
@@ -100,7 +100,7 @@ BlackthornCity_MoveDeletersHouse_Text_ComeAgain:
 
 BlackthornCity_MoveDeletersHouse_Text_EggCantForgetMoves:
 	.string "Quoi ?\n"
-	.string "Un ŒUF ne devrait connaître aucune capacité.$"
+	.string "Un OEUF ne devrait connaître aucune capacité.$"
 
 BlackthornCity_MoveDeletersHouse_Text_CantForgetSurf:
 	.string "Hm !\p"
@@ -181,7 +181,7 @@ BlackthornCity_MoveRelearnersHouse_Text_ImTheMoveTutor:
 	.string "enseigner aux POKéMON.\n"
 	.string "Je peux apprendre une capacité\p"
 	.string "à l'un de tes POKéMON si tu veux.\n"
-	.string "Je le ferai pour une ÉCAILLE CŒUR. J'en collectionne.$"
+	.string "Je le ferai pour une ÉCAILLE COEUR. J'en collectionne.$"
 
 BlackthornCity_MoveRelearnersHouse_Text_ThatsAHeartScaleWantMeToTeachMove:
 	.string "Oh ! C'est ça ! C'est une vraie\n"
@@ -206,11 +206,11 @@ BlackthornCity_MoveRelearnersHouse_Text_HandedOverHeartScale:
 
 BlackthornCity_MoveRelearnersHouse_Text_ComeBackWithHeartScale:
 	.string "Si tes POKéMON doivent apprendre une capacité,\n"
-	.string "reviens avec une ÉCAILLE CŒUR.$"
+	.string "reviens avec une ÉCAILLE COEUR.$"
 
 BlackthornCity_MoveRelearnersHouse_Text_CantTeachEgg:
 	.string "Hein ? Il n'y a aucune capacité que\n"
-	.string "je puisse enseigner à un ŒUF.$"
+	.string "je puisse enseigner à un OEUF.$"
 
 
 

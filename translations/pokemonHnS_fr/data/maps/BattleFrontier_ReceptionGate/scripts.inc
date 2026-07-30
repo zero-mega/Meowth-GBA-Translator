@@ -367,7 +367,7 @@ BattleFrontier_ReceptionGate_Text_BattleTowerInfo:
 BattleFrontier_ReceptionGate_Text_BattleDomeInfo:
 	.string "Le DÔME DE COMBAT\n"
 	.string "est le grand bâtiment\p"
-	.string "en forme d'œuf. Des\n"
+	.string "en forme d'oeuf. Des\n"
 	.string "Tournois de Combat y\p"
 	.string "sont organisés. Les DRESSEURS\n"
 	.string "y affrontent des POKéMON\l"
@@ -458,7 +458,7 @@ BattleFrontier_ReceptionGate_Text_MonEntryInfo:
 	.string "type de POKéMON peut relever\p"
 	.string "les défis dans toutes\n"
 	.string "les installations.\p"
-	.string "Les ŒUFS et certains\n"
+	.string "Les OEUFS et certains\n"
 	.string "types de POKéMON,\p"
 	.string "cependant, ne sont pas admis.\n"
 	.string "Renseigne-toi avant\l"

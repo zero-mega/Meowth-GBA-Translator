@@ -339,7 +339,7 @@ DewfordTown_Gym_Text_LauraDefeat:
 
 DewfordTown_Gym_Text_LauraPostBattle:
 	.string "Je me bats dans le noir pour rendre\n"
-	.string "mon cœur plus fort.\p"
+	.string "mon coeur plus fort.\p"
 	.string "Mais comme c'est si sombre, je ne vois\n"
 	.string "jamais le visage de BRAWLY...$"
 

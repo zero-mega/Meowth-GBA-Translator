@@ -93,4 +93,4 @@ PalletTown_House2_Text_Refused:
 
 PalletTown_House2_Text_CantGroomEgg:
 	.string "MARGUERITE : Oh, désolée. Je ne peux\n"
-	.string "pas toiletter un ŒUF.$"
+	.string "pas toiletter un OEUF.$"

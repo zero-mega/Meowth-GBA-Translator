@@ -44,7 +44,7 @@ CianwoodCity_Text_OldManIntro:
 	.string "DRESSEUR\p"
 	.string "POKéMON aussi.\n"
 	.string "Ces souvenirs me\l"
-	.string "réchauffent le cœur.$"
+	.string "réchauffent le coeur.$"
 
 CianwoodCity_Text_BellTowerStory:
 	.string "As-tu entendu parler de la TOUR CENDRÉE\n"

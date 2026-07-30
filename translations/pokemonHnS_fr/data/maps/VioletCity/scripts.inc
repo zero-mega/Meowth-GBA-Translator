@@ -448,7 +448,7 @@ VioletCity_Text_Sign:
 VioletCity_Text_GymSign:
 	.string "ARÈNE POKéMON DE MAUVILLE\p"
 	.string "CHAMPION : ALIZE\n"
-	.string "« Le maître élégant des POKéMON Vol »$"
+	.string "“Le maître élégant des POKéMON Vol”$"
 
 VioletCity_Text_SproutTowerSign:
 	.string "TOUR CHETIMONTE\p"
@@ -468,14 +468,14 @@ VioletCity_Text_Rattata:
 
 VioletCity_Text_Elm_Call:
 	.string "PROF.ORME : Bonjour, {PLAYER} ? Nous\n"
-	.string "avons découvert quelque chose sur l'ŒUF !\p"
+	.string "avons découvert quelque chose sur l'OEUF !\p"
 	.string "Mon assistant est au CENTRE\n"
 	.string "POKéMON de MAUVILLE.\p"
 	.string "Tu pourrais lui parler ?$"
 
 VioletCity_Text_Kimono_Girl1:
 .string "Oh mon Dieu…\n"
-.string "Cet ŒUF doit être… !$"
+.string "Cet OEUF doit être… !$"
 
 VioletCity_Text_Kimono_Girl2:
 .string "Je vois...\p"
@@ -485,7 +485,7 @@ VioletCity_Text_Kimono_Girl2:
 .string "Maintenant je comprends...$"
 
 VioletCity_Text_Kimono_Girl3:
-.string "Cet ŒUF est vraiment un ŒUF important.\p"
+.string "Cet OEUF est vraiment un OEUF important.\p"
 .string "Prends-en bien soin pour moi,\n"
 .string "d'accord ? C'est compris ?$"
 

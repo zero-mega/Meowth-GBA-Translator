@@ -29,8 +29,8 @@ Route110_TrickHousePuzzle8_EventScript_Leroy::
 
 Route110_TrickHousePuzzle8_Text_WroteSecretCodeLockOpened::
 	.string "{PLAYER} a écrit le code secret\n"
-	.string "sur la porte. « J'aime le\p"
-	.string "MAÎTRE DES PIÈGES. » … …\n"
+	.string "sur la porte. “J'aime le\p"
+	.string "MAÎTRE DES PIÈGES.” … …\n"
 	.string "… … … … … …\p"
 	.string "Le verrou s'est ouvert !$"
 

@@ -275,14 +275,14 @@ SlateportCity_BattleTentLobby_EventScript_ExitRules::
 	end
 
 SlateportCity_BattleTentLobby_Text_CouldntFindMonForMe:
-	.string "Alors, genre, je n'ai\n"
-	.string "pas trouvé de POKéMON\p"
-	.string "qui étaient, genre, pour moi.\n"
-	.string "Alors, j'ai pensé, genre,\p"
-	.string "hé, je vais demander\n"
-	.string "à {PLAYER}{KUN} !\p"
-	.string "{PLAYER}{KUN}, quel POKéMON\n"
-	.string "devrais-je choisir ?$"
+	.string "So, like, I couldn't find myself any\n"
+	.string "POKéMON that were, like, for me.\p"
+	.string "So, I figured, like, hey, I should file\n"
+	.string "a complaint to the guy there?\p"
+	.string "And he wouldn't hear me out, like, hey!\n"
+	.string "So, like, total bummer, man!\p"
+	.string "Hey, like, you! Zip it, you know?\n"
+	.string "Just, you know, take this!$"
 
 SlateportCity_BattleTentLobby_Text_ExplainTorment:
 	.string "C'est, genre, la CT41, tu vois\n"

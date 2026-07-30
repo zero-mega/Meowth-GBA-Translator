@@ -38,8 +38,8 @@ Route110_TrickHousePuzzle1_EventScript_Robin::
 
 Route110_TrickHousePuzzle1_Text_WroteSecretCodeLockOpened::
 	.string "{PLAYER} a écrit le code secret\n"
-	.string "sur la porte. « Le MAÎTRE\p"
-	.string "DES PIÈGES est fabuleux. » …\n"
+	.string "sur la porte. “Le MAÎTRE\p"
+	.string "DES PIÈGES est fabuleux.” …\n"
 	.string "… … … … … …\p"
 	.string "… Le verrou s'est ouvert !$"
 

@@ -108,16 +108,16 @@ BerryBlender_Text_DontHaveAnyBerries2:
 	.string "auras des BAIES à mixer.$"
 
 BerryBlender_Text_PokeblockCaseIsFull2:
-	.string "Oh, attends une seconde…\n"
-	.string "Ta BOÎTE POKéBLOCS est\p"
-	.string "pleine. Utilise des\n"
-	.string "POKéBLOCS et reviens.$"
+	.string "Oh, but wait a second here…\n"
+	.string "Your {POKEBLOCK} CASE is full.\p"
+	.string "You should use some {POKEBLOCK}S and\n"
+	.string "then come back.$"
 
 BerryBlender_Text_DontHavePokeblockCase2:
-	.string "Oh, attends une seconde… Tu\n"
-	.string "n'as pas de BOÎTE\p"
-	.string "POKéBLOCS. Tu devrais en\n"
-	.string "obtenir une et revenir.$"
+	.string "Oh, but wait a second here…\n"
+	.string "You don't have a {POKEBLOCK} CASE.\p"
+	.string "You should get a {POKEBLOCK} CASE and\n"
+	.string "then come back.$"
 
 @ Unused
 BerryBlender_Text_MakePokeblocksWithOurGroup:
@@ -155,19 +155,19 @@ BerryBlender_Text_DontHaveAnyBerries3:
 	.string "ne peux pas\p"
 	.string "faire de {POKEBLOCK}S.\n"
 	.string "Va en cueillir\l"
-	.string "et reviens !$"
+	.string "et reviens !{POKEBLOCK}$"
 
 BerryBlender_Text_PokeblockCaseIsFull3:
 	.string "Ton BOÎTE {POKEBLOCK} est pleine,\n"
 	.string "à ce qu'il paraît.\p"
 	.string "Tu devrais en utiliser et revenir\n"
-	.string "ensuite.$"
+	.string "ensuite.{POKEBLOCK}$"
 
 BerryBlender_Text_DontHavePokeblockCase3:
-	.string "Tu n'as pas encore de\n"
-	.string "BOÎTE POKéBLOCS, apparemment. Il\p"
-	.string "te faut une BOÎTE\n"
-	.string "POKéBLOCS avant de revenir.$"
+	.string "You haven't gotten a {POKEBLOCK} CASE\n"
+	.string "yet, it looks like.\p"
+	.string "You need to get a {POKEBLOCK} CASE before\n"
+	.string "you come back.$"
 
 BerryBlender_Text_SetNewBlenderRecord:
 	.string "D'accord ! Aujourd'hui sera le jour où\n"

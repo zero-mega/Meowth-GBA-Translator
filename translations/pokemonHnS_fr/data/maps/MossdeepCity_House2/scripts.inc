@@ -54,7 +54,7 @@ MossdeepCity_House2_Movement_WingullExitEast:
 	step_end
 
 MossdeepCity_House2_Text_SisterMailsBoyfriendInFortree:
-	.string "Ma petite sœur échange du COURRIER\n"
+	.string "Ma petite soeur échange du COURRIER\n"
 	.string "avec son copain de CIMETRONELLE.\p"
 	.string "Je ne l'envie pas du tout.$"
 

@@ -166,17 +166,17 @@ MoveTutor_Text_SubstituteTaught:
 	.string "J'espère que tu en feras autant !$"
 
 MoveTutor_Text_DynamicPunchTeach:
-	.string "Je n'en peux plus !\p"
-	.string "C'est totalement désespéré !\p"
-	.string "Je suis un DRESSEUR\n"
-	.string "de type COMBAT,\l"
-	.string "alors je ne peux pas gagner\p"
-	.string "à l'ARÈNE de SAFRANIA\n"
-	.string "pas moyen !\p"
-	.string "Les POKéMON PSY\n"
-	.string "sont trop forts !\p"
-	.string "J'ai besoin d'un\n"
-	.string "conseil, {PLAYER} !$"
+	.string "I can't do this anymore!\p"
+	.string "It's utterly hopeless!\p"
+	.string "I'm a FIGHTING-type TRAINER,\n"
+	.string "so I can't win at the SAFFRON GYM\l"
+	.string "no matter how hard I try!\p"
+	.string "Argh! Punch! Punch! Punch!\n"
+	.string "Punch! Punch! Punch!\p"
+	.string "What, don't look at me that way!\n"
+	.string "I'm only hitting the ground!\p"
+	.string "Or do you want me to teach your\n"
+	.string "POKéMON DYNAMICPUNCH?$"
 
 MoveTutor_Text_DynamicPunchDeclined:
 	.string "Mince ! Tu te moques de moi aussi ?\n"
@@ -214,14 +214,14 @@ MoveTutor_Text_DoubleEdgeTaught:
 	.string "Je vais devenir dur !$"
 
 MoveTutor_Text_ExplosionTeach:
-	.string "Je n'ai pas l'intention\n"
-	.string "de rester coincé\p"
-	.string "dans les bois comme\n"
-	.string "ça pour toujours.\p"
-	.string "Tu me verras, je\n"
-	.string "sortirai d'ici !\p"
-	.string "{PLAYER}, merci pour\n"
-	.string "l'encouragement !$"
+	.string "I don't intend to be going nowhere\n"
+	.string "fast in the sticks like this forever.\p"
+	.string "You watch me, I'll get out to the city\n"
+	.string "and become a huge hit.\p"
+	.string "Seriously, I'm going to cause\n"
+	.string "a huge EXPLOSION of popularity!\p"
+	.string "If you overheard that, I'll happily\n"
+	.string "teach EXPLOSION to your POKéMON!$"
 
 MoveTutor_Text_ExplosionDeclined:
 	.string "Gaah ! Tu me refuses parce que\n"

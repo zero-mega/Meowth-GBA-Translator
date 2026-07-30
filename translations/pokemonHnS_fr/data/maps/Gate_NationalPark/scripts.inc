@@ -270,7 +270,7 @@ Route35NationalParkGate_Text_MakeRoom:
 	.string "ta BOÎTE PC, puis reviens me voir.$"
 
 Route35NationalParkGate_Text_EggAsFirstMon:
-	.string "Oh oh… Tu as un ŒUF comme premier\n"
+	.string "Oh oh… Tu as un OEUF comme premier\n"
 	.string "POKéMON dans ton équipe.\p"
 	.string "Échange-le avec le POKéMON\n"
 	.string "que tu veux utiliser, puis reviens me voir.$"

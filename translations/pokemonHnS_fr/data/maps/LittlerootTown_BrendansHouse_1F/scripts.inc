@@ -388,21 +388,21 @@ PlayersHouse_1F_Text_TheresAMovieOnTV:
 PlayersHouse_1F_Text_RunningShoesManual:
 	.string "C'est le manuel d'instructions des\n"
 	.string "CHAUSSURES DE COURSE.\p"
-	.string "« Appuie sur le bouton B pour courir en\n"
+	.string "“Appuie sur le bouton B pour courir en\n"
 	.string "portant tes CHAUSSURES DE COURSE.\p"
-	.string "« Lace tes CHAUSSURES DE COURSE et\n"
-	.string "pars courir ! »$"
+	.string "“Lace tes CHAUSSURES DE COURSE et\n"
+	.string "pars courir !”$"
 
 PlayersHouse_1F_Text_TicketFromBrineyCameForYou:
-	.string "PAPA : Hm ?\p"
-	.string "Hé, c'est {PLAYER} !\p"
-	.string "Ça fait un moment que\n"
-	.string "je ne t'ai pas vu,\p"
-	.string "mais tu as l'air… plus\n"
-	.string "fort, d'une\p"
-	.string "certaine façon.\n"
-	.string "Je suis fier de\l"
-	.string "toi, {PLAYER}.$"
+	.string "DAD: Hm?\p"
+	.string "Hey, it's {PLAYER}!\p"
+	.string "It's been a while since I saw you,\n"
+	.string "but you look…stronger, somehow.\p"
+	.string "That's the impression I get.\n"
+	.string "But your old man hasn't given up yet!\p"
+	.string "Oh, yes, I have something for you.\n"
+	.string "This came to you from someone named\l"
+	.string "MR. BRINEY.$"
 
 PlayersHouse_1F_Text_PortsInSlateportLilycove:
 	.string "PAPA : Hm, un TICKET pour un ferry ?\p"

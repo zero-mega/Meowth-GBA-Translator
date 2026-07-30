@@ -766,8 +766,8 @@ Route110_TrickHouseEntrance_Text_GoInHoleBehindScroll:
 
 Route110_TrickHouseEntrance_Text_LeavingOnJourneyNote:
 	.string "Il y a un mot sur le parchemin...\p"
-	.string "« Je pars en voyage.\n"
-	.string "Ne me cherchez pas. MAÎTRE DES PIÈGES »$"
+	.string "“Je pars en voyage.\n"
+	.string "Ne me cherchez pas. MAÎTRE DES PIÈGES”$"
 
 Route110_TrickHouseEntrance_Text_NextTimeUseThisTrick:
 	.string "La prochaine fois, j'utiliserai cette astuce,\n"
@@ -823,4 +823,4 @@ Route110_TrickHousePuzzle_Text_SecretCodeWrittenOnIt:
 Route110_TrickHouseEntrance_Text_DoorLockedWriteSecretCodeHere:
 	.string "La porte est verrouillée.\p"
 	.string "...En y regardant de plus près, il est écrit :\n"
-	.string "« Écrivez le code secret ici. »$"
+	.string "“Écrivez le code secret ici.”$"

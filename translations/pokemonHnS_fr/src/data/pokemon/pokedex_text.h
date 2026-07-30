@@ -481,7 +481,7 @@ const u8 gSlowpokePokedexText[] = _(
 const u8 gSlowbroPokedexText[] = _(
     "Sa queue a un KOKIYAS fermement accroché\n"
     "par une morsure. Du coup, la queue ne peut plus\n"
-    "servir à pêcher. Cela l'oblige à nager à contrecœur\n"
+    "servir à pêcher. Cela l'oblige à nager à contrecoeur\n"
     "et à attraper ses proies.");
 
 const u8 gMagnemitePokedexText[] = _(
@@ -494,7 +494,7 @@ const u8 gMagnetonPokedexText[] = _(
     "C'est en fait trois MAGNETI reliés\n"
     "par magnétisme. Il génère de puissantes\n"
     "ondes radio qui augmentent la température\n"
-    "de 2 °C dans un rayon de 1 000 m.");
+    "de 2  C dans un rayon de 1 000 m.");
 
 const u8 gFarfetchdPokedexText[] = _(
     "On le voit toujours avec un bâton de plante.\n"
@@ -563,7 +563,7 @@ const u8 gHaunterPokedexText[] = _(
     "langue et de voler ta vie.");
 
 const u8 gGengarPokedexText[] = _(
-    "Au cœur de la nuit, ton ombre projetée\n"
+    "Au coeur de la nuit, ton ombre projetée\n"
     "par un réverbère peut soudainement te dépasser.\n"
     "C'est en fait un ECTOPLASMA qui passe devant\n"
     "toi en prétendant être ton ombre.");
@@ -611,16 +611,16 @@ const u8 gElectrodePokedexText[] = _(
     "massives et chaotiques dans les villes voisines.");
 
 const u8 gExeggcutePokedexText[] = _(
-    "Il est composé de six œufs qui prennent\n"
-    "soin les uns des autres. Les œufs s'attirent\n"
+    "Il est composé de six oeufs qui prennent\n"
+    "soin les uns des autres. Les oeufs s'attirent\n"
     "et tournent en rond. Quand des fissures\n"
     "apparaissent de plus en plus, l'évolution est proche.");
 
 const u8 gExeggutorPokedexText[] = _(
-    "Originaire des tropiques, les têtes de NŒUNŒUF\n"
+    "Originaire des tropiques, les têtes de NOEUNOEUF\n"
     "grossissent en s'exposant à la lumière du soleil.\n"
     "On dit que quand les têtes tombent,\n"
-    "elles forment un NŒUNŒUF.");
+    "elles forment un NOEUNOEUF.");
 
 const u8 gCubonePokedexText[] = _(
     "Il pleure la mère qu'il ne reverra jamais.\n"
@@ -677,8 +677,8 @@ const u8 gRhydonPokedexText[] = _(
     "cerveau est bien développé.");
 
 const u8 gChanseyPokedexText[] = _(
-    "Les LEVEINARD pondent chaque jour des œufs\n"
-    "extrêmement nutritifs. Les œufs sont si\n"
+    "Les LEVEINARD pondent chaque jour des oeufs\n"
+    "extrêmement nutritifs. Les oeufs sont si\n"
     "délicieux qu'ils sont dévorés avec appétit\n"
     "même par ceux qui ont perdu l'appétit.");
 
@@ -715,7 +715,7 @@ const u8 gGoldeenPokedexText[] = _(
 const u8 gSeakingPokedexText[] = _(
     "Il perce des trous dans les rochers des\n"
     "lits de rivières. C'est une innovation astucieuse\n"
-    "qui empêche ses œufs d'être attaqués ou\n"
+    "qui empêche ses oeufs d'être attaqués ou\n"
     "emportés par le courant.");
 
 const u8 gStaryuPokedexText[] = _(
@@ -818,7 +818,7 @@ const u8 gFlareonPokedexText[] = _(
     "La fourrure soyeuse de PYROLI libère de la chaleur\n"
     "dans l'air pour que son corps ne surchauffe pas.\n"
     "Sa température peut atteindre\n"
-    "900 °C.");
+    "900  C.");
 
 const u8 gPorygonPokedexText[] = _(
     "Il est capable de se transformer entièrement\n"
@@ -894,7 +894,7 @@ const u8 gDragonairPokedexText[] = _(
 
 const u8 gDragonitePokedexText[] = _(
     "Il peut faire le tour du globe en seulement\n"
-    "16 heures. C'est un POKéMON au grand cœur\n"
+    "16 heures. C'est un POKéMON au grand coeur\n"
     "qui guide les navires perdus dans la tempête\n"
     "vers la terre ferme.");
 
@@ -902,7 +902,7 @@ const u8 gMewtwoPokedexText[] = _(
     "Un POKéMON créé par manipulation génétique.\n"
     "Cependant, même si la puissance scientifique\n"
     "des humains a créé son corps, ils n'ont pas\n"
-    "réussi à lui donner un cœur chaleureux.");
+    "réussi à lui donner un coeur chaleureux.");
 
 const u8 gMewPokedexText[] = _(
     "On dit qu'un MEW possède les gènes de tous les\n"
@@ -1056,7 +1056,7 @@ const u8 gTogepiPokedexText[] = _(
 
 const u8 gTogeticPokedexText[] = _(
     "On dit que c'est un POKéMON qui porte bonheur.\n"
-    "Quand il repère quelqu'un au cœur pur,\n"
+    "Quand il repère quelqu'un au coeur pur,\n"
     "un TOGETIC apparaît et partage\n"
     "son bonheur avec cette personne.");
 
@@ -1128,7 +1128,7 @@ const u8 gHoppipPokedexText[] = _(
 
 const u8 gSkiploomPokedexText[] = _(
     "Il fleurit quand la température dépasse\n"
-    "18 °C. Comme la floraison de sa fleur\n"
+    "18  C. Comme la floraison de sa fleur\n"
     "dépend de la température, on l'utilise\n"
     "parfois comme thermomètre.");
 
@@ -1291,7 +1291,7 @@ const u8 gHeracrossPokedexText[] = _(
 const u8 gSneaselPokedexText[] = _(
     "Un FARFURET grimpe aux arbres en enfonçant\n"
     "ses griffes crochues dans l'écorce. Il cherche\n"
-    "des nids sans surveillance et vole des œufs\n"
+    "des nids sans surveillance et vole des oeufs\n"
     "pour se nourrir quand les parents sont absents.");
 
 const u8 gTeddiursaPokedexText[] = _(
@@ -1404,7 +1404,7 @@ const u8 gPorygon2PokedexText[] = _(
 
 const u8 gStantlerPokedexText[] = _(
     "Les bois magnifiques de DAMANPIANO ont\n"
-    "autrefois été vendus à prix d'or comme œuvres d'art.\n"
+    "autrefois été vendus à prix d'or comme oeuvres d'art.\n"
     "En conséquence, ce POKéMON a été chassé\n"
     "jusqu'à frôler l'extinction.");
 
@@ -1453,7 +1453,7 @@ const u8 gMiltankPokedexText[] = _(
 const u8 gBlisseyPokedexText[] = _(
     "S'il détecte de la tristesse avec sa fourrure duveteuse,\n"
     "un LEUPHORIE accourra vers la personne triste,\n"
-    "quelle que soit la distance, pour partager un Œuf de Chance\n"
+    "quelle que soit la distance, pour partager un OEuf de Chance\n"
     "qui apporte un sourire à tout visage.");
 
 const u8 gRaikouPokedexText[] = _(
@@ -1676,7 +1676,7 @@ const u8 gPelipperPokedexText[] = _(
     "Il effleure le sommet des vagues en volant.\n"
     "Quand il repère une proie, il utilise son grand\n"
     "bec pour l'attraper avec de l'eau.\n"
-    "Il protège ses œufs dans son bec.");
+    "Il protège ses oeufs dans son bec.");
 
 const u8 gRaltsPokedexText[] = _(
     "Un TARSAL a le pouvoir de ressentir\n"
@@ -2129,7 +2129,7 @@ const u8 gBanettePokedexText[] = _(
     "qui les ont jetées.");
 
 const u8 gDuskullPokedexText[] = _(
-    "Un simple regard de son œil écarlate\n"
+    "Un simple regard de son oeil écarlate\n"
     "fige même les adultes les plus costauds\n"
     "de peur. C'est un POKéMON nocturne qui\n"
     "se promène sous le manteau de la nuit.");
@@ -2309,7 +2309,7 @@ const u8 gRayquazaPokedexText[] = _(
     "se battaient.");
 
 const u8 gJirachiPokedexText[] = _(
-    "On dit que JIRACHI exauce les vœux.\n"
+    "On dit que JIRACHI exauce les voeux.\n"
     "Pendant son sommeil, une coquille cristalline\n"
     "résistante enveloppe son corps pour le protéger\n"
     "des ennemis.");
@@ -2327,7 +2327,7 @@ const u8 gAmbipomPokedexText[] = _(
     "rarement ses mains maintenant.");
 
 const u8 gArceusPokedexText[] = _(
-    "Un POKéMON inconnu sorti d'un œuf.\n"
+    "Un POKéMON inconnu sorti d'un oeuf.\n"
     "Il paraît mystique et fantaisiste,\n"
     "mais ce spécimen en particulier ne\n"
     "semble pas très fort. Sa voix est éthérée.");
@@ -2414,7 +2414,7 @@ const u8 gMagmortarPokedexText[] = _(
     "D'après ce qu'on sait, un seul couple\n"
     "de MAGANON mâle et femelle vit dans\n"
     "un volcan. De son bras, il lance des boules de feu\n"
-    "plus chaudes que 2 000 °C.");
+    "plus chaudes que 2 000  C.");
 
 const u8 gMagnezonePokedexText[] = _(
     "En filant dans le ciel, ce\n"

@@ -101,7 +101,7 @@ FuchsiaCity_SafariZoneEntrance_Text_StevenChamp:
 	.string "pendant un temps, j'étais\p"
 	.string "le champion de la\p"
 	.string "région de HOENN. Alors,\n"
-	.string "une revanche ?$"
+	.string "une revanche ?{PLAYER}$"
 
 FuchsiaCity_SafariZoneEntrance_EventScript_EntranceCounterTrigger::
 	lockall

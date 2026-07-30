@@ -101,7 +101,7 @@ Route109_SeashoreHouse_Text_SeashoreHouseIntro:
 	.string "BORD DE MER. Mais tu peux m'appeler\p"
 	.string "M. MER ! Ce que j'aime par-dessus\n"
 	.string "tout, c'est voir des combats POKéMON\p"
-	.string "chauds. Montre-moi que ton cœur brûle\p"
+	.string "chauds. Montre-moi que ton coeur brûle\p"
 	.string "! Si tu bats tous les\n"
 	.string "DRESSEURS ici, je récompenserai tes efforts.$"
 

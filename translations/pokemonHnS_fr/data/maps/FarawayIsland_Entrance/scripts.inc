@@ -52,5 +52,5 @@ FarawayIsland_Entrance_Text_Sign2:
 	.string "avait été écrite il y a longtemps…\p"
 	.string "..bre, 6e jour Si un humain..\n"
 	.string "met le pied ici.. encore..ue ce soit\l"
-	.string "une personne au bon cœur.. ..vec\l"
+	.string "une personne au bon coeur.. ..vec\l"
 	.string "cet espoir, je pars..$"

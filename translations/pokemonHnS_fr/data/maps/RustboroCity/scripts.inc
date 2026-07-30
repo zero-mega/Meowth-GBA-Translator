@@ -1105,13 +1105,13 @@ RustboroCity_Text_WaitDontTakeMyGoods:
 	.string "Ne prends pas mes MARCHANDISES !$"
 
 RustboroCity_Text_HelpMeIWasRobbed:
-	.string "Oh, c'est toi !\p"
-	.string "Tu es ce fantastique\n"
-	.string "DRESSEUR qui m'a aidé\p"
-	.string "dans le BOIS DE\n"
-	.string "ROSALIA ! Aide-moi !\p"
-	.string "Quel POKéMON devrais-je choisir,\n"
-	.string "{STR_VAR_1} ou {STR_VAR_2} ?$"
+	.string "Oh, it's you!\p"
+	.string "You're that fantastic TRAINER who\n"
+	.string "helped me in PETALBURG WOODS!\p"
+	.string "Help me! I was robbed by TEAM AQUA!\n"
+	.string "I have to get the DEVON GOODS back!\p"
+	.string "If I don't…\n"
+	.string "I'm going to be in serious trouble.$"
 
 RustboroCity_Text_ShadyCharacterTookOffTowardsTunnel:
 	.string "Ce personnage louche, je crois qu'il est parti\n"
@@ -1228,36 +1228,36 @@ RustboroCity_Text_BrendanMrBrineyHint:
 	.string "M. CORNEBRE était autrefois un grand marin.$"
 
 RustboroCity_Text_TunnelNearingCompletion:
-	.string "« Tunnel économiseur de temps\n"
-	.string "presque terminé ! »\p"
+	.string "“Tunnel économiseur de temps\n"
+	.string "presque terminé !”\p"
 	.string "…C'est ce qui est écrit sur le panneau, mais\n"
-	.string "il y a aussi un gros « X » peint\l"
+	.string "il y a aussi un gros “X” peint\l"
 	.string "en rouge dessus…$"
 
 RustboroCity_Text_DevonCorpSign:
 	.string "SOCIÉTÉ DEVON\p"
-	.string "« Pour tous vos besoins du quotidien,\n"
-	.string "nous fabriquons tout. »$"
+	.string "“Pour tous vos besoins du quotidien,\n"
+	.string "nous fabriquons tout.”$"
 
 RustboroCity_Text_GymSign:
 	.string "ARÈNE POKéMON DE MEROUVILLE\n"
 	.string "CHAMPIONNE : ROXANNE\p"
-	.string "« L'étudiante d'honneur qui aime la ROCHE ! »$"
+	.string "“L'étudiante d'honneur qui aime la ROCHE !”$"
 
 RustboroCity_Text_DevonCorpBranchOfficeSign:
 	.string "SUCCURSALE DEVON SARL\p"
-	.string "« Accès limité aux employés DEVON\n"
-	.string "et au personnel autorisé. »$"
+	.string "“Accès limité aux employés DEVON\n"
+	.string "et au personnel autorisé.”$"
 
 RustboroCity_Text_CitySign:
 	.string "MYOKARA\p"
-	.string "« La ville qui explore l'intégration de\n"
-	.string "la nature et de la science. »$"
+	.string "“La ville qui explore l'intégration de\n"
+	.string "la nature et de la science.”$"
 
 RustboroCity_Text_TrainersSchoolSign:
 	.string "ÉCOLE DES DRESSEURS POKéMON\p"
-	.string "« On t'apprendra tout sur\n"
-	.string "les POKéMON ! »$"
+	.string "“On t'apprendra tout sur\n"
+	.string "les POKéMON !”$"
 
 RustboroCity_Text_CuttersHouse:
 	.string "MAISON DU COUPEUR$"
@@ -1279,7 +1279,7 @@ RustboroCity_Text_AddedMatchCallPleaseCallMrStone:
 	.string "fonctionnalité APPEL,\n"
 	.string "tu peux appeler les\p"
 	.string "personnes enregistrées.\n"
-	.string "Essaie-le !$"
+	.string "Essaie-le !{PLAYER}$"
 
 RustboroCity_Text_PleaseSelectPokenav:
 	.string "Sélectionne le POKéNAV, s'il te plaît.$"

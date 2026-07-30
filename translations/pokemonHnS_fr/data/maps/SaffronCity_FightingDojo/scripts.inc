@@ -296,7 +296,7 @@ SaffronCity_FightingDojo_Ability_Finish_Text:
 SaffronCity_FightingDojo_Ability_Text1:
 	.string "Bienvenue ! Je suis l'EXPERT DES TALENTS !\p"
 	.string "Je peux échanger les talents des POKéMON\n"
-	.string "en un clin d'œil, pour seulement 25.000¥ !\p"
+	.string "en un clin d'oeil, pour seulement 25.000¥ !\p"
 	.string "Veux-tu que j'échange le talent\n"
 	.string "d'un POKéMON ?$"
 
@@ -310,7 +310,7 @@ SaffronCity_FightingDojo_Ability_Text_Cant:
 SaffronCity_FightingDojo_Ability_Text_NoChampion:
 	.string "Bienvenue ! Je suis l'EXPERT DES TALENTS !\p"
 	.string "Je peux échanger les talents des POKéMON\n"
-	.string "en un clin d'œil.\p"
+	.string "en un clin d'oeil.\p"
 	.string "Malheureusement, j'ai mal au dos et\n"
 	.string "je ne peux pas travailler aujourd'hui.\p"
 	.string "Reviens plus tard !$"

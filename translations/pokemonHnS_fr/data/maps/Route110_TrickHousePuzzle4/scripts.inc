@@ -29,8 +29,8 @@ Route110_TrickHousePuzzle4_EventScript_Paula::
 
 Route110_TrickHousePuzzle4_Text_WroteSecretCodeLockOpened:
 	.string "{PLAYER} a écrit le code secret\n"
-	.string "sur la porte. « Le MAÎTRE\p"
-	.string "DES PIÈGES est cool. » …\n"
+	.string "sur la porte. “Le MAÎTRE\p"
+	.string "DES PIÈGES est cool.” …\n"
 	.string "… … … … … …\p"
 	.string "… Le verrou s'est ouvert !$"
 

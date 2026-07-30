@@ -618,20 +618,20 @@ NewBarkTown_Lab_Text_ShouldntTouch:
 	.string "Mieux vaut ne pas toucher !$"
 
 NewBarkTown_Lab_Text_ElmIntro:
-	.string "ARIANA : On ne peut pas laisser un môme\p"
-	.string "comme toi faire ce qu'il\p"
-	.string "veut pour toujours.\n"
-	.string "Ça blessera l'orgueil de la Team Rocket\l"
-	.string "encore et encore. Ça le diminuera,\l"
-	.string "tu vois.\p"
-	.string "…Alors, il est temps de te finir.\p"
-	.string "Aussi fort que tu sois,\n"
-	.string "si nous deux combattons en même temps,\p"
-	.string "tu n'auras aucune chance de\n"
-	.string "gagner. Tu es d'accord ?\p"
-	.string "Hé hé hé ! Désolée, chéri.\p"
-	.string "Maintenant, prépare-toi\n"
-	.string "à te faire écraser.$"
+	.string "ELM: {PLAYER}! There you are!\p"
+	.string "I needed to ask you a favor.\p"
+	.string "I'm conducting new POKéMON\n"
+	.string "research right now. I was\l"
+	.string "wondering if you could help\l"
+	.string "me with it, {PLAYER}.\p"
+	.string "You see…\p"
+	.string "I'm writing a paper that I\n"
+	.string "want to present at a conference.\p"
+	.string "But there are some things I\n"
+	.string "don't quite understand yet.\p"
+	.string "So!\p"
+	.string "I'd like you to raise a\n"
+	.string "POKéMON that I recently caught.$"
 
 NewBarkTown_Lab_Text_ElmAccepted:
 	.string "Merci, {PLAYER} !\n"
@@ -655,20 +655,20 @@ NewBarkTown_Lab_Text_ElmGotAnEmail:
 	.string "OK…$"
 
 NewBarkTown_Lab_Text_ElmMissionFromMrPokemon:
-	.string "Hé, écoute.\p"
-	.string "J'ai un\n"
-	.string "connaissance\p"
-	.string "appelé\n"
-	.string "M. POKéMON.\p"
-	.string "Il trouve toujours\n"
-	.string "des trucs\l"
-	.string "bizarres et\p"
-	.string "s'extasie sur\n"
-	.string "ses découvertes.\p"
-	.string "Il habite\n"
-	.string "près d'ICI.\p"
-	.string "Tu devrais\n"
-	.string "aller le voir !$"
+	.string "Hey, listen.\p"
+	.string "I have an acquaintance called\n"
+	.string "MR. POKéMON.\p"
+	.string "He keeps finding weird things and\n"
+	.string "raving about his discoveries.\p"
+	.string "Anyway, I just got an e-mail\n"
+	.string "from him saying that this\l"
+	.string "time it's real.\p"
+	.string "It is intriguing, but we're\n"
+	.string "busy with our POKéMON research...\p"
+	.string "Wait!\n"
+	.string "I know!\p"
+	.string "{PLAYER}, can you go in our\n"
+	.string "place?$"
 
 NewBarkTown_Lab_Text_ElmChooseAPokemon:
 	.string "Je veux que tu élèves l'un des\n"
@@ -753,14 +753,14 @@ NewBarkTown_Lab_Text_ElmAfterTheft1:
 	.string "découverte de M. POKéMON ?$"
 
 NewBarkTown_Lab_Text_ElmAfterTheft2:
-	.string "{PLAYER} a donné l'ŒUF MYSTÈRE\n"
+	.string "{PLAYER} a donné l'OEUF MYSTÈRE\n"
 	.string "au PROF.ORME.$"
 
 NewBarkTown_Lab_Text_ElmAfterTheft3:
 	.string "ORME : Ça ?$"
 
 NewBarkTown_Lab_Text_ElmAfterTheft4:
-	.string "Mais… C'est un ŒUF POKéMON ?\p"
+	.string "Mais… C'est un OEUF POKéMON ?\p"
 	.string "Si c'en est un, c'est une grande\n"
 	.string "découverte !\p"
 	.string "ORME : Quoi ?!\p"
@@ -785,23 +785,23 @@ NewBarkTown_Lab_Text_ElmAfterTheft4:
 NewBarkTown_Lab_Text_ElmStudyingEgg:
 	.string "ORME : N'abandonne pas !\n"
 	.string "J'appellerai si j'apprends quoi que ce soit\l"
-	.string "sur cet ŒUF !$"
+	.string "sur cet OEUF !$"
 
 NewBarkTown_Lab_Text_ElmAideHasEgg:
 	.string "ORME : {PLAYER} ? Tu n'as pas rencontré\n"
 	.string "mon assistant ?\p"
 	.string "Il devait te retrouver avec\n"
-	.string "l'ŒUF au CENTRE POKéMON de\p"
+	.string "l'OEUF au CENTRE POKéMON de\p"
 	.string "MAUVILLE.\p"
 	.string "Tu as dû le manquer.\n"
 	.string "Essaie de le rattraper là-bas.$"
 
 NewBarkTown_Lab_Text_ElmWaitingEggHatch:
-	.string "ORME : Hé, cet ŒUF a-t-il\n"
+	.string "ORME : Hé, cet OEUF a-t-il\n"
 	.string "changé ?$"
 
 NewBarkTown_Lab_Text_ElmThoughtEggHatched:
-	.string "{PLAYER} ? Je pensais que l'ŒUF\n"
+	.string "{PLAYER} ? Je pensais que l'OEUF\n"
 	.string "avait éclos.\p"
 	.string "Où est le POKéMON ?$"
 
@@ -812,8 +812,8 @@ NewBarkTown_Lab_Text_ShowTogepi2:
 	.string "Quoi ? Ce POKéMON !?!$"
 
 NewBarkTown_Lab_Text_ShowTogepi3:
-	.string "L'ŒUF a éclos ! Donc les POKéMON\n"
-	.string "naissent des ŒUFS…\p"
+	.string "L'OEUF a éclos ! Donc les POKéMON\n"
+	.string "naissent des OEUFS…\p"
 	.string "Non, peut-être que tous les POKéMON\n"
 	.string "ne le font pas.\p"
 	.string "Wow, il reste encore beaucoup de\n"
@@ -861,16 +861,16 @@ NewBarkTown_Lab_Text_ElmGiveMasterBall2:
 	.string "usage que moi, {PLAYER} !$"
 
 NewBarkTown_Lab_Text_KimonoGirls:
-	.string "Au fait…\n"
-	.string "Un groupe de belles\l"
-	.string "FILLES KIMONO\p"
-	.string "te cherchait.\n"
-	.string "Elles m'ont dit\l"
-	.string "qu'elles\p"
-	.string "t'attendent\n"
-	.string "à ROSYÈRES.\l"
-	.string "Tu devrais y\p"
-	.string "aller, {PLAYER}.$"
+	.string "By the way...\n"
+	.string "A group of beautiful KIMONO\l"
+	.string "GIRLS were looking for you.\p"
+	.string "They told me they are\n"
+	.string "waiting for you at the\l" 
+	.string "ECRUTEAK DANCE THEATER.\p"
+	.string "I know you've gone through many\n"
+	.string "things since that EGG got you\l"
+	.string "involved in all this...\p"
+	.string "I hope you'll carry through it.$"
 
 NewBarkTown_Lab_Text_KimonoWaiting:
 	.string "PROF.ORME : Les FILLES KIMONO\n"
@@ -880,7 +880,7 @@ NewBarkTown_Lab_Text_KimonoWaiting:
 NewBarkTown_Lab_Text_League:
 	.string "PROF.ORME : Hahaha…\n"
 	.string "Bien joué !\p"
-	.string "Cet ŒUF rare t'a causé beaucoup\n"
+	.string "Cet OEUF rare t'a causé beaucoup\n"
 	.string "de soucis, hein ?\p"
 	.string "Les FILLES KIMONO ont dit quelque chose\n"
 	.string "sur moi ?\p"
@@ -915,7 +915,7 @@ NewBarkTown_Lab_Text_ElmGiveTicket2:
 	.string "KANTO !$"
 
 NewBarkTown_Lab_Text_LabMonEgg:
-	.string "C'est l'ŒUF POKéMON étudié\n"
+	.string "C'est l'OEUF POKéMON étudié\n"
 	.string "par le PROF.ORME.$"
 
 NewBarkTown_Lab_Text_AideGivePotion:

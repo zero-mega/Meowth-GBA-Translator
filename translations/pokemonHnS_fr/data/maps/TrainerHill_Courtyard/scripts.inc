@@ -84,21 +84,21 @@ BattleTowerOutsideSailorText:
 
 BattleTowerOutsideSignText:
 	.string "{UP_ARROW} ENTRÉE DU MONT DRESSEUR\p"
-	.string "« À vos marques, DRESSEURS de\n"
-	.string "plein feu ! »\p"
+	.string "“À vos marques, DRESSEURS de\n"
+	.string "plein feu !”\p"
 	.string "{RIGHT_ARROW} TENTES DE COMBAT.$"
 
 BattleTower_Battle_Tent_Text_Factory:
 	.string "TENTE DE COMBAT : USINE\n"
-	.string "« Trouve-le ! Le POKéMON ultime ! »$"
+	.string "“Trouve-le ! Le POKéMON ultime !”$"
 
 BattleTower_Battle_Tent_Text_Palace:
 	.string "TENTE DE COMBAT : PALAIS\n"
-	.string "« Régalez vos yeux de combats ! »$"
+	.string "“Régalez vos yeux de combats !”$"
 
 BattleTower_Battle_Tent_Text_Arena:
 	.string "TENTE DE COMBAT : ARÈNE\n"
-	.string "« Que les plus grandes équipes se réunissent ! »$"
+	.string "“Que les plus grandes équipes se réunissent !”$"
 
 BattleTowerOutsideText_Closed:
 	.string "La COLLINE DES DRESSEURS est\n"

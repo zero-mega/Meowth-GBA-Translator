@@ -81,8 +81,8 @@ Route47_EventScript_Eda::
 
 Route47_Text_Couple2Seen::
 	.string "DUFF : Veiller sur ma copine\n"
-	.string "fait battre mon cœur !\p"
-	.string "EDA : Les sentiments de mon cœur pour mon\n"
+	.string "fait battre mon coeur !\p"
+	.string "EDA : Les sentiments de mon coeur pour mon\n"
 	.string "petit ami sont aussi vastes et profonds\l"
 	.string "que l'océan !$"
 

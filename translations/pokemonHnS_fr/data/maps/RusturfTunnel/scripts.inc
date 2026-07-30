@@ -470,7 +470,7 @@ RusturfTunnel_Text_ThankYouLetsGoHomePeeko:
 	.string "En conséquence, j'ai été vaincu…\p"
 	.string "Je ne veux pas être laissé pour compte.\n"
 	.string "J'aimerais faire tenir un\p"
-	.string "objet à mon {STR_VAR_1}\n"
+	.string "objet à mon {KUN}\n"
 	.string "aussi.\p"
 	.string "Ça me ferait plaisir\n"
 	.string "si tu pouvais décider\p"

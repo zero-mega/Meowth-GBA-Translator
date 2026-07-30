@@ -20,7 +20,7 @@ PacifidlogTown_House1_Text_RegiStory:
 	.string "C'est l'histoire qu'on m'a racontée quand j'étais petit.$"
 
 PacifidlogTown_House1_Text_SixDotsOpenThreeDoors:
-	.string "« Six points ouvrent cinq portes. »\p"
+	.string "“Six points ouvrent cinq portes.”\p"
 	.string "Grand-père disait ça, mais je ne\n"
 	.string "sais pas ce qu'il voulait dire.$"
 

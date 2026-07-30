@@ -96,19 +96,19 @@ VioletCity_PokeCenter_Text_ElmsAideFavor:
 	.string "{PLAYER}, ça fait longtemps !\p"
 	.string "Le PROF.ORME m'a demandé de te trouver.\p"
 	.string "Il a encore un service à te demander.\p"
-	.string "Tu veux bien prendre l'ŒUF POKéMON ?$"
+	.string "Tu veux bien prendre l'OEUF POKéMON ?$"
 
 VioletCity_PokeCenter_Text_ElmsAideNoRoom:
 	.string "{PLAYER}, ça fait longtemps.\p"
 	.string "Le PROF.ORME m'a demandé de te trouver.\p"
 	.string "Il a une autre faveur à te demander.\p"
-	.string "Accepterais-tu l'ŒUF POKéMON ?\p"
+	.string "Accepterais-tu l'OEUF POKéMON ?\p"
 	.string "Oh, attends... Il faut d'abord faire de la place\n"
 	.string "dans ton équipe.$"
 
 VioletCity_PokeCenter_Text_ElmsAideGiveEgg:
 	.string "Nous avons découvert qu'un POKéMON n'éclot\n"
-	.string "pas tant qu'il n'a pas grandi dans l'ŒUF.\p"
+	.string "pas tant qu'il n'a pas grandi dans l'OEUF.\p"
 	.string "Il doit aussi être avec d'autres\n"
 	.string "POKéMON actifs pour éclore.\p"
 	.string "{PLAYER}, tu es la seule personne\n"
@@ -121,7 +121,7 @@ VioletCity_PokeCenter_Text_ElmsAideFullParty:
 	.string "Oh, non. Tu ne peux plus porter\n"
 	.string "de POKéMON avec toi.\p"
 	.string "J'attendrai pendant que tu fais\n"
-	.string "de la place pour l'ŒUF.$"
+	.string "de la place pour l'OEUF.$"
 
 VioletCity_PokeCenter_Text_ElmsAideRefuse:
 	.string "M-mais… le PROF.ORME t'a demandé…$"
@@ -145,7 +145,7 @@ VioletCity_PokeCenter_Text_Gentleman:
 	.string "C'était il y a environ trois ans.\p"
 	.string "La TEAM ROCKET faisait des misères\n"
 	.string "avec les POKéMON.\p"
-	.string "Mais la justice a triomphé — un jeune\n"
+	.string "Mais la justice a triomphé - un jeune\n"
 	.string "gamin les a démantelés.$"
 
 VioletCity_PokeCenter_Text_Youngster:

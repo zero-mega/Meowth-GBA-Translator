@@ -184,7 +184,7 @@ BattleFrontier_Lounge5_Text_NatureGirlCareful::
 	.string "il devient sournois !$"
 
 BattleFrontier_Lounge5_Text_NatureGirlEgg::
-	.string "C'est bête ! Un ŒUF dort !\n"
+	.string "C'est bête ! Un OEUF dort !\n"
 	.string "Je ne peux pas lui parler !$"
 
 BattleFrontier_Lounge5_Text_LadyClaimsSheUnderstandsPokemon::

@@ -303,8 +303,8 @@ Route110_TrickHousePuzzle3_EventScript_Alan::
 
 Route110_TrickHousePuzzle3_Text_WroteSecretCodeLockOpened:
 	.string "{PLAYER} a écrit le code secret\n"
-	.string "sur la porte. « Le MAÎTRE\p"
-	.string "DES PIÈGES est convoité. » …\n"
+	.string "sur la porte. “Le MAÎTRE\p"
+	.string "DES PIÈGES est convoité.” …\n"
 	.string "… … … … … …\p"
 	.string "… Le verrou s'est ouvert !$"
 

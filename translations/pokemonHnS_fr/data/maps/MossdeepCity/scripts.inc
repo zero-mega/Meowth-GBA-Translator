@@ -38,19 +38,19 @@ MossdeepCity_EventScript_Evo2::
 	end
 
 MossdeepCity_EventScript_Evo2_Text:
-	.string "SCOTT : Hahahah !\p"
-	.string "Bravo, {PLAYER}{KUN} !\n"
-	.string "Je viens de croiser un DRESSEUR sur\l"
-	.string "un VÉLO.\p"
-	.string "Tu viens de battre ce DRESSEUR, n'est-ce pas ?\n"
-	.string "C'était assez évident.\p"
-	.string "Le gamin avait l'air vraiment contrarié\p"
-	.string "avec un visage tout rouge de colère.\n"
-	.string "On dirait que je te croise souvent.\p"
-	.string "Tu vas à l'ARÈNE d'ATALANOPOLIS ensuite ?\p"
-	.string "Je m'attends à ce que tu te\n"
-	.string "débrouilles bien à l'ARÈNE.\p"
-	.string "Bon, à bientôt !$"
+	.string "My wife loves the POKéMON EEVEE.\p"
+	.string "She knows all the ways they can\n"
+	.string "evolve. Like, when HOLDING a WATER\l"
+	.string "STONE, or a LEAF STONE.\p"
+	.string "Yes, HOLDING, not using!\n"
+	.string "Did you know about it? I didn't.\p"
+	.string "Or being HAPPY during day or night.\p"
+	.string "Or being cute whilst using a\n"
+	.string "FAIRY TYPE move!\p"
+	.string "…\p"
+	.string "Do you know where EEVEE are?\n"
+	.string "Maybe I should capture one for her.\p"
+	.string "She's gonna love it!$"
 
 MossdeepCity_EventScript_PokefanF::
 	lock
@@ -486,14 +486,14 @@ MossdeepCity_Text_SpaceCenterLaunchingRockets:
 	.string "d'énormes fusées.$"
 
 MossdeepCity_Text_MossdeepTargetedByMagma:
-	.string "J'ai entendu d'un\n"
-	.string "copain MARIN que\p"
-	.string "la TEAM AQUA s'est\n"
-	.string "installée à LILYCOVE.\p"
-	.string "J'ai aussi entendu\n"
-	.string "que quelqu'un les a\p"
-	.string "arrêtés. C'était\n"
-	.string "peut-être toi, {PLAYER} ?$"
+	.string "I heard from a SAILOR buddy that\n"
+	.string "TEAM AQUA set up shop in LILYCOVE.\p"
+	.string "I also heard that someone came along\n"
+	.string "and wiped the floor with them!\p"
+	.string "But MOSSDEEP here's been targeted\n"
+	.string "by that TEAM MAGMA.\p"
+	.string "If you want to know what they're up to,\n"
+	.string "go visit the SPACE CENTER.$"
 
 MossdeepCity_Text_FeelReliefOnLand:
 	.string "Je suis MARIN, donc la mer est évidemment\n"
@@ -533,7 +533,7 @@ MossdeepCity_Text_SpecialSpaceCenterRock:
 	.string "Bonne chance à eux !$"
 
 MossdeepCity_Text_SpecialSpaceCenterRock2:
-	.string "Qu'est-ce que c'était ? Ce n'était pas mon vœu !$"
+	.string "Qu'est-ce que c'était ? Ce n'était pas mon voeu !$"
 
 MossdeepCity_Text_ItsAWhiteRock:
 	.string "C'est un rocher blanc.\p"
@@ -542,28 +542,28 @@ MossdeepCity_Text_ItsAWhiteRock:
 MossdeepCity_Text_GymSign:
 	.string "ARÈNE POKéMON DE MOSSDEEP\n"
 	.string "CHAMPIONS D'ARÈNE : LIZA ET TATE\p"
-	.string "« La combinaison mystique ! »$"
+	.string "“La combinaison mystique !”$"
 
 MossdeepCity_Text_CitySign:
 	.string "ATALANOPOLIS\n"
-	.string "« Notre devise : Chérissez les POKéMON ! »$"
+	.string "“Notre devise : Chérissez les POKéMON !”$"
 
 MossdeepCity_Text_SpaceCenterSign:
 	.string "CENTRE SPATIAL ALGATIA\n"
-	.string "« L'endroit le plus proche de l'espace. »$"
+	.string "“L'endroit le plus proche de l'espace.”$"
 
 MossdeepCity_Text_ScottSomethingWrongWithTown:
-	.string "SCOTT : {PLAYER}{KUN},\n"
-	.string "tu te sens bien ?\p"
-	.string "Moi je vais super !\n"
-	.string "J'avais entendu que le\l"
-	.string "CHAMPION d'ARÈNE d'ATLANPÔLE\p"
-	.string "est assez fort, alors\n"
-	.string "j'ai décidé de le défier.\p"
-	.string "Et j'ai perdu !\n"
-	.string "Mais c'était un bon combat !\p"
-	.string "{PLAYER}{KUN}, tu\n"
-	.string "devrais y aller aussi !$"
+	.string "SCOTT: {PLAYER}{KUN}, feeling good?\n"
+	.string "I'm doing great!\p"
+	.string "I'd heard MOSSDEEP's GYM LEADER is\n"
+	.string "pretty strong, so I decided to come\l"
+	.string "take a look-see for myself.\p"
+	.string "But there's something wrong about\n"
+	.string "this town.\p"
+	.string "People are going on about a warning\n"
+	.string "letter and the SPACE CENTER…\p"
+	.string "I don't think it concerns me in any\n"
+	.string "way, though.$"
 
 MossdeepCity_Text_SootopolisNewGymLeader:
 	.string "Ahh… C'est agréable de laisser les\n"

@@ -68,8 +68,8 @@ FortreeCity_House1_Text_YouWillTradeWontYou:
 	.string "Je ferais n'importe\p"
 	.string "quoi pour !\n"
 	.string "…Euh… Tu as entendu ?\p"
-	.string "{PLAYER}, aide-moi\n"
-	.string "à en trouver un !$"
+	.string "{STR_VAR_1}, aide-moi\n"
+	.string "à en trouver un !{STR_VAR_2}$"
 
 FortreeCity_House1_Text_MonYouTakeCare:
 	.string "Oh, oui, exactement !\p"
@@ -82,7 +82,7 @@ FortreeCity_House1_Text_ThisIsntAMon:
 
 FortreeCity_House1_Text_YouWontTradeMe:
 	.string "Non ? Tu ne veux pas m'échanger ?\n"
-	.string "Même après que je t'ai ouvert mon cœur ?$"
+	.string "Même après que je t'ai ouvert mon coeur ?$"
 
 FortreeCity_House1_Text_GoingToMakeVolbeatStrong:
 	.string "Je vais rendre MUNJA super fort\n"

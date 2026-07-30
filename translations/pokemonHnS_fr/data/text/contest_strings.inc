@@ -250,7 +250,7 @@ gContestMoveTypeToughText::
 	.string "ROBUSTESSE$"
 
 gText_AppealNumWhichMoveWillBePlayed::
-	.string "Démonstration n° {STR_VAR_1} !\n"
+	.string "Démonstration n  {STR_VAR_1} !\n"
 	.string "Quelle attaque sera jouée ?$"
 
 gText_AppealNumButItCantParticipate::
@@ -356,7 +356,7 @@ gText_JudgesViewsOnMonHeldFirm::
 	.string "{STR_VAR_1} est resté ferme.$"
 
 gText_MonsXChangedPerceptions::
-	.string "La {STR_VAR_3} de {STR_VAR_1}\n"
+	.string "La {STR_VAR_1} de {STR_VAR_3}\n"
 	.string "a changé les perceptions.$"
 
 gText_MonsAppealEffectWoreOff::
@@ -567,11 +567,11 @@ gText_MonsAppealWentExcellently2::
 
 gText_SameTypeAsOneBeforeGood::
 	.string "C'est le même type que le\n"
-	.string "POKéMON précédent — bien !{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "POKéMON précédent - bien !{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_NotSameTypeAsOneBeforeGood::
 	.string "Ce n'est pas le même type que\n"
-	.string "le précédent — bien !{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "le précédent - bien !{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_StoodOutMuchMoreThanMonBefore::
 	.string "Il s'est beaucoup plus démarqué\n"
@@ -692,7 +692,7 @@ gText_RepeatedAppeal::
 	.string "en répétant une démonstration.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
 
 gText_MonsXWentOverGreat::
-	.string "Le {STR_VAR_3} de {STR_VAR_1}\n"
+	.string "Le {STR_VAR_1} de {STR_VAR_3}\n"
 	.string "a eu un grand succès.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
 
 gText_MonsXDidntGoOverWell::
@@ -700,7 +700,7 @@ gText_MonsXDidntGoOverWell::
 	.string "n'ont pas fait bonne impression ici...{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
 
 gText_MonsXGotTheCrowdGoing::
-	.string "Le {STR_VAR_3} de {STR_VAR_1}\n"
+	.string "Le {STR_VAR_1} de {STR_VAR_3}\n"
 	.string "a enflammé le public.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
 
 gText_MonCantAppealNextTurn::
@@ -716,8 +716,8 @@ gText_CrowdContinuesToWatchMon::
 	.string "regarder {STR_VAR_3}.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
 
 gText_MonsMoveIsIgnored::
-	.string "La capacité {STR_VAR_2} de\n"
-	.string "{STR_VAR_1} est ignorée.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
+	.string "La capacité {STR_VAR_1} de\n"
+	.string "{STR_VAR_2} est ignorée.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
 
 gText_Contest_Shyness::
 	.string "timidité$"

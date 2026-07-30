@@ -164,7 +164,7 @@ LilycoveCity_LilycoveMuseum_1F_EventScript_FatMan::
 LilycoveCity_LilycoveMuseum_1F_Text_WelcomeToLilycoveMuseum:
 	.string "Bienvenue au MUSÉE de NÉNUCRIQUE.\p"
 	.string "Prenez le temps d'admirer notre\n"
-	.string "collection d'œuvres fantastiques mettant\l"
+	.string "collection d'oeuvres fantastiques mettant\l"
 	.string "en scène des POKéMON.$"
 
 LilycoveCity_LilycoveMuseum_1F_Text_ImCuratorHaveYouViewedOurPaintings:
@@ -242,7 +242,7 @@ LilycoveCity_LilycoveMuseum_1F_Text_StoneTabletWithAncientText:
 
 LilycoveCity_LilycoveMuseum_1F_Text_WorksOfMagnificence:
 	.string "Hmmm…\n"
-	.string "Quelles œuvres de grande magnificence…$"
+	.string "Quelles oeuvres de grande magnificence…$"
 
 LilycoveCity_LilycoveMuseum_1F_Text_MustntForgetLoveForFineArts:
 	.string "Se battre avec des POKéMON, c'est amusant,\n"
@@ -281,7 +281,7 @@ LilycoveCity_LilycoveMuseum_1F_Text_CuratorHasBeenCheerful:
 LilycoveCity_LilycoveMuseum_1F_Text_AimToSeeGreatPaintings:
 	.string "Je compte admirer plein de beaux\n"
 	.string "tableaux ici et m'en inspirer.\p"
-	.string "Je rêve qu'un jour, mes œuvres\n"
+	.string "Je rêve qu'un jour, mes oeuvres\n"
 	.string "seront exposées ici.$"
 
 LilycoveCity_LilycoveMuseum_1F_Text_MuseumTouristDestination:

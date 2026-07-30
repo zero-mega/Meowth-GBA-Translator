@@ -20,4 +20,4 @@ SafariZone_Southwest_EventScript_Happiny_Text:
 	.string "LEUPHORIE. Et PTIRAVI ?\l"
 	.string "Comment évolue-t-il ?\p"
 	.string "Eh bien, il faut qu'il tienne\n"
-	.string "un ŒUF CHANCE en montant de niveau !$"
+	.string "un OEUF CHANCE en montant de niveau !$"

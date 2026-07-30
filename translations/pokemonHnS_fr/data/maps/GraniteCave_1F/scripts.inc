@@ -18,16 +18,16 @@ GraniteCave_1F_EventScript_ReceivedFlash::
 	end
 
 GraniteCave_1F_Text_GetsDarkAheadHereYouGo:
-	.string "Hé, toi.\n"
-	.string "Il fait terriblement\l"
-	.string "sombre devant.\p"
-	.string "Ça sera dur d'explorer.\n"
-	.string "Ce type qui est passé plus tôt…\p"
-	.string "PIERRE, je crois,\n"
-	.string "est allé dans cette\p"
-	.string "grotte.\n"
-	.string "Tu devrais le suivre,\p"
-	.string "{PLAYER}{KUN}.$"
+	.string "Hey, you.\n"
+	.string "It gets awfully dark ahead.\l"
+	.string "It'll be tough trying to explore.\p"
+	.string "That guy who came by earlier…\n"
+	.string "STEVEN, I think it was.\p"
+	.string "He knew how to use FLASH, so he ought\n"
+	.string "to be all right, but…\p"
+	.string "Well, for us HIKERS, helping out those\n"
+	.string "that we meet is our motto.\p"
+	.string "Here you go, I'll pass this on to you.$"
 
 GraniteCave_1F_Text_ExplainFlash:
 	.string "Tu peux utiliser FLASH si tu\n"

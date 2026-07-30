@@ -80,7 +80,7 @@ MeteorFalls_StevensCave_EventScript_StevenArceusEventToPC::
 MeteorFalls_StevensCave_Text_ArceusEvent1:
 	.string "Et… J'aimerais te donner quelque chose que\n"
 	.string "j'ai trouvé en creusant par ici.\l"
-	.string "C'est un œuf étrange. Je le\p"
+	.string "C'est un oeuf étrange. Je le\p"
 	.string "porte depuis de nombreuses semaines mais\n"
 	.string "il n'éclot pas. Tu es un\p"
 	.string "meilleur dresseur que moi, alors peut-être\n"
@@ -88,7 +88,7 @@ MeteorFalls_StevensCave_Text_ArceusEvent1:
 
 MeteorFalls_StevensCave_Text_ArceusEvent2:
 	.string "Je me demande quel POKéMON pond\n"
-	.string "ses œufs entre les rochers et\p"
+	.string "ses oeufs entre les rochers et\p"
 	.string "s'en va… Peut-être un POKéMON\p"
 	.string "ancien ? Fufufu… qui sait…$"
 
@@ -98,12 +98,12 @@ MeteorFalls_StevensCave_Text_ShouldKnowHowGoodIAmExpectWorst:
 	.string "Je mène de nouvelles recherches\n"
 	.string "sur les POKéMON en ce moment. Je me\p"
 	.string "demandais si tu pouvais m'aider,\p"
-	.string "{PLAYER}.\n"
+	.string "{KUN}.\n"
 	.string "Tu vois…\p"
 	.string "J'écris un article que je veux\n"
 	.string "présenter à une conférence.\p"
 	.string "Mais il y a des choses que je\n"
-	.string "ne comprends pas encore. Alors ! J'aimerais que tu élèves un POKéMON que j'ai récemment attrapé.$"
+	.string "ne comprends pas encore. Alors ! J'aimerais que tu élèves un POKéMON que j'ai récemment attrapé.{PLAYER}{KUN}$"
 
 MeteorFalls_StevensCave_Text_ShouldKnowHowGoodIAmExpectWorst2:
 	.string "PIERRE : Oh, salut, {PLAYER}{KUN}.\p"
@@ -138,13 +138,13 @@ MeteorFalls_StevensCave_Text_MyPredictionCameTrue:
 	.string "beaucoup plus forts. Qu'en penses-tu ?$"
 
 MeteorFalls_StevensCave_Text_MyPredictionCameTrue2:
-	.string "PIERRE : En y repensant, depuis que nos\n"
-	.string "chemins se sont croisés\l"
-	.string "pour la première fois\p"
-	.string "dans la GROTTE GRANITE à\n"
-	.string "ALGATIA, j'avais ce sentiment.\p"
-	.string "Je pensais que tu finirais par devenir\p"
-	.string "le CHAMPION.\p"
-	.string "Mes prédictions se\n"
-	.string "réalisent généralement.\p"
-	.string "{PLAYER}{KUN}, continue comme ça !$"
+	.string "STEVEN: Come to think of it, ever since\n"
+	.string "our paths first crossed in GRANITE\l"
+	.string "CAVE in DEWFORD, I had this feeling.\p"
+	.string "I thought that you would eventually\n"
+	.string "become stronger than me.\p"
+	.string "My predictions usually come true.\p"
+	.string "And where will you go from here?\p"
+	.string "… … … … … …\n"
+	.string "… … … … … …\p"
+	.string "Fufufu, even I couldn't tell you that.$"

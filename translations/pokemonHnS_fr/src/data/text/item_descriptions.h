@@ -1795,6 +1795,6 @@ static const u8 sInfiniteRareCandy[] = _(
     "usage personnel.");
 
 static const u8 sHealingHeart[] = _(
-    "Ce cœur tendre\n"
+    "Ce coeur tendre\n"
     "soigne complètement\n"
     "ton équipe POKéMON.");

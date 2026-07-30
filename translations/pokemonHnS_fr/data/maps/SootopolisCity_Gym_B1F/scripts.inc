@@ -146,14 +146,14 @@ SootopolisCity_Gym_B1F_Text_TiffanyPostBattle:
 
 SootopolisCity_Gym_B1F_Text_BethanyIntro:
 	.string "Quand je suis avec mes POKéMON, le temps\n"
-	.string "passe avant qu'on puisse dire « Oups ! »$"
+	.string "passe avant qu'on puisse dire “Oups !”$"
 
 SootopolisCity_Gym_B1F_Text_BethanyDefeat:
 	.string "Oups !$"
 
 SootopolisCity_Gym_B1F_Text_BethanyPostBattle:
 	.string "J'aimerais pouvoir oublier les causes perdues\n"
-	.string "avant de pouvoir dire « Oups ! »$"
+	.string "avant de pouvoir dire “Oups !”$"
 
 SootopolisCity_Gym_B1F_Text_AnnikaIntro:
 	.string "Je peux me battre avec des POKéMON\n"

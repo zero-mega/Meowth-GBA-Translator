@@ -286,7 +286,7 @@ Route117_Text_DoYouWantEgg:
 	.string "Ah, c'est toi ! Nous gardions\p"
 	.string "ton POKéMON, et mon Dieu, quelle\n"
 	.string "surprise ! Ton POKéMON avait un\p"
-	.string "ŒUF ! On ne sait pas\p"
+	.string "OEUF ! On ne sait pas\p"
 	.string "comment il est arrivé là,\n"
 	.string "mais ton POKéMON l'avait. Tu\p"
 	.string "le veux, n'est-ce pas ?$"
@@ -304,7 +304,7 @@ Route117_Text_YouHaveNoRoomForIt:
 	.string "Reviens quand tu auras de la place.$"
 
 Route117_Text_ReceivedEgg:
-	.string "{PLAYER} a reçu l'ŒUF\n"
+	.string "{PLAYER} a reçu l'OEUF\n"
 	.string "du GARDIEN DE PENSION.$"
 
 Route117_Text_TakeGoodCareOfIt:
@@ -313,7 +313,7 @@ Route117_Text_TakeGoodCareOfIt:
 Route117_Text_FriendlyWithOtherTrainersMon:
 	.string "Au fait, à propos de ton {STR_VAR_1},\n"
 	.string "il semblait être ami avec\l"
-	.string "le {STR_VAR_3} de {STR_VAR_2}.\p"
+	.string "le {STR_VAR_2} de {STR_VAR_3}.\p"
 	.string "J'ai peut-être même vu qu'il recevait\n"
 	.string "un MAIL.$"
 

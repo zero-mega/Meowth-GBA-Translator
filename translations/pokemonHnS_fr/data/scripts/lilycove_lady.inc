@@ -663,7 +663,7 @@ LilycoveCity_PokemonCenter_1F_Text_YourBagIsFilledUp:
 
 LilycoveCity_PokemonCenter_1F_Text_WrongTheCorrectAnswerIs:
 	.string "Hmm… Faux !\n"
-	.string "La bonne réponse est « {STR_VAR_3} » !$"
+	.string "La bonne réponse est “{STR_VAR_3}” !$"
 
 LilycoveCity_PokemonCenter_1F_Text_IGetToKeepPrize:
 	.string "Dommage !\p"
@@ -764,8 +764,8 @@ LilycoveCity_PokemonCenter_1F_Text_ReallyImprovedThanks:
 	.string "Oh, super ! Il est\n"
 	.string "vraiment ravi ! Je crois\p"
 	.string "que ça a vraiment amélioré\n"
-	.string "la qualité {STR_VAR_2} de\p"
-	.string "{STR_VAR_1}. Merci beaucoup !$"
+	.string "la qualité {STR_VAR_1} de\p"
+	.string "{STR_VAR_2}. Merci beaucoup !$"
 
 LilycoveCity_PokemonCenter_1F_Text_ReadyToEnterContests:
 	.string "Hmm… Je crois qu'on est\p"

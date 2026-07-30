@@ -509,7 +509,7 @@ BattleFrontier_BattlePalaceBattleRoom_Text_SpenserFirstIntro:
 	.string "physique\p"
 	.string "est toujours\n"
 	.string "avec les POKéMON !\p"
-	.string "Mon cœur bat à\n"
+	.string "Mon coeur bat à\n"
 	.string "l'unisson avec\p"
 	.string "les POKéMON\n"
 	.string "toujours !\p"

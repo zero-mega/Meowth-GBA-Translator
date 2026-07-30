@@ -612,8 +612,8 @@ MtChimney_Text_Grunt2Defeat:
 	.string "Qu'est-ce que tu veux dire, j'ai perdu ?$"
 
 MtChimney_Text_Grunt2PostBattle:
-	.string "Notre CHEF dit : « Ça rendra tout le monde\n"
-	.string "heureux. »\p"
+	.string "Notre CHEF dit : “Ça rendra tout le monde\n"
+	.string "heureux.”\p"
 	.string "Mais pourquoi tout le monde continue-t-il de nous\n"
 	.string "barrer le chemin ?$"
 
@@ -765,7 +765,7 @@ MtChimney_Text_ShelbyRegister:
 	.string "voir pour une revanche.$"
 
 MtChimney_Text_ShelbyRematchIntro:
-	.string "Si tu peux harmoniser ton cœur avec ceux\n"
+	.string "Si tu peux harmoniser ton coeur avec ceux\n"
 	.string "de tes POKéMON, eh bien, tu devrais\l"
 	.string "pouvoir accomplir de grandes choses.$"
 
@@ -774,8 +774,8 @@ MtChimney_Text_ShelbyRematchDefeat:
 	.string "Tu es vraiment quelque chose !$"
 
 MtChimney_Text_ShelbyPostRematch:
-	.string "Peut-être que ton cœur n'est plus qu'un\n"
-	.string "avec les cœurs de tes POKéMON.$"
+	.string "Peut-être que ton coeur n'est plus qu'un\n"
+	.string "avec les coeurs de tes POKéMON.$"
 
 MtChimney_Text_MelissaIntro:
 	.string "J'ai le feu en moi, bébé.\n"

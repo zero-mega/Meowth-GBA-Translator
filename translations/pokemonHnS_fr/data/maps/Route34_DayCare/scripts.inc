@@ -23,7 +23,7 @@ Route34_DayCare_Text_Bookshelf1:
 	.string "Un dictionnaire !\p"
 	.string "{PLAYER} a ouvert le dictionnaire\n"
 	.string "à une page au hasard.\p"
-	.string "« BÉBÉ »\n"
+	.string "“BÉBÉ”\n"
 	.string "Nom masculin, signifiant nourrisson.\p"
 	.string "{PLAYER} a rangé le dictionnaire.$"
 
@@ -148,7 +148,7 @@ Route34_DayCare_EventScript_ClerkAfter::
 
 Route34_DayCare_Text_ClerkBefore:
 	.string "Je suis le fils du couple de la PENSION.\p"
-	.string "Un ŒUF BIZARRE a été trouvé avec les POKéMON\n"
+	.string "Un OEUF BIZARRE a été trouvé avec les POKéMON\n"
 	.string "d'un DRESSEUR, mais ils n'en voulaient pas...\p"
 	.string "Je te l'offrirais bien...\n"
 	.string "Mais comment savoir si tu en prendras\l"
@@ -160,24 +160,24 @@ Route34_DayCare_Text_ClerkNoRoom:
 
 Route34_DayCare_Text_ClerkQuestion:
 	.string "Réponds à cette question.\n"
-	.string "Que penses-tu de cet ŒUF BIZARRE ?$"
+	.string "Que penses-tu de cet OEUF BIZARRE ?$"
 
 Route34_DayCare_Text_Rejection:
-	.string "Hmm, je pense que cet ŒUF n'est pas pour toi.\p"
+	.string "Hmm, je pense que cet OEUF n'est pas pour toi.\p"
 	.string "Ce serait irresponsable de ma part de donner\n"
-	.string "un précieux ŒUF comme celui-ci\l"
+	.string "un précieux OEUF comme celui-ci\l"
 	.string "à quelqu'un qui ne connaît pas bien\l"
 	.string "l'élevage de Pokémon !$"
 
 Route34_DayCare_Text_ReceivedOddEgg:
-	.string "{PLAYER} a reçu l'ŒUF BIZARRE.$"
+	.string "{PLAYER} a reçu l'OEUF BIZARRE.$"
 
 Route34_DayCare_Text_TakeCare:
 	.string "Je savais que tu étais le bon DRESSEUR\n"
 	.string "pour le travail. Prends-en bien soin !$"
 
 Route34_DayCare_Text_ClerkAfter:
-	.string "On voit beaucoup de ces ŒUFS\n"
+	.string "On voit beaucoup de ces OEUFS\n"
 	.string "par ici.\p"
 	.string "Il y avait quelque chose de différent dans\n"
 	.string "celui-là, pourtant.$"
@@ -461,7 +461,7 @@ Route34_Text_DoYouWantEgg:
 	.string "Ah, c'est toi ! Nous gardions\p"
 	.string "ton POKéMON, et mon Dieu, quelle\n"
 	.string "surprise ! Ton POKéMON avait un\p"
-	.string "ŒUF ! On ne sait pas\p"
+	.string "OEUF ! On ne sait pas\p"
 	.string "comment il est arrivé là,\n"
 	.string "mais ton POKéMON l'avait. Tu\p"
 	.string "le veux, n'est-ce pas ?$"
@@ -479,7 +479,7 @@ Route34_Text_YouHaveNoRoomForIt:
 	.string "Reviens quand tu auras de la place.$"
 
 Route34_Text_ReceivedEgg:
-	.string "{PLAYER} a reçu l'ŒUF\n"
+	.string "{PLAYER} a reçu l'OEUF\n"
 	.string "du GARDIEN DE PENSION.$"
 
 Route34_Text_TakeGoodCareOfIt:
@@ -488,7 +488,7 @@ Route34_Text_TakeGoodCareOfIt:
 Route34_Text_FriendlyWithOtherTrainersMon:
 	.string "Au fait, à propos de ton {STR_VAR_1},\n"
 	.string "il semblait être ami avec\l"
-	.string "le {STR_VAR_3} de {STR_VAR_2}.\p"
+	.string "le {STR_VAR_2} de {STR_VAR_3}.\p"
 	.string "J'ai peut-être même vu qu'il recevait\n"
 	.string "un MAIL.$"
 

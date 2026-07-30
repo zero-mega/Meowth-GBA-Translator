@@ -243,7 +243,7 @@ LavaridgeTown_Gym_B1F_Text_KeeganPostBattle:
 
 LavaridgeTown_Gym_1F_Text_GeraldIntro:
 	.string "Tes POKéMON peuvent-ils supporter\n"
-	.string "une chaleur de 200 °C ?$"
+	.string "une chaleur de 200  C ?$"
 
 LavaridgeTown_Gym_1F_Text_GeraldDefeat:
 	.string "Ça n'a pas assez brûlé fort…$"
@@ -270,7 +270,7 @@ LavaridgeTown_Gym_B1F_Text_JaceIntro:
 	.string "Partons avant que mes sentiments refroidissent !$"
 
 LavaridgeTown_Gym_B1F_Text_JaceDefeat:
-	.string "Il fait si chaud, et pourtant mon cœur\n"
+	.string "Il fait si chaud, et pourtant mon coeur\n"
 	.string "est glacé…$"
 
 LavaridgeTown_Gym_B1F_Text_JacePostBattle:
@@ -320,15 +320,15 @@ LavaridgeTown_Gym_1F_Text_FlanneryIntro:
 
 LavaridgeTown_Gym_1F_Text_FlanneryDefeat:
 	.string "Oh…\n"
-	.string "Je suppose que\p"
-	.string "j'essayais trop fort…\n"
-	.string "Je… Je suis devenue\p"
-	.string "CHAMPIONNE d'ARÈNE\n"
-	.string "récemment.\p"
-	.string "J'ai essayé trop fort\n"
-	.string "d'être parfaite…\p"
-	.string "{PLAYER}{KUN}, merci\n"
-	.string "pour tes conseils.$"
+	.string "I guess I was trying too hard…\p"
+	.string "I… I've only recently become\n"
+	.string "a GYM LEADER.\p"
+	.string "I tried too hard to be someone\n"
+	.string "I'm not.\p"
+	.string "I have to do things my natural way. If\n"
+	.string "I don't, my POKéMON will be confused.\p"
+	.string "Thanks for teaching me that.\n"
+	.string "For that, you deserve this.$"
 
 LavaridgeTown_Gym_1F_Text_ReceivedHeatBadge:
 	.string "{PLAYER} a reçu le BADGE CHALEUR\n"
@@ -391,14 +391,14 @@ LavaridgeTown_Gym_1F_Text_FlanneryPostRematch:
 	.string "un de ces jours !$"
 
 LavaridgeTown_Gym_1F_Text_FlanneryRematchNeedTwoMons:
-	.string "AUGUSTE :\n"
-	.string "Perdre un\p"
-	.string "combat ne va pas\n"
-	.string "me dégonfler.\l"
-	.string "J'aime les POKéMON.\p"
-	.string "J'aime combattre.\n"
-	.string "Et… J'aime\p"
-	.string "cette ARÈNE !\n"
-	.string "{PLAYER},\p"
-	.string "montre-moi\n"
-	.string "ta passion !$"
+	.string "FLANNERY: Losing a battle isn't going\n"
+	.string "to deflate me.\p"
+	.string "I love POKéMON.\n"
+	.string "I love to battle.\l"
+	.string "And… I love this GYM!\p"
+	.string "Let's exchange superhot moves\n"
+	.string "in another battle!\p"
+	.string "Oh, wait. Do you only have one POKéMON\n"
+	.string "that can battle?\p"
+	.string "I hate to say this, but when you come\n"
+	.string "see me, bring at least two POKéMON.$"

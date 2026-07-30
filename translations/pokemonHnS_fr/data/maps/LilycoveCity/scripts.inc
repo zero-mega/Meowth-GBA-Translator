@@ -434,7 +434,7 @@ LilycoveCity_Text_MayShoppingLetsBattle:
 	.string "Mais je n'ai pas assez d'argent.\n"
 	.string "Tu as l'air d'avoir plein d'argent,\p"
 	.string "{PLAYER}{KUN}.\n"
-	.string "Tu es vraiment incroyable !$"
+	.string "Tu es vraiment incroyable !{PLAYER}{KUN}$"
 
 LilycoveCity_Text_MayNotRaisingPokemon:
 	.string "FLORA : Oh, pourquoi ? {PLAYER}{KUN},\n"
@@ -596,7 +596,7 @@ LilycoveCity_Text_ContestHallInTown:
 	.string "dans cette ville. \p"
 	.string "Ça veut dire que des POKéMON bien élevés\n"
 	.string "viendront de tout le pays.\p"
-	.string "Mon cœur gonfle d'excitation !$"
+	.string "Mon coeur gonfle d'excitation !$"
 
 LilycoveCity_Text_StrangeCaveInCove:
 	.string "Tu as vu cette étrange grotte dans\n"
@@ -642,10 +642,10 @@ LilycoveCity_Text_MissingPokemonCameBack:
 
 LilycoveCity_Text_ImArtDealer:
 	.string "Je suis un MARCHAND D'ART.\p"
-	.string "J'achète et vends de belles œuvres,\n"
+	.string "J'achète et vends de belles oeuvres,\n"
 	.string "surtout des peintures.\p"
 	.string "J'ai entendu dire que le MUSÉE ici expose\n"
-	.string "des œuvres magnifiques…$"
+	.string "des oeuvres magnifiques…$"
 
 LilycoveCity_Text_SeaRemainsForeverYoung:
 	.string "Même si nous vieillissons et ridons,\n"
@@ -679,39 +679,39 @@ LilycoveCity_Text_TeamAquaLotGoneForGood:
 
 LilycoveCity_Text_CitySign:
 	.string "LILYCOVE\p"
-	.string "« Là où la terre finit et où\n"
-	.string "la mer commence. »$"
+	.string "“Là où la terre finit et où\n"
+	.string "la mer commence.”$"
 
 LilycoveCity_Text_ContestHallSign:
 	.string "SALLE DE CONCOURS POKéMON\n"
-	.string "« Le lieu de rencontre des DRESSEURS ! »$"
+	.string "“Le lieu de rencontre des DRESSEURS !”$"
 
 LilycoveCity_Text_MotelSign:
 	.string "MOTEL LYS COVE\p"
-	.string "« Souvenez-vous de nous, le LYS COVE\n"
-	.string "de LILYCOVE. »$"
+	.string "“Souvenez-vous de nous, le LYS COVE\n"
+	.string "de LILYCOVE.”$"
 
 LilycoveCity_Text_MuseumSign:
 	.string "MUSÉE LILYCOVE\p"
-	.string "« Collection de chefs-d'œuvre POKéMON\n"
-	.string "en exposition ! »$"
+	.string "“Collection de chefs-d'oeuvre POKéMON\n"
+	.string "en exposition !”$"
 
 LilycoveCity_Text_MuseumSignPlayersExhibit:
 	.string "MUSÉE LILYCOVE\p"
-	.string "« Collection POKéMON de {PLAYER}\n"
-	.string "en exposition ! »$"
+	.string "“Collection POKéMON de {PLAYER}\n"
+	.string "en exposition !”$"
 
 LilycoveCity_Text_HarborSignUnderConstruction:
 	.string "PORT DE LILYVERRE\p"
-	.string "« Le ferry S.S. MARÉE est en\n"
+	.string "“Le ferry S.S. MARÉE est en\n"
 	.string "construction à POIVRESSELLE.\p"
-	.string "« Le service devrait commencer\n"
-	.string "bientôt. »$"
+	.string "“Le service devrait commencer\n"
+	.string "bientôt.”$"
 
 LilycoveCity_Text_HarborSign:
 	.string "PORT DE LILYCOVE\p"
-	.string "« Profitez d'une croisière agréable\n"
-	.string "sur le ferry S.S. MARÉE. »$"
+	.string "“Profitez d'une croisière agréable\n"
+	.string "sur le ferry S.S. MARÉE.”$"
 
 LilycoveCity_Text_TrainerFanClubSign:
 	.string "FAN CLUB DES DRESSEURS POKéMON\p"
@@ -720,14 +720,14 @@ LilycoveCity_Text_TrainerFanClubSign:
 
 LilycoveCity_Text_DepartmentStoreSign:
 	.string "GRAND MAGASIN DE LILYVERRE\p"
-	.string "« Débordant de superbes marchandises\n"
+	.string "“Débordant de superbes marchandises\n"
 	.string "et d'excitation !\p"
-	.string "« Un super endroit pour trouver ce\n"
-	.string "qu'il vous faut ! »$"
+	.string "“Un super endroit pour trouver ce\n"
+	.string "qu'il vous faut !”$"
 
 LilycoveCity_Text_MoveDeletersHouseSign:
 	.string "MAISON du EFFACEUR DE CAPACITÉS\p"
-	.string "« Capacités POKéMON indésirables effacées. »$"
+	.string "“Capacités POKéMON indésirables effacées.”$"
 
 LilycoveCity_Text_DoYouKnowAboutBerryBlender:
 	.string "Tu connais la machine\n"

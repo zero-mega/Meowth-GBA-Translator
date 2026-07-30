@@ -92,7 +92,7 @@ ALIGNED(4) static const u8 sText_PlayerContactedYouShareX[] = _("{STR_VAR_2} t'a
 ALIGNED(4) static const u8 sText_PlayerContactedYouAddToMembers[] = _("{STR_VAR_2} t'a contacté.\nAjouter aux membres ?");
 ALIGNED(4) static const u8 sText_AreTheseMembersOK[] = _("{STR_VAR_1} !\nCes membres conviennent-ils ?");
 ALIGNED(4) static const u8 sText_CancelModeWithTheseMembers[] = _("Annuler le MODE {STR_VAR_1}\navec ces membres ?");
-ALIGNED(4) static const u8 sText_AnOKWasSentToPlayer[] = _("Un « OK » a été envoyé\nà {STR_VAR_1}.");
+ALIGNED(4) static const u8 sText_AnOKWasSentToPlayer[] = _("Un “OK” a été envoyé\nà {STR_VAR_1}.");
 ALIGNED(4) static const u8 sText_OtherTrainerUnavailableNow[] = _("L'autre DRESSEUR ne semble pas\ndisponible pour l'instant…\p");
 ALIGNED(4) static const u8 sText_CantTransmitTrainerTooFar[] = _("Tu ne peux pas communiquer avec un DRESSEUR\ntrop éloigné.\p");
 ALIGNED(4) static const u8 sText_TrainersNotReadyYet[] = _("L'autre DRESSEUR n'est pas\nencore prêt.\p");
@@ -111,9 +111,9 @@ static const u8 *const sPlayerUnavailableTexts[] = {
 };
 
 ALIGNED(4) static const u8 sText_TrainerAppearsUnavailable[] = _("L'autre DRESSEUR semble\nindisponible…\p");
-ALIGNED(4) static const u8 sText_PlayerSentBackOK[] = _("{STR_VAR_1} a répondu « OK » !");
+ALIGNED(4) static const u8 sText_PlayerSentBackOK[] = _("{STR_VAR_1} a répondu “OK” !");
 ALIGNED(4) static const u8 sText_PlayerOKdRegistration[] = _("{STR_VAR_1} a accepté ton inscription\nen tant que membre.");
-ALIGNED(4) static const u8 sText_PlayerRepliedNo[] = _("{STR_VAR_1} a répondu « Non… »\p");
+ALIGNED(4) static const u8 sText_PlayerRepliedNo[] = _("{STR_VAR_1} a répondu “Non…”\p");
 ALIGNED(4) static const u8 sText_AwaitingOtherMembers[] = _("{STR_VAR_1} !\nEn attente des autres membres !");
 ALIGNED(4) static const u8 sText_QuitBeingMember[] = _("Quitter le groupe ?");
 ALIGNED(4) static const u8 sText_StoppedBeingMember[] = _("Tu n'es plus membre.\p");
@@ -134,7 +134,7 @@ static const u8 *const sPlayerDisconnectedTexts[] = {
 ALIGNED(4) static const u8 sText_WirelessLinkEstablished[] = _("La liaison du SYSTÈME DE\nCOMMUNICATION SANS FIL est établie.");
 ALIGNED(4) static const u8 sText_WirelessLinkDropped[] = _("La liaison du SYSTÈME de\nCOMMUNICATION SANS FIL a été coupée…");
 ALIGNED(4) static const u8 sText_LinkWithFriendDropped[] = _("La connexion avec ton ami a été\ninterrompue…");
-ALIGNED(4) static const u8 sText_PlayerRepliedNo2[] = _("{STR_VAR_1} a répondu : « Non… »");
+ALIGNED(4) static const u8 sText_PlayerRepliedNo2[] = _("{STR_VAR_1} a répondu : “Non…”");
 
 static const u8 *const sLinkDroppedTexts[] = {
     [RFU_STATUS_OK]                  = NULL,
@@ -223,8 +223,8 @@ static const u8 *const sAwaitingResponseTexts[] = {
 ALIGNED(4) static const u8 sText_ShowTrainerCard[] = _("L'autre DRESSEUR t'a montré\nsa CARTE DE DRESSEUR.\pTu veux montrer ta\nCARTE DE DRESSEUR ?");
 ALIGNED(4) static const u8 sText_BattleChallenge[] = _("L'autre DRESSEUR te défie\nen combat.\pAcceptes-tu le défi\nde combat ?");
 ALIGNED(4) static const u8 sText_ChatInvitation[] = _("L'autre DRESSEUR t'invite\nà discuter.\pAcceptes-tu l'invitation\nà discuter ?");
-ALIGNED(4) static const u8 sText_OfferToTradeMon[] = _("Une offre d'échange de ton\n{DYNAMIC 1} N. {DYNAMIC 0} enregistré\pen contrepartie d'un\n{DYNAMIC 3} N. {DYNAMIC 2}.\pAcceptes-tu cette offre\nd'échange ?");
-ALIGNED(4) static const u8 sText_OfferToTradeEgg[] = _("Il y a une offre d'échange pour ton\nŒUF enregistré.\lAcceptes-tu cette offre d'échange ?");
+ALIGNED(4) static const u8 sText_OfferToTradeMon[] = _("Une offre d'échange de ton\n{DYNAMIC 0} N. {DYNAMIC 1} enregistré\pen contrepartie d'un\n{DYNAMIC 2} N. {DYNAMIC 3}.\pAcceptes-tu cette offre\nd'échange ?");
+ALIGNED(4) static const u8 sText_OfferToTradeEgg[] = _("Il y a une offre d'échange pour ton\nOEUF enregistré.\lAcceptes-tu cette offre d'échange ?");
 ALIGNED(4) static const u8 sText_ChatDropped[] = _("Le chat a été interrompu.\p");
 ALIGNED(4) static const u8 sText_OfferDeclined1[] = _("Tu as refusé l'offre.\p");
 ALIGNED(4) static const u8 sText_OfferDeclined2[] = _("Tu as refusé l'offre.\p");
@@ -256,7 +256,7 @@ static const u8 *const sJoinChatTexts[][GENDER_COUNT] = {
 ALIGNED(4) static const u8 sText_TrainerAppearsBusy[] = _("……\nLe DRESSEUR semble occupé…\p");
 ALIGNED(4) static const u8 sText_WaitForBattleMale[] = _("Un combat, hein ?\nD'accord, donne-moi un peu de temps.");
 ALIGNED(4) static const u8 sText_WaitForChatMale[] = _("Tu veux discuter, hein ?\nD'accord, attends un peu.");
-ALIGNED(4) static const u8 sText_ShowTrainerCardMale[] = _("Bien sûr ! En guise de « Salutations »,\nvoici ma CARTE de DRESSEUR.");
+ALIGNED(4) static const u8 sText_ShowTrainerCardMale[] = _("Bien sûr ! En guise de “Salutations”,\nvoici ma CARTE de DRESSEUR.");
 ALIGNED(4) static const u8 sText_WaitForBattleFemale[] = _("Un combat ? Bien sûr, mais j'ai besoin\nde temps pour me préparer.");
 ALIGNED(4) static const u8 sText_WaitForChatFemale[] = _("Tu voulais discuter ?\nD'accord, mais patiente un moment.");
 ALIGNED(4) static const u8 sText_ShowTrainerCardFemale[] = _("Pour me présenter, je vais te montrer\nma CARTE DRESSEUR.");
@@ -453,8 +453,8 @@ ALIGNED(4) static const u8 sText_WhichMonWillYouOffer[] = _("Quel POKéMON de to
 ALIGNED(4) static const u8 sText_RegistrationCanceled[] = _("L'enregistrement a été annulé.\p");
 ALIGNED(4) static const u8 sText_RegistraionCompleted[] = _("L'enregistrement est terminé.\p");
 ALIGNED(4) static const u8 sText_TradeCanceled[] = _("L'échange a été annulé.\p");
-ALIGNED(4) static const u8 sText_CancelRegistrationOfMon[] = _("Annuler l'enregistrement de ton\n{STR_VAR_1} N. {STR_VAR_2} ?");
-ALIGNED(4) static const u8 sText_CancelRegistrationOfEgg[] = _("Annuler l'enregistrement\nde ton ŒUF ?");
+ALIGNED(4) static const u8 sText_CancelRegistrationOfMon[] = _("Annuler l'enregistrement de ton\n{STR_VAR_2} N. {STR_VAR_1} ?");
+ALIGNED(4) static const u8 sText_CancelRegistrationOfEgg[] = _("Annuler l'enregistrement\nde ton OEUF ?");
 ALIGNED(4) static const u8 sText_RegistrationCanceled2[] = _("L'enregistrement a été annulé.\p");
 ALIGNED(4) static const u8 sText_TradeTrainersWillBeListed[] = _("Les DRESSEURS souhaitant échanger\nseront listés."); // unused
 ALIGNED(4) static const u8 sText_ChooseTrainerToTradeWith2[] = _("Choisis le DRESSEUR avec qui tu\nveux échanger des POKéMON."); // unused
@@ -462,7 +462,7 @@ ALIGNED(4) static const u8 sText_AskTrainerToMakeTrade[] = _("Veux-tu demander �
 ALIGNED(4) static const u8 sText_AwaitingResponseFromTrainer2[] = _("En attente d'une réponse\ndu DRESSEUR…"); // unused
 ALIGNED(4) static const u8 sText_NotRegisteredAMonForTrade[] = _("Tu n'as pas inscrit de POKéMON\npour l'échange.\p"); // unused
 ALIGNED(4) static const u8 sText_DontHaveTypeTrainerWants[] = _("Tu n'as pas de POKéMON de type {STR_VAR_2}\nque {STR_VAR_1} veut.\p");
-ALIGNED(4) static const u8 sText_DontHaveEggTrainerWants[] = _("Tu n'as pas d'ŒUF que\n{STR_VAR_1} veut.\p");
+ALIGNED(4) static const u8 sText_DontHaveEggTrainerWants[] = _("Tu n'as pas d'OEUF que\n{STR_VAR_1} veut.\p");
 ALIGNED(4) static const u8 sText_PlayerCantTradeForYourMon[] = _("{STR_VAR_1} ne peut pas échanger\nton POKéMON pour l'instant.\p");
 ALIGNED(4) static const u8 sText_CantTradeForPartnersMon[] = _("Tu ne peux pas échanger le POKéMON\nde {STR_VAR_1} pour l'instant.\p");
 
@@ -473,7 +473,7 @@ static const u8 *const sCantTradeMonTexts[] = {
 };
 
 ALIGNED(4) static const u8 sText_TradeOfferRejected[] = _("Ton offre d'échange a été refusée.\p");
-ALIGNED(4) static const u8 sText_EggTrade[] = _("ÉCHANGE D'ŒUFS");
+ALIGNED(4) static const u8 sText_EggTrade[] = _("ÉCHANGE D'OEUFS");
 ALIGNED(4) static const u8 sText_ChooseJoinCancel[] = _("{DPAD_UPDOWN}CHOISIR  {A_BUTTON}REJOINDRE  {B_BUTTON}ANNULER");
 ALIGNED(4) static const u8 sText_ChooseTrainer[] = _("Choisis un DRESSEUR, s'il te plaît.");
 ALIGNED(4) static const u8 sText_ChooseTrainerSingleBattle[] = _("Choisis un DRESSEUR pour\nun COMBAT SIMPLE.");
@@ -577,8 +577,8 @@ static const u8 *const sCardColorTexts[] = {
     sText_ItsGoldCard
 };
 
-ALIGNED(4) static const u8 sText_TrainerCardInfoPage1[] = _("C'est la CARTE DRESSEUR\nde {DYNAMIC 0} {DYNAMIC\l1}… {DYNAMIC 2}\pPOKéDEX : {DYNAMIC\n3} TEMPS :\p{DYNAMIC 4}:{DYNAMIC 5}");
-ALIGNED(4) static const u8 sText_TrainerCardInfoPage2[] = _("COMBATS : VICTOIRES : {DYNAMIC 0}  DÉFAITES : {DYNAMIC 2}\nÉCHANGES : {DYNAMIC 3}\p« {DYNAMIC 4} {DYNAMIC 5}\n{DYNAMIC 6} {DYNAMIC 7} »\p");
+ALIGNED(4) static const u8 sText_TrainerCardInfoPage1[] = _("This is {DYNAMIC 0} {DYNAMIC 1}'s\nTRAINER CARD…\l{DYNAMIC 2}\pPOKéDEX: {DYNAMIC 3}\nTIME:    {DYNAMIC 4}:{DYNAMIC 5}\p");
+ALIGNED(4) static const u8 sText_TrainerCardInfoPage2[] = _("COMBATS : VICTOIRES : {DYNAMIC 0}  DÉFAITES : {DYNAMIC 2}\nÉCHANGES : {DYNAMIC 3}\p“{DYNAMIC 4} {DYNAMIC 5}\n{DYNAMIC 6} {DYNAMIC 7}”\p");
 ALIGNED(4) static const u8 sText_GladToMeetYouMale[] = _("{DYNAMIC 1} : Ravi de t'avoir rencontré !{PAUSE 60}");
 ALIGNED(4) static const u8 sText_GladToMeetYouFemale[] = _("{DYNAMIC 1} : Enchanté de te rencontrer !{PAUSE 60}");
 

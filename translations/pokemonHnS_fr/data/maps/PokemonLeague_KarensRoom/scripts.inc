@@ -52,18 +52,18 @@ PokemonLeague_KarensRoom_EventScript_KarenDefeated::
 	end
 
 PokemonLeague_KarensRoom_Text_RematchBefore:
-    .string "ALICE : Ah,\p"
-    .string "c'est encore toi.\n"
-    .string "J'espère que tu\p"
-    .string "n'as pas oublié\n"
-    .string "ma conviction :\p"
-    .string "La vraie\n"
-    .string "force naît\l"
-    .string "de la confiance\p"
-    .string "en ses POKéMON.\n"
-    .string "Montre-moi cette\p"
-    .string "confiance,\n"
-    .string "{PLAYER} !$"
+    .string "KAREN: Ah, it's you again.\p"
+    .string "I trust you haven't forgotten\n"
+    .string "my belief:\p"
+    .string "True strength arises from trust\n"
+    .string "in one's POKéMON.\p"
+    .string "Since our last encounter, my\n"
+    .string "bond with my POKéMON has\l"
+    .string "deepened further.\p"
+    .string "Are you ready to face a team\n"
+    .string "united by an unbreakable bond?\p"
+    .string "Show me the power of the bond\n"
+    .string "with your POKéMON.$"
 
 PokemonLeague_KarensRoom_Text_Before:
     .string "Je suis MELINE du CONSEIL\p"

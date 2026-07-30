@@ -1085,8 +1085,8 @@ MauvilleCity_GameCorner_Text_UpTo3CoinsCanBeUsed:
 
 MauvilleCity_GameCorner_Text_DifficultToStopOn7:
 	.string "C'est très difficile de faire s'arrêter\n"
-	.string "exactement sur « 7 ».\p"
-	.string "S'il s'arrête sur « 7 » pendant le bonus\n"
+	.string "exactement sur “7”.\p"
+	.string "S'il s'arrête sur “7” pendant le bonus\n"
 	.string "TEMPS BOBINE, tu recevras des JETONS en plus.$"
 
 MauvilleCity_GameCorner_Text_HeresSomeSlotsInfo:

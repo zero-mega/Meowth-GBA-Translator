@@ -162,12 +162,12 @@ MrPokemonHouse_Text_Intro2:
 	.string "PROF.ORME examine.$"
 
 MrPokemonHouse_Text_GotEgg:
-	.string "{PLAYER} a reçu l'ŒUF MYSTÈRE.$"
+	.string "{PLAYER} a reçu l'OEUF MYSTÈRE.$"
 
 MrPokemonHouse_Text_Intro3:
 	.string "Je connais un couple qui tient\n"
 	.string "une PENSION POKéMON.\p"
-	.string "Ils m'ont donné cet ŒUF.\p"
+	.string "Ils m'ont donné cet OEUF.\p"
 	.string "J'étais intrigué, alors j'ai envoyé\n"
 	.string "un courrier au PROF.ORME.\p"
 	.string "Pour l'évolution des POKéMON,\n"

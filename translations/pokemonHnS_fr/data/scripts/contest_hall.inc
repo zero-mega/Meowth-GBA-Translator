@@ -1464,7 +1464,7 @@ LilycoveCity_ContestLobby_Text_MonNotQualifiedForRank:
 	.string "rang…$"
 
 LilycoveCity_ContestLobby_Text_EggCannotTakePart:
-	.string "Je suis désolé, mais un ŒUF ne peut pas participer\n"
+	.string "Je suis désolé, mais un OEUF ne peut pas participer\n"
 	.string "à un CONCOURS POKéMON.$"
 
 LilycoveCity_ContestLobby_Text_MonInNoConditionForContest:
@@ -1484,7 +1484,7 @@ LilycoveCity_ContestLobby_Text_ConfirmContestMon:
 LilycoveCity_ContestLobby_Text_YourMonIsEntryNum4:
 	.string "OK, ton POKéMON sera inscrit\n"
 	.string "à ce CONCOURS. Ton POKéMON\p"
-	.string "est le N° 4.\n"
+	.string "est le N  4.\n"
 	.string "Le CONCOURS commence bientôt.$"
 
 LilycoveCity_ContestLobby_Text_ComeThroughHere:
@@ -1516,8 +1516,8 @@ ContestHall_Text_GettingStartedParticipantsAsFollowsLink:
 	.string "POKéMON sont les suivants :$"
 
 ContestHall_Text_EntryXTrainersMon:
-	.string "MC : Entrée n° {STR_VAR_2} !\n"
-	.string "{STR_VAR_3} de {STR_VAR_1} !$"
+	.string "MC : Entrée n  {STR_VAR_2} !\n"
+	.string "{STR_VAR_1} de {STR_VAR_3} !$"
 
 ContestHall_Text_SeenContestantsAudienceWillVote:
 	.string "MC : On vient\n"
@@ -1660,7 +1660,7 @@ LilycoveCity_ContestLobby_Text_TransmissionErrorTryAgain:
 LilycoveCity_ContestLobby_Text_YourMonIsEntryNumX:
 	.string "Ton POKéMON sera inscrit au\n"
 	.string "CONCOURS.\p"
-	.string "Ton POKéMON est le N° {STR_VAR_2}.$"
+	.string "Ton POKéMON est le N  {STR_VAR_2}.$"
 
 LilycoveCity_ContestLobby_Text_ContestBeginShortly:
 	.string "Le CONCOURS va bientôt commencer.$"
@@ -1685,7 +1685,7 @@ LilycoveCity_ContestLobby_Text_MonInNoCondition2:
 	.string "de participer à un CONCOURS…$"
 
 LilycoveCity_ContestLobby_Text_EggCannotTakePart2:
-	.string "Je suis désolé, mais un ŒUF ne peut pas participer\n"
+	.string "Je suis désolé, mais un OEUF ne peut pas participer\n"
 	.string "à un CONCOURS POKéMON.$"
 
 LilycoveCity_ContestLobby_Text_EnterWhichPokemon3:
@@ -1695,7 +1695,7 @@ LilycoveCity_ContestLobby_Text_PleaseDecideLinkLeader:
 	.string "Décidez qui parmi vous sera\n"
 	.string "le CHEF DE GROUPE.\p"
 	.string "Les autres joueurs doivent ensuite\n"
-	.string "choisir « REJOINDRE LE GROUPE ».$"
+	.string "choisir “REJOINDRE LE GROUPE”.$"
 
 LilycoveCity_ContestLobby_Text_PlayerAt4PCounterUseGMode:
 	.string "Au moins un joueur est entré via\n"

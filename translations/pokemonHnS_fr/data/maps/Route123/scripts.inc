@@ -193,7 +193,7 @@ Route123_Text_RouteSign:
 
 Route123_Text_RouteSignMtPyre:
 	.string "{UP_ARROW} MONT PYRE\n"
-	.string "« Interdit aux âmes sensibles. »$"
+	.string "“Interdit aux âmes sensibles.”$"
 
 Route123_Text_BerryMastersHouse:
 	.string "MAISON DU MAÎTRE BAIE$"

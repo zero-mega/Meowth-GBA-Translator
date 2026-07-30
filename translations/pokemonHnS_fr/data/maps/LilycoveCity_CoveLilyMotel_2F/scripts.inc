@@ -103,7 +103,7 @@ LilycoveCity_CoveLilyMotel_2F_Text_GirlsAreCute:
 	.string "Ouah, c'est trop amusant !$"
 
 LilycoveCity_CoveLilyMotel_2F_Text_SeaBreezeTicklesHeart:
-	.string "La brise marine me chatouille le cœur.\n"
+	.string "La brise marine me chatouille le coeur.\n"
 	.string "On se sent bien ici !$"
 
 LilycoveCity_CoveLilyMotel_2F_Text_NeverLeaveWithoutGameBoy:
@@ -113,20 +113,20 @@ LilycoveCity_CoveLilyMotel_2F_Text_NeverLeaveWithoutGameBoy:
 	.string "maison sans ma GAME BOY ADVANCE.$"
 
 LilycoveCity_CoveLilyMotel_2F_Text_SnoozingPreferBattles:
-	.string "Pour un dur à cuire comme moi,\n"
-	.string "les POKéMON robustes sont les meilleurs.\p"
-	.string "L'attaque est la meilleure défense !\n"
-	.string "Une attaque implacable est l'ultime !\p"
-	.string "Mais ce n'est pas de ça\n"
-	.string "que je voulais parler.\p"
-	.string "De temps en temps, une jolie demoiselle\n"
-	.string "passe par ici.\p"
-	.string "Elle dit qu'elle peut lire dans les pensées\n"
-	.string "des POKéMON.\p"
-	.string "Je ne sais pas pour ça,\p"
-	.string "mais elle est vraiment mignonne.\n"
-	.string "Hein ?\l"
-	.string "Pourquoi tu me regardes comme ça ?$"
+	.string "SCOTT: … … … … …\n"
+	.string "… … … … … Zzz…\p"
+	.string "… … … … … Huh?!\n"
+	.string "Oh, sorry, sorry! I was snoozing!\p"
+	.string "I came to check out this POKéMON\n"
+	.string "CONTEST thing.\p"
+	.string "I have to admit, it does look quite\n"
+	.string "entertaining, but…\p"
+	.string "Consider me a purist--I prefer\n"
+	.string "battles and tough TRAINERS.\p"
+	.string "But that's just me.\p"
+	.string "{PLAYER}{KUN}, I hope you'll enjoy everything\n"
+	.string "like the GYMS, CONTESTS, BATTLE TENT,\l"
+	.string "the whole works!$"
 
 LilycoveCity_CoveLilyMotel_2F_Text_ContestsDoTakeStrategy:
 	.string "SCOTT : Je pense qu'il faut de la stratégie\n"

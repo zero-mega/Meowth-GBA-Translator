@@ -44,8 +44,8 @@ Route110_TrickHousePuzzle6_EventScript_Sebastian::
 
 Route110_TrickHousePuzzle6_Text_WroteSecretCodeLockOpened:
 	.string "{PLAYER} a écrit le code secret sur\n"
-	.string "la porte. « Le MAÎTRE DES\p"
-	.string "PIÈGES est ma vie. » …\n"
+	.string "la porte. “Le MAÎTRE DES\p"
+	.string "PIÈGES est ma vie.” …\n"
 	.string "… … … … … …\p"
 	.string "… Le verrou s'est ouvert !$"
 

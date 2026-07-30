@@ -654,7 +654,7 @@ Route111_Text_RouteSignMauville:
 	.string "{DOWN_ARROW} MAUVILLE$"
 
 Route111_Text_WinstrateHouseSign:
-	.string "« Nos cœurs battent à l'unisson ! »\n"
+	.string "“Nos coeurs battent à l'unisson !”\n"
 	.string "MAISON DES GAINSTRATE$"
 
 Route111_Text_RouteSign112:
@@ -667,15 +667,15 @@ Route111_Text_RouteSign113:
 
 Route111_Text_OldLadysRestStopSign:
 	.string "RELAIS DE LA VIEILLE DAME\n"
-	.string "« Entrez et reposez vos pauvres os. »$"
+	.string "“Entrez et reposez vos pauvres os.”$"
 
 Route111_Text_TrainerTipsSpAtkSpDef:
 	.string "CONSEILS AUX DRESSEURS\p"
 	.string "L'un des indicateurs de la puissance\n"
 	.string "d'un POKéMON est l'ATQ. SPÉ. Cela signifie\l"
-	.string "« ATTAQUE SPÉCIALE ».\p"
-	.string "De même, la DÉF. SPÉ. signifie « DÉFENSE\n"
-	.string "SPÉCIALE ».$"
+	.string "“ATTAQUE SPÉCIALE”.\p"
+	.string "De même, la DÉF. SPÉ. signifie “DÉFENSE\n"
+	.string "SPÉCIALE”.$"
 
 Route111_Text_ShouldBeMirageTowerAroundHere:
 	.string "Il devrait y avoir une tour de sable\n"
@@ -726,6 +726,6 @@ Route111_Text_MauvilleUncleToldMeToTakeRockSmash:
 
 Route111_Text_TrainerHillSign:
 	.string "{RIGHT_ARROW} ENTRÉE DU MONT DRESSEUR\p"
-	.string "« Gravissez les sommets, DRESSEURS\n"
-	.string "au sang chaud ! »$"
+	.string "“Gravissez les sommets, DRESSEURS\n"
+	.string "au sang chaud !”$"
 

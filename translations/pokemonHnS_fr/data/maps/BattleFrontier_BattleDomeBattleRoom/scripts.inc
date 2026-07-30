@@ -1041,12 +1041,12 @@ BattleFrontier_BattleDomeBattleRoom_Text_FeelGlowOfTrueMaster:
 	.string "Ressens la lueur d'un vrai maître !$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_MakeWayForDomeAceTucker:
-	.string "Et maintenant… Le DRESSEUR qui se dresse sur le chemin\n"
-	.string "du record de {PLAYER}…\p"
-	.string "Oui ! Celui qui a battu {STR_VAR_1} fois d'affilée\n"
-	.string "au {STR_VAR_2} !\l"
-	.string "C'est {STR_VAR_3} !\l"
-	.string "Quel suspense !$"
+	.string "And now… The TRAINER standing in\n"
+	.string "{PLAYER}'s record-setting path…\p"
+	.string "Yes! The one and only!\n"
+	.string "The BATTLE DOME COMMISSIONER!\l"
+	.string "Our very own DOME ACE!\l"
+	.string "Make way for TUCKER!$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_SpectatorTuckerChant:
 	.string "Spectateurs : TUCKER ! TUCKER !\n"
@@ -1104,16 +1104,16 @@ BattleFrontier_BattleDomeBattleRoom_Text_LegendHasReturnedDomeAceTucker:
 	.string "Ce n'est autre que TUCKER !$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_TuckerGoldIntro:
-	.string "TUCKER : Ah…\n"
-	.string "Le rugissement\l"
-	.string "étourdissant de la foule…\l"
-	.string "Leur chaleur de\p"
-	.string "fournaise d'excitation…\n"
-	.string "C'est un endroit\l"
-	.string "merveilleux…\p"
-	.string "Pour les combats passionnés !\n"
-	.string "{PLAYER}{KUN}, montre-moi\l"
-	.string "ta puissance !$"
+	.string "TUCKER: Ah…\n"
+	.string "The pummeling roar of the crowd…\l"
+	.string "Their furnace-like heat of excitement…\l"
+	.string "This is a wonderful place…\p"
+	.string "To the crowd, I am the DOME ACE…\n"
+	.string "I represent their hopes and dreams…\l"
+	.string "I must never fade from their sight…\p"
+	.string "I must burn!\n"
+	.string "Brighter and more brilliant!\l"
+	.string "I must light all that gather here!$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_UnleashAllPowerIPossess:
 	.string "Je vais libérer toute la puissance\n"

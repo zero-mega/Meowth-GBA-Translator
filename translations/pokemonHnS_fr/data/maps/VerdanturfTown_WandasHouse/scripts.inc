@@ -119,7 +119,7 @@ VerdanturfTown_WandasHouse_Text_WallyGoneThatFar:
 	.string "ONCLE : C'est vrai ?\n"
 	.string "TIMMY est parti si loin\l"
 	.string "tout seul…\p"
-	.string "Eh bien, il faut le reconnaître — c'est\n"
+	.string "Eh bien, il faut le reconnaître - c'est\n"
 	.string "le fils de mon petit frère.$"
 
 VerdanturfTown_WandasHouse_Text_MeetWanda:

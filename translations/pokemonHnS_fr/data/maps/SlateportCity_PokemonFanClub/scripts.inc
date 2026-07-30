@@ -285,7 +285,7 @@ SlateportCity_PokemonFanClub_Text_AllowMeToExamineYourPokemon:
 	.string "élevés avec les bons soins…\p"
 	.string "Les yeux bienveillants du DRESSEUR qui\n"
 	.string "a nourri et élevé le POKéMON…\p"
-	.string "La simple pensée remplit mon cœur\n"
+	.string "La simple pensée remplit mon coeur\n"
 	.string "d'une joie débordante.\p"
 	.string "Oh ! Je vous demande pardon !\n"
 	.string "Pardonnez-moi de bavarder ainsi !\p"

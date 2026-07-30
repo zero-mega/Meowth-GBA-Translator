@@ -7,20 +7,20 @@ gText_LinkStandby4::
 	.string "En attente de lien !$"
 
 gText_WinnerIsPlayersMonCongrats::
-	.string "Le gagnant est {STR_VAR_2} de {STR_VAR_1} !\n"
+	.string "Le gagnant est {STR_VAR_1} de {STR_VAR_2} !\n"
 	.string "Félicitations !$"
 
 gText_WinnerIsPlayersMon::
-	.string "Le gagnant est {STR_VAR_2} de {STR_VAR_1} !{PAUSE_UNTIL_PRESS}$"
+	.string "Le gagnant est {STR_VAR_1} de {STR_VAR_2} !{PAUSE_UNTIL_PRESS}$"
 
 gText_PrimaryJudgingNumX::
-	.string "Jugement principal : N° {STR_VAR_1}{PAUSE_UNTIL_PRESS}$"
+	.string "Jugement principal : N  {STR_VAR_1}{PAUSE_UNTIL_PRESS}$"
 
 gText_SecondaryJudgingNumX::
-	.string "Jugement secondaire : N° {STR_VAR_1}{PAUSE_UNTIL_PRESS}$"
+	.string "Jugement secondaire : N  {STR_VAR_1}{PAUSE_UNTIL_PRESS}$"
 
 gText_SetEventNumX::
-	.string "Événement défini : N° {STR_VAR_1}{PAUSE_UNTIL_PRESS}$"
+	.string "Événement défini : N  {STR_VAR_1}{PAUSE_UNTIL_PRESS}$"
 
 gText_MoveUsedMostOften::
 	.string "La capacité la plus utilisée :\n"
@@ -28,10 +28,10 @@ gText_MoveUsedMostOften::
 
 gText_MostImpressiveMon::
 	.string "Le POKéMON le plus impressionnant :\n"
-	.string "{STR_VAR_2} de {STR_VAR_1}{PAUSE_UNTIL_PRESS}$"
+	.string "{STR_VAR_1} de {STR_VAR_2}{PAUSE_UNTIL_PRESS}$"
 
 gText_SetEventNumX2::
-	.string "Événement défini : N° {STR_VAR_1}{PAUSE_UNTIL_PRESS}$"
+	.string "Événement défini : N  {STR_VAR_1}{PAUSE_UNTIL_PRESS}$"
 
 gText_LinkTVProgramWillNotBeMadeTrainerLost::
 	.string "Une émission TV en liaison ne sera pas réalisée\n"

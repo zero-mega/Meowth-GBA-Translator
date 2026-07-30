@@ -134,12 +134,12 @@ Route112_Text_NotEasyToGetBackToLavaridge:
 
 Route112_Text_MtChimneyCableCarSign:
 	.string "TÉLÉPHÉRIQUE DU MONT CHIMNÉE\n"
-	.string "« Une courte marche par {UP_ARROW} ! »$"
+	.string "“Une courte marche par {UP_ARROW} !”$"
 
 Route112_Text_MtChimneySign:
 	.string "MONT CHIMNÉE\p"
-	.string "« Pour LAVARIA ou le sommet,\n"
-	.string "prenez le TÉLÉPHÉRIQUE. »$"
+	.string "“Pour LAVARIA ou le sommet,\n"
+	.string "prenez le TÉLÉPHÉRIQUE.”$"
 
 Route112_Text_RouteSignLavaridge:
 	.string "ROUTE 112\n"

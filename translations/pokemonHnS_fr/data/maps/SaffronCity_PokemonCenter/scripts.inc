@@ -45,5 +45,5 @@ SaffronCity_PokemonCenter1F_Text_Fisher_ReturnedPart:
 
 SaffronCity_PokemonCenter1F_Text_Youngster:
 	.string "Le siège de la SYLPHE SARL et la\n"
-	.string "GARE MAGNET — ce sont\l"
+	.string "GARE MAGNET - ce sont\l"
 	.string "les endroits à voir à SAFRANIA.$"

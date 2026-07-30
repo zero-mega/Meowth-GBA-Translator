@@ -6,7 +6,7 @@ gText_Birch_Welcome::
 	.string "POKéMON.\p$"
 
 gText_Birch_Pokemon::
-	.string "Voici ce qu'on appelle un « POKéMON ».\p"
+	.string "Voici ce qu'on appelle un “POKéMON”.\p"
 	.string "\n$"
 
 gText_Birch_MainSpeech::

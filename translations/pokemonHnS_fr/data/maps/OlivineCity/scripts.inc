@@ -289,7 +289,7 @@ OlivineCity_Text_Sailor1:
 	.string "aucun navire ne peut naviguer.$"
 
 OlivineCity_Text_YoungsterPokegear:
-	.string "Ce truc que tu as—\n"
+	.string "Ce truc que tu as-\n"
 	.string "c'est un POKéKÉA, non ?\l"
 	.string "Waouh, c'est cool.$"
 

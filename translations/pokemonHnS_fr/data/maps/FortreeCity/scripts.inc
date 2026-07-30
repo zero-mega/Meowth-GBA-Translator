@@ -145,11 +145,11 @@ FortreeCity_Text_UsedDevonScopePokemonFled:
 
 FortreeCity_Text_CitySign:
 	.string "FORTREE\n"
-	.string "« La cité perchée qui s'ébroue avec\l"
-	.string "la nature. »$"
+	.string "“La cité perchée qui s'ébroue avec\l"
+	.string "la nature.”$"
 
 FortreeCity_Text_GymSign:
 	.string "ARÈNE POKéMON DE FORGEFRAISE\n"
 	.string "CHAMPION D'ARÈNE : ALIZÉE\p"
-	.string "« La maîtresse des oiseaux prenant son envol\n"
-	.string "vers le monde. »$"
+	.string "“La maîtresse des oiseaux prenant son envol\n"
+	.string "vers le monde.”$"

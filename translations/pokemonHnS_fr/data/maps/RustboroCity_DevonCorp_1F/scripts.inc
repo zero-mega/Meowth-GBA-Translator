@@ -125,13 +125,13 @@ RustboroCity_DevonCorp_1F_Text_RocksMetalDisplay:
 	.string "exposés dans la vitrine.\n"
 	.string "Il y a un panneau\p"
 	.string "avec une inscription…\n"
-	.string "« DEVON S.A. a commencé comme\p"
+	.string "“DEVON S.A. a commencé comme\p"
 	.string "producteur de pierres de carrières.\n"
-	.string "« L'entreprise fabrique aussi des\p"
+	.string "“L'entreprise fabrique aussi des\p"
 	.string "BALLS en métal.\n"
-	.string "« DEVON est aujourd'hui\p"
+	.string "“DEVON est aujourd'hui\p"
 	.string "une entreprise\n"
-	.string "technologique de premier plan. »$"
+	.string "technologique de premier plan.”$"
 
 RustboroCity_DevonCorp_1F_Text_ProductDisplay:
 	.string "Des prototypes et produits\n"
@@ -139,8 +139,8 @@ RustboroCity_DevonCorp_1F_Text_ProductDisplay:
 	.string "la vitrine en verre.\p"
 	.string "Il y a un panneau\n"
 	.string "avec une description…\l"
-	.string "« En plus des BALLS industrielles,\p"
+	.string "“En plus des BALLS industrielles,\p"
 	.string "DEVON S.A. développe\n"
 	.string "divers produits\l"
-	.string "technologiques pour les dresseurs. »$"
+	.string "technologiques pour les dresseurs.”$"
 

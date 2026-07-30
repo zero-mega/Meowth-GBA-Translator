@@ -435,7 +435,7 @@ OldaleTown_Text_BrendanLetsGoBack:
 
 OldaleTown_Text_TownSign:
 	.string "OLDALE\n"
-	.string "« Là où tout commence à peine. »$"
+	.string "“Là où tout commence à peine.”$"
 
 OldaleTown_Text_InfiniteItems1:
 	.string "Hé ! J'ai eu de super objets d'un\n"

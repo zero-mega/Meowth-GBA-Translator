@@ -489,7 +489,7 @@ BattleFrontier_BattleDomeLobby_Text_NotEnoughValidMonsLvOpen:
 	.string "Vous n'avez pas trois POKéMON éligibles.\p"
 	.string "De plus, les POKéMON doivent tenir\n"
 	.string "des objets de types différents.\p"
-	.string "Les ŒUFS{STR_VAR_1} inéligibles.\p"
+	.string "Les OEUFS{STR_VAR_1} inéligibles.\p"
 	.string "Revenez me voir quand vous serez prêts.$"
 
 BattleFrontier_BattleDomeLobby_Text_NotEnoughValidMonsLv50:
@@ -497,7 +497,7 @@ BattleFrontier_BattleDomeLobby_Text_NotEnoughValidMonsLv50:
 	.string "POKéMON admissibles. Il vous faut\p"
 	.string "trois POKéMON différents. Ils doivent\p"
 	.string "aussi tenir des objets de\n"
-	.string "types différents. Les ŒUFS{STR_VAR_1} ne\p"
+	.string "types différents. Les OEUFS{STR_VAR_1} ne\p"
 	.string "sont pas admis. Revenez me\p"
 	.string "voir quand vous serez prêts.$"
 
@@ -669,7 +669,7 @@ BattleFrontier_BattleDomeLobby_Text_ExplainMatchupRules:
 BattleFrontier_BattleDomeLobby_Text_ExplainTourneyTree:
 	.string "Le tableau du tournoi,\n"
 	.string "ou comme on l'appelle,\l"
-	.string "l'« Arbre », est disponible\p"
+	.string "l'“Arbre”, est disponible\p"
 	.string "pour consultation\n"
 	.string "dans la Salle d'Attente auprès\p"
 	.string "de n'importe quel guide.\n"

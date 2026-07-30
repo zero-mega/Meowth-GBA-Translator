@@ -420,7 +420,7 @@ EcruteakCity_Theater_Text_SurfGuyGiveSurf:
 	.string "courageux pour ton âge !\p"
 	.string "C'était rare à voir !\n"
 	.string "Je veux que tu aies ça.\p"
-	.string "Ne sois pas timide — prends-le !$"
+	.string "Ne sois pas timide - prends-le !$"
 
 EcruteakCity_Theater_Text_SurfGuyGaveSurf:
 	.string "C'est SURF.\n"
@@ -481,7 +481,7 @@ EcruteakCity_Theater_Text_GrampsBefore:
 
 EcruteakCity_Theater_Text_Girl:
 	.string "Les FILLES KIMONO sont mes grandes\n"
-	.string "sœurs ! Je serai comme elles un\l"
+	.string "soeurs ! Je serai comme elles un\l"
 	.string "jour !$"
 
 EcruteakCity_Theater_Text_GirlBefore:
@@ -978,9 +978,9 @@ EcruteakCity_Theater_Text_ZukiSeen:
 	.string "avec les POKéMON.\l"
 	.string "Nous avons demandé à M.\p"
 	.string "POKéMON de donner cet\n"
-	.string "ŒUF MYSTÈRE à\l"
+	.string "OEUF MYSTÈRE à\l"
 	.string "celui qui montrerait du potentiel.\p"
-	.string "L'ŒUF est passé de M. POKéMON\n"
+	.string "L'OEUF est passé de M. POKéMON\n"
 	.string "au PROF.ORME, puis à toi.\p"
 	.string "Mais être pur seul ne suffit pas\n"
 	.string "pour affronter le pouvoir de ce POKéMON.$"
@@ -1046,13 +1046,13 @@ EcruteakCity_Theater_Text_ZukiDone:
 	.string "Prends-le.$"
 
 EcruteakCity_Theater_Text_GirlHooh:
-	.string "Grandes sœurs ! Je viens de voir la\n"
+	.string "Grandes soeurs ! Je viens de voir la\n"
 	.string "grande ombre d'un POKéMON au-dessus de\l"
 	.string "la TOUR CENDRÉE !\p"
 	.string "Ce pourrait être...$"
 
 EcruteakCity_Theater_Text_GirlLugia:
-	.string "Les grandes sœurs ! J'ai vu l'énorme\n"
+	.string "Les grandes soeurs ! J'ai vu l'énorme\n"
 	.string "ombrage d'un POKéMON dans les eaux\l"
 	.string "des ÎLES TOURBILLON !\p"
 	.string "Ça pourrait être...$"

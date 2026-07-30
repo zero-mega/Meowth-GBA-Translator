@@ -370,18 +370,18 @@ MossdeepCity_Gym_EventScript_RedFloorSwitch::
 	end
 
 MossdeepCity_Gym_Text_GymGuideAdvice:
-	.string "Nnn… Grrr !\n"
-	.string "Qu'est-ce qui se passe ?\p"
-	.string "Je creusais le tunnel sans outils quand\n"
-	.string "un voyou m'a ordonné de sortir !\p"
-	.string "Ce tunnel est rempli de POKéMON\n"
-	.string "qui réagissent mal aux bruits forts.\l"
-	.string "Ils pourraient provoquer un tumulte.\p"
-	.string "C'est pourquoi on a arrêté d'utiliser du\n"
-	.string "gros matériel pour creuser…\p"
-	.string "Je crains que le voyou fasse\n"
-	.string "quelque chose de stupide et effraie les\l"
-	.string "POKéMON en tumulte.$"
+	.string "Yo, how's it going, CHAMPION-bound\n"
+	.string "{PLAYER}?\p"
+	.string "The GYM LEADERS here use\n"
+	.string "PSYCHIC-type POKéMON.\p"
+	.string "If you go up against them with\n"
+	.string "FIGHTING- or POISON-type POKéMON,\l"
+	.string "they'll inflict horrible damage!\p"
+	.string "Plus, they'll come at you with\n"
+	.string "outstanding combination attacks.\p"
+	.string "If you want to win, you'll need to show\n"
+	.string "them how tight you are with your\l"
+	.string "POKéMON. Go for it!$"
 
 MossdeepCity_Gym_Text_GymGuidePostVictory:
 	.string "Waouh, tu es incroyable !\n"
@@ -551,18 +551,18 @@ MossdeepCity_Gym_Text_NicholasPostBattle:
 	.string "une puissance POKéMON invincible spéciale ensuite.$"
 
 MossdeepCity_Gym_Text_TateAndLizaIntro:
-	.string "Oh, salut ! Toi là !\p"
-	.string "Tu pourrais me masser l'épaule ?\p"
-	.string "…Oui, là ! C'est ça !\n"
-	.string "Aïe, aïe ! Oooh, ça fait du bien !\p"
-	.string "Je m'appelle {STR_VAR_1}.\n"
-	.string "Je fais du karaté, mais mon corps\p"
-	.string "n'est pas fait pour encaisser les coups…\n"
-	.string "J'ai décidé de combattre des POKéMON\p"
-	.string "et de me durcir.\n"
-	.string "Tu es {PLAYER}{KUN}, n'est-ce pas ?\p"
-	.string "Le CHAMPION de la LIGUE POKéMON ?\n"
-	.string "Écoute, tu pourrais me donner un conseil ?$"
+	.string "TATE: Hehehe… Were you surprised?\p"
+	.string "LIZA: Fufufu… Were you surprised?\p"
+	.string "TATE: That there are two GYM LEADERS?\n"
+	.string "LIZA: That there are two GYM LEADERS?\p"
+	.string "TATE: We're twins!\n"
+	.string "LIZA: We're twins!\p"
+	.string "TATE: We don't need to talk because…\n"
+	.string "LIZA: We can each determine what…\p"
+	.string "TATE: The other is thinking…\n"
+	.string "LIZA: All in our minds!\p"
+	.string "TATE: This combination of ours…\n"
+	.string "LIZA: Can you beat it?$"
 
 MossdeepCity_Gym_Text_TateAndLizaDefeat:
 	.string "LÉO : Quoi ?! Notre combinaison…\n"
@@ -632,7 +632,7 @@ MossdeepCity_Gym_Text_TateAndLizaPreRematch:
 
 MossdeepCity_Gym_Text_TateAndLizaRematchDefeat:
 	.string "TATE : Toi et tes POKéMON…\n"
-	.string "LIZA : C'est comme si vous étiez frère et sœur !$"
+	.string "LIZA : C'est comme si vous étiez frère et soeur !$"
 
 MossdeepCity_Gym_Text_TateAndLizaPostRematch:
 	.string "TATI : Tu peux nous mettre à\n"

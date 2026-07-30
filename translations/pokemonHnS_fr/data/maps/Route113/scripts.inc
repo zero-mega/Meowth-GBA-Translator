@@ -164,5 +164,5 @@ Route113_Text_TrainerTipsRegisterKeyItems:
 
 Route113_Text_GlassWorkshopSign:
 	.string "ATELIER DE VERRE\n"
-	.string "« Transformer les Cendres Volcaniques en Objets en Verre »$"
+	.string "“Transformer les Cendres Volcaniques en Objets en Verre”$"
 

@@ -158,7 +158,7 @@ GoldenrodCity_RadioTower_4F4_Text_ExecutiveM2After:
 
 GoldenrodCity_RadioTower_4F4_Text_GruntF4Seen:
 	.string "Tu ne trouves pas les POKéMON mignons ?\p"
-	.string "Je trouverai mes POKéMON mignons—\p"
+	.string "Je trouverai mes POKéMON mignons-\p"
 	.string "après qu'ils auront battu les tiens !$"
 
 GoldenrodCity_RadioTower_4F4_Text_GruntF4Beaten:

@@ -98,4 +98,4 @@ EverGrandeCity_PokemonCenter_1F_Text_ScottHappyForYou:
 	.string "Je suis content\p"
 	.string "pour toi !\p"
 	.string "Tu es incroyable,\n"
-	.string "{PLAYER}{KUN} !$"
+	.string "{PLAYER}{KUN} !{PLAYER}{KUN}$"

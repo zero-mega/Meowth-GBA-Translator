@@ -64,7 +64,7 @@ Route104_PrettyPetalFlowerShop_EventScript_MintOwner::
 
 Route104_PrettyPetalFlowerShop_Text_Mints1:
 	.string "Nos HERBES NATURE sont de retour !\n"
-	.string "Jetez un œil !$"
+	.string "Jetez un oeil !$"
 
 Route104_PrettyPetalFlowerShop_Text_Mints2:
 	.string "Salut, cher DRESSEUR. Si tu cherches\n"

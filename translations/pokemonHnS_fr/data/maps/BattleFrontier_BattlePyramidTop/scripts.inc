@@ -297,7 +297,7 @@ BattleFrontier_BattlePyramidTop_Text_BrandonYouveReturned:
 	.string "l'aventure\p"
 	.string "semble venir\p"
 	.string "profondément\p"
-	.string "de ton cœur.\p"
+	.string "de ton coeur.\p"
 	.string "Montre-moi ta\n"
 	.string "détermination !$"
 

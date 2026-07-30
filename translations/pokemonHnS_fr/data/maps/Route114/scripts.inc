@@ -197,7 +197,7 @@ Route114_Text_MeteorFallsSign:
 
 Route114_Text_FossilManiacsHouseSign:
 	.string "MAISON DU MANIAQUE DES FOSSILES\n"
-	.string "« Fossiles acceptés avec gratitude ! »$"
+	.string "“Fossiles acceptés avec gratitude !”$"
 
 Route114_Text_BillsHouse:
 	.string "MAISON DE LÉO$"

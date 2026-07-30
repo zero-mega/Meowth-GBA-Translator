@@ -241,7 +241,7 @@ SlateportCity_ContestHall_Text_RewardWithSageAdvice:
 SlateportCity_ContestHall_Text_MoreFreakedOutThanMon:
 	.string "Je n'y arrive pas ! Je suis plus paniqué\n"
 	.string "que mes POKéMON.\p"
-	.string "Je tremble et mon cœur bat la chamade !$"
+	.string "Je tremble et mon coeur bat la chamade !$"
 
 @ Unused
 SlateportCity_ContestHall_Text_BattleAndContestAlike:

@@ -25,16 +25,16 @@ gText_WelcomeCutShort::
 	.string "forme. Tu veux…$"
 
 gText_NoticesGoldCard::
-	.string "Th-th-cette carte…\n"
-	.string "Pourrait-ce être…\p"
-	.string "La CARTE OR ?!\n"
-	.string "Oh, la couleur dorée\p"
-	.string "est brillante !\n"
-	.string "Les quatre étoiles\l"
-	.string "semblent scintiller !\l"
-	.string "Je n'en ai vu qu'une\p"
-	.string "poignée de ma vie !\n"
-	.string "Tu es vraiment chanceux !$"
+	.string "Th-that card…\n"
+	.string "Could it be… The GOLD CARD?!\p"
+	.string "Oh, the gold color is brilliant!\n"
+	.string "The four stars seem to sparkle!\p"
+	.string "I've seen several TRAINERS with\n"
+	.string "a SILVER CARD before, but, {PLAYER},\l"
+	.string "you're the first TRAINER I've ever\l"
+	.string "seen with a GOLD CARD!\p"
+	.string "Okay, {PLAYER}, please allow me\n"
+	.string "the honor of resting your POKéMON!$"
 
 gText_YouWantTheUsual::
 	.string "Je suis ravie de te voir, {PLAYER} !\n"

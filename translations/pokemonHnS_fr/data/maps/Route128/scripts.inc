@@ -266,16 +266,16 @@ Route128_Text_MaxieDoYouUnderstandNow:
 	.string "coexister en harmonie !$"
 
 Route128_Text_MaxieResposibilityFallsToArchieAndMe:
-	.string "MAX : {PLAYER}, ne dis rien.\p"
-	.string "Je sais que je n'ai pas le\n"
-	.string "droit de critiquer ARCHIE…\p"
-	.string "Mais les choses étant ce\n"
-	.string "qu'elles sont maintenant,\l"
-	.string "je dois agir.\p"
-	.string "La TEAM MAGMA va essayer d'arrêter\n"
-	.string "KYOGRE.\p"
-	.string "{PLAYER}, nous avons\n"
-	.string "besoin de ton aide !$"
+	.string "MAXIE: {PLAYER}, don't say anything.\p"
+	.string "I know that I have no right to be\n"
+	.string "critical of ARCHIE…\p"
+	.string "But the way things are now, I doubt\n"
+	.string "that we humans will be capable of\l"
+	.string "doing anything about it.\p"
+	.string "But neither can we stand by and\n"
+	.string "just watch helplessly.\p"
+	.string "The responsibility for putting an end\n"
+	.string "to this falls to ARCHIE and me…$"
 
 Route128_Text_MaxieThisDefiesBelief:
 	.string "MAX : C'est incroyable…\p"
@@ -288,16 +288,16 @@ Route128_Text_StevenWhatIsHappening:
 	.string "Que se passe-t-il ?$"
 
 Route128_Text_StevenWholeWorldWillDrown:
-	.string "C'est terrible…\p"
-	.string "Après la vague de\n"
-	.string "chaleur torride,\p"
-	.string "cette averse a commencé.\n"
-	.string "Si ça ne s'arrête\p"
-	.string "pas, tout HOENN…\n"
-	.string "Non, le monde entier\p"
-	.string "sera en danger !\p"
-	.string "{PLAYER}{KUN}, tu dois\n"
-	.string "faire quelque chose !$"
+	.string "This is terrible…\p"
+	.string "After the scorching heat wave ended,\n"
+	.string "this deluge began.\p"
+	.string "If this doesn't stop, all of HOENN…\n"
+	.string "No, the whole world will drown.\p"
+	.string "This huge rain cloud is spreading\n"
+	.string "from above SOOTOPOLIS…\p"
+	.string "What in the world is taking place there?\p"
+	.string "There's no point arguing here…\n"
+	.string "SOOTOPOLIS might provide answers…$"
 
 Route128_Text_StevenImGoingToSootopolis:
 	.string "{PLAYER}{KUN}… Je ne sais pas\n"

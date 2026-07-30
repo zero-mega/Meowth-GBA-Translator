@@ -102,7 +102,7 @@ RustboroCity_Flat1_2F_Text_HelloDoYouKnowFunnyPhrase:
 	.string "que tu pourrais me dire ?$"
 
 RustboroCity_Flat1_2F_Text_BeenSayingXDoYouKnowBetterPhrase:
-	.string "Je dis « {STR_VAR_1} » pour\n"
+	.string "Je dis “{STR_VAR_1}” pour\n"
 	.string "l'amuser ces derniers temps. Tu connais\p"
 	.string "un meilleur mot ou une\n"
 	.string "phrase qui pourrait marcher ?$"
@@ -140,7 +140,7 @@ RustboroCity_Flat1_2F_Text_ThinkOfMyOwnPhrase:
 	.string "Oh, tu ne connais donc aucun bon mot.\n"
 	.string "Je ferais mieux de réfléchir par moi-même.\p"
 	.string "Hmm…\n"
-	.string "Que dirais-tu de « {STR_VAR_1} » ?\l"
+	.string "Que dirais-tu de “{STR_VAR_1}” ?\l"
 	.string "Voyons si ça marchera.$"
 
 RustboroCity_Flat1_2F_Text_ShesNotSmilingAtAll2:
@@ -169,7 +169,7 @@ RustboroCity_Flat1_2F_Text_ThankYouIllGiveYouWallpaper:
 	.string "de papier peint pour les BOÎTES dans le\l"
 	.string "Système de Stockage PC POKéMON.\p"
 	.string "Dans le menu des motifs de papier peint,\n"
-	.string "sélectionne « AMIS ».\p"
+	.string "sélectionne “AMIS”.\p"
 	.string "Ça te donnera accès aux nouveaux\n"
 	.string "motifs de papier peint.$"
 

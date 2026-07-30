@@ -92,7 +92,7 @@ MtMoon_Cave_Text_Rival_Before:
 	.string "tu m'as battu, j'ai\n"
 	.string "continué à m'entraîner. Je\p"
 	.string "suis devenu plus fort.\p"
-	.string "Combattons à nouveau !$"
+	.string "Combattons à nouveau !{PLAYER}$"
 
 MtMoon_Cave_Text_Rival_Win:
 	.string "..................................\p"
@@ -101,15 +101,15 @@ MtMoon_Cave_Text_Rival_Win:
 	.string "…Mais ce n'était toujours pas assez…$"
 
 MtMoon_Cave_Text_Rival_After:
-	.string ".................\p"
-	.string ".................\p"
-	.string "…Tu as gagné,\p"
-	.string "fair et square.\n"
-	.string "Je l'admets.\p"
-	.string "Mais ce\p"
-	.string "n'est pas la fin.\p"
-	.string "Je reviendrai\n"
-	.string "plus fort !$"
+	.string "..................................\p"
+	.string "…You won, fair and square.\p"
+	.string "I admit it. But this isn't the end.\p"
+	.string "I'm going to be the greatest POKéMON\n"
+	.string "trainer ever.\p"
+	.string "Because these guys are behind me.\p"
+	.string "…Listen, {PLAYER}.\p"
+	.string "One of these days I'm going to prove\n"
+	.string "how good I am by beating you.$"
 
 MtMoon_Cave_Text_Rival_Loss:
 	.string "..................................\p"

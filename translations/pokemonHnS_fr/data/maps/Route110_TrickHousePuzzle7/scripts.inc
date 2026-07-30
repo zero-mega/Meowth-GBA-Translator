@@ -316,8 +316,8 @@ Route110_TrickHousePuzzle7_EventScript_Everett::
 
 Route110_TrickHousePuzzle7_Text_WroteSecretCodeLockOpened::
 	.string "{PLAYER} a écrit le code secret\n"
-	.string "sur la porte. « Le MAÎTRE\p"
-	.string "DES PIÈGES est câlinable. » …\n"
+	.string "sur la porte. “Le MAÎTRE\p"
+	.string "DES PIÈGES est câlinable.” …\n"
 	.string "… … … … … …\p"
 	.string "… Le verrou s'est ouvert !$"
 

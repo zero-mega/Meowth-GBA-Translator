@@ -317,7 +317,7 @@ Route119_WeatherInstitute_2F_Text_PokemonChangesWithWeather:
 	.string "Ce POKéMON change de forme selon\n"
 	.string "les conditions météo.\p"
 	.string "Il y en a plein à l'\n"
-	.string "INSTITUT — prends-en un.$"
+	.string "INSTITUT - prends-en un.$"
 
 Route119_WeatherInstitute_2F_Text_ChangingWeatherRidiculous:
 	.string "Ça fait des années que je fais des recherches\n"

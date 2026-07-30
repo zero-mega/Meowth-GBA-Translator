@@ -66,15 +66,15 @@ EverGrandeCity_GlaciasRoom_EventScript_Defeated::
 	end
 
 EverGrandeCity_GlaciasRoom_Text_IntroSpeech:
-	.string "Bienvenue, je\n"
-	.string "m'appelle GLACIA\p"
-	.string "du CONSEIL DES 4.\n"
-	.string "J'ai voyagé de\p"
-	.string "loin jusqu'à HOENN\n"
-	.string "pour perfectionner mes\p"
-	.string "compétences de combat.\p"
-	.string "Montre-moi ta\n"
-	.string "force, {PLAYER} !$"
+	.string "Welcome, my name is GLACIA\n"
+	.string "of the ELITE FOUR.\p"
+	.string "I've traveled from afar to HOENN\n"
+	.string "so that I may hone my ice skills.\p"
+	.string "But all I have seen are challenges by\n"
+	.string "weak TRAINERS and their POKéMON.\p"
+	.string "What about you?\p"
+	.string "It would please me to no end if I could\n"
+	.string "go all out against you!$"
 
 EverGrandeCity_GlaciasRoom_Text_IntroSpeech2:
 	.string "Bienvenue\n"

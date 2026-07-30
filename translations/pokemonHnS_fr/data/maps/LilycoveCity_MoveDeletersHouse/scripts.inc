@@ -85,7 +85,7 @@ LilycoveCity_MoveDeletersHouse_Text_MonOnlyKnowsOneMove:
 	.string "elle ne peut pas être oubliée…$"
 
 LilycoveCity_MoveDeletersHouse_Text_MonsMoveShouldBeForgotten:
-	.string "Hm ! {STR_VAR_2} de {STR_VAR_1} ?\n"
+	.string "Hm ! {STR_VAR_1} de {STR_VAR_2} ?\n"
 	.string "Cette capacité devrait être oubliée ?$"
 
 LilycoveCity_MoveDeletersHouse_Text_MonHasForgottenMove:
@@ -99,7 +99,7 @@ LilycoveCity_MoveDeletersHouse_Text_ComeAgain:
 
 LilycoveCity_MoveDeletersHouse_Text_EggCantForgetMoves:
 	.string "Quoi ?\n"
-	.string "Un ŒUF ne devrait connaître aucune capacité.$"
+	.string "Un OEUF ne devrait connaître aucune capacité.$"
 
 LilycoveCity_MoveDeletersHouse_Text_CantForgetSurf:
 	.string "Hm !\p"

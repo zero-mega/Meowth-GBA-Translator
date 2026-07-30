@@ -275,16 +275,16 @@ OlivineCity_Gym_EventScript_Jasmine_Defeated::
 
 
 OlivineCity_Gym_Text_JasmineSteelTypeIntro:
-	.string "…Merci pour ton\n"
-	.string "aide au PHARE…\p"
-	.string "Mais c'est\n"
-	.string "différent.\p"
-	.string "Permets-moi de me\n"
-	.string "présenter à nouveau.\p"
-	.string "Je suis un DRESSEUR\p"
-	.string "sérieux maintenant !\n"
-	.string "Combattons,\p"
-	.string "{PLAYER} !$"
+	.string "…Thank you for your help at the\n"
+	.string "LIGHTHOUSE…\p"
+	.string "But this is different.\n"
+	.string "Please allow me to introduce myself.\p"
+	.string "I am JASMINE, a GYM LEADER.\n"
+	.string "I use the STEEL-type.\p"
+	.string "…Do you know about the STEEL-type?\p"
+	.string "It's a type that was only recently\n"
+	.string "discovered.\p"
+	.string "…Um… May I begin?$"
 
 OlivineCity_Gym_Text_JasmineBetterTrainer:
 	.string "…Tu es un meilleur DRESSEUR que moi,\n"

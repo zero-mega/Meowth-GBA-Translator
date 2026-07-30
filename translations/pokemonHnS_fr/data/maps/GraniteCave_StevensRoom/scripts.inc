@@ -98,15 +98,15 @@ GraniteCave_StevensRoom_Text_ThankYouTakeThis:
 	.string "AILES D'ACIER.$"
 
 GraniteCave_StevensRoom_Text_CouldBecomeChampionLetsRegister:
-	.string "PIERRE : Tes POKéMON\n"
-	.string "ont l'air très\p"
-	.string "capables.\n"
-	.string "Si tu continues à\l"
-	.string "t'entraîner, tu\p"
-	.string "pourrais même\n"
-	.string "devenir le CHAMPION.\l"
-	.string "Je crois en toi,\p"
-	.string "{PLAYER}{KUN}.$"
+	.string "STEVEN: Your POKéMON appear quite\n"
+	.string "capable.\p"
+	.string "If you keep training, you could even\n"
+	.string "become the CHAMPION of the POKéMON\l"
+	.string "LEAGUE one day. That's what I think.\p"
+	.string "I know, since we've gotten to know each\n"
+	.string "other, let's register one another in\l"
+	.string "our POKéNAVS.\p"
+	.string "… … … … … …$"
 
 GraniteCave_StevensRoom_Text_RegisteredSteven:
 	.string "PIERRE enregistré\n"

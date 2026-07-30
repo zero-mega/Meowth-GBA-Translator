@@ -118,17 +118,17 @@ MahoganyTown_Gym_EventScript_Pryce_Defeated::
 	end
 
 MahoganyTown_Gym_Text_PryceIntro:
-    .string "Les POKéMON vivent de\n"
-    .string "nombreuses expériences\p"
-    .string "dans leur vie,\n"
-    .string "tout comme nous.\p"
-    .string "Moi aussi, j'ai vu et souffert\n"
-    .string "beaucoup dans ma vie.\p"
-    .string "Depuis que je suis devenu\n"
-    .string "membre du CONSEIL DES 4,\p"
-    .string "je me consacre à\p"
-    .string "l'entraînement.\n"
-    .string "Montre-moi ta force, {PLAYER} !$"
+    .string "POKéMON have many experiences\n"
+    .string "in their lives, just like we do.\p"
+    .string "I, too, have seen and suffered\n"
+    .string "much in my life.\p"
+    .string "Since I am your elder, let me\n"
+    .string "show you what I mean.\p"
+    .string "I have been with POKéMON since\n"
+    .string "before you were born.\p"
+    .string "I do not lose easily.\p"
+    .string "I, PRYCE--the winter trainer--\n"
+    .string "shall demonstrate my power!$"
 
 MahoganyTown_Gym_Text_PryceImpressed:
     .string "Ah, je suis impressionné par ta\n"
@@ -209,7 +209,7 @@ MahoganyTown_Gym_Text_BoarderRonaldAfter:
 MahoganyTown_Gym_Text_BoarderBradSeen:
     .string "Cette ARÈNE a un sol glissant.\p"
     .string "C'est amusant, non ?\p"
-    .string "Mais bon — on ne joue pas\n"
+    .string "Mais bon - on ne joue pas\n"
     .string "ici !$"
 
 MahoganyTown_Gym_Text_BoarderBradBeaten:

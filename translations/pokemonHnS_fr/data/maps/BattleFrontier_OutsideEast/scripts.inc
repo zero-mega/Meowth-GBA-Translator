@@ -366,7 +366,7 @@ BattleFrontier_OutsideEast_Text_FastOnBikeAndBattles:
 	.string "Je suis rapide sur mon VÉLO, et c'est pareil\n"
 	.string "pour mes combats aussi.\p"
 	.string "Je gagne des matchs\n"
-	.string "en un clin d'œil !$"
+	.string "en un clin d'oeil !$"
 
 BattleFrontier_OutsideEast_Text_BetterThanDaddyAtPokemon:
 	.string "Je suis meilleur que mon papa\n"

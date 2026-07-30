@@ -299,7 +299,7 @@ MossdeepCity_SpaceCenter_1F_Text_HaywireButSuccessfulLaunchNumber:
 	.string "Je sais que les choses sont un peu\n"
 	.string "chaotiques en ce moment, mais…\p"
 	.string "La fusée a décollé en toute sécurité !\n"
-	.string "C'est le lancement réussi n° {STR_VAR_1} !$"
+	.string "C'est le lancement réussi n  {STR_VAR_1} !$"
 
 MossdeepCity_SpaceCenter_1F_Text_RocketLaunchDemandsPerfection:
 	.string "Un lancement de fusée exige la perfection. Pas même\n"
@@ -358,16 +358,16 @@ MossdeepCity_SpaceCenter_1F_Text_MagmaWantsToSpoilMyDream:
 	.string "Je n'accepterai pas ça !$"
 
 MossdeepCity_SpaceCenter_1F_Text_StevenMagmaCantBeAllowedToTakeFuel:
-	.string "PIERRE : {PLAYER}{KUN},\n"
-	.string "as-tu lu cette\p"
-	.string "proclamation ?\n"
-	.string "La TEAM MAGMA vient\p"
-	.string "chercher le carburant\n"
-	.string "de fusée sur cette île.\p"
-	.string "Nous devons\n"
-	.string "les arrêter !\p"
-	.string "{PLAYER}{KUN},\n"
-	.string "aide-nous !$"
+	.string "STEVEN: {PLAYER}{KUN}, have you read that\n"
+	.string "proclamation already?\p"
+	.string "TEAM MAGMA is coming after the rocket\n"
+	.string "fuel on this island.\p"
+	.string "I don't know what they'd need it for,\n"
+	.string "but they can't be allowed to take it.\p"
+	.string "I'll keep an eye on things for\n"
+	.string "a while longer.\p"
+	.string "In the meantime, why don't you go\n"
+	.string "check out the town?$"
 
 MossdeepCity_SpaceCenter_1F_Text_Grunt3Intro:
 	.string "Comme promis, nous venons chercher\n"
@@ -422,11 +422,11 @@ MossdeepCity_SpaceCenter_1F_Text_Grunt2PostBattle:
 MossdeepCity_SpaceCenter_1F_Text_MagmaIntentToStealNotice:
 	.string "C'est…\n"
 	.string "Un avis d'intention de vol ?\p"
-	.string "« Au personnel du CENTRE SPATIAL :\n"
+	.string "“Au personnel du CENTRE SPATIAL :\n"
 	.string "Comment allez-vous\p"
 	.string "? Nous allons bien.\n"
-	.string "« Nous prendrons\p"
+	.string "“Nous prendrons\p"
 	.string "bientôt possession\n"
 	.string "du carburant de fusée.\p"
-	.string "« Signé, la TEAM MAGMA »\n"
+	.string "“Signé, la TEAM MAGMA”\n"
 	.string "Il faut les arrêter !$"

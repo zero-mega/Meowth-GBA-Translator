@@ -41,7 +41,7 @@ Underwater_SeafloorCavern_EventScript_CheckStolenSub::
 	end
 
 Underwater_SeafloorCavern_Text_SubExplorer1:
-	.string "« EXPLORATEUR SOUS-MARIN 1 » est peint\n"
+	.string "“EXPLORATEUR SOUS-MARIN 1” est peint\n"
 	.string "sur la coque.\p"
 	.string "C'est le sous-marin que la TEAM AQUA\n"
 	.string "a volé à POIVRESSELLE !\p"

@@ -872,7 +872,7 @@ Route110_Text_CyclingChallengeResultSummary:
 Route110_Text_ChallengeReactionBest:
 	.string "Bravo ! Splendide performance ! Ton amour\p"
 	.string "du cyclisme vient du fond de\n"
-	.string "ton cœur. Tu m'as secoué jusqu'au\l"
+	.string "ton coeur. Tu m'as secoué jusqu'au\l"
 	.string "plus profond de mon âme !$"
 
 Route110_Text_ChallengeReactionGood:
@@ -926,10 +926,10 @@ Route110_Text_CyclingRoadSign:
 	.string "PISTE CYCLABLE CÔTIÈRE$"
 
 Route110_Text_AquaWasHere:
-	.string "« La TEAM AQUA était ici ! »\p"
+	.string "“La TEAM AQUA était ici !”\p"
 	.string "Quelqu'un a peint ça sur ce panneau,\n"
 	.string "mais quelqu'un d'autre l'a recouvert.\p"
-	.string "« La TEAM MAGMA règne ! »\n"
+	.string "“La TEAM MAGMA règne !”\n"
 	.string "c'est ce qui est écrit maintenant.$"
 
 Route110_Text_Route103Sign:
@@ -956,8 +956,8 @@ Route110_Text_TrainerTipsRegisterItems:
 	.string "en appuyant sur SELECT.$"
 
 Route110_Text_TrickHouseSign:
-	.string "« Trois pas {RIGHT_ARROW} et deux pas {UP_ARROW}\n"
-	.string "pour atteindre la merveilleuse MAISON DES PIÈGES. »$"
+	.string "“Trois pas {RIGHT_ARROW} et deux pas {UP_ARROW}\n"
+	.string "pour atteindre la merveilleuse MAISON DES PIÈGES.”$"
 
 Route110_Text_BestRecord:
 	.string "LE MEILLEUR RECORD À CE JOUR…\p"
@@ -992,7 +992,7 @@ Route110_Text_RegisteredBirchInPokenav:
 
 Route110_Text_KeepAnEyeOutForRival:
 	.string "PROF. SEKO : {PLAYER}{KUN}…\p"
-	.string "Garde un œil sur mon ARGENT, s'il te plaît.\n"
+	.string "Garde un oeil sur mon ARGENT, s'il te plaît.\n"
 	.string "… … … … … …\p"
 	.string "Bon, je ferais mieux d'y aller.\n"
 	.string "À bientôt, {PLAYER}{KUN} !$"

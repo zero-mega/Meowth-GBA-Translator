@@ -235,7 +235,7 @@ Route29_Text_TuscanyGaveGift:
 
 Route29_Text_TuscanyTuesday:
 	.string "TUSCANY : Tu as rencontré\n"
-	.string "MONICA, ma grande sœur ?\p"
+	.string "MONICA, ma grande soeur ?\p"
 	.string "Ou mon petit frère WESLEY\p"
 	.string "? Je suis le\n"
 	.string "troisième de sept enfants.$"

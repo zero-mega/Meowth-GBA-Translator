@@ -45,7 +45,7 @@ PokefanM_Text_RexAfter:
 	.string "Regarde comme mon CERFROUSSE\n"
 	.string "est adorable !\p"
 	.string "N'est-il pas assez mignon pour\n"
-	.string "fondre ton cœur ?$"
+	.string "fondre ton coeur ?$"
 
 PokefanM_Text_AllanSeen:
 	.string "Mon GRANBULL est le plus mignon\n"
@@ -58,5 +58,5 @@ PokefanM_Text_AllanAfter:
 	.string "Regarde comme mon GRANBULL\n"
 	.string "est adorable !\p"
 	.string "N'est-il pas assez mignon pour\n"
-	.string "fondre ton cœur ?$"
+	.string "fondre ton coeur ?$"
 

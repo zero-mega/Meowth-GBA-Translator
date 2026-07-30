@@ -330,7 +330,7 @@ RivalsHouse_1F_Text_OhYoureTheNewNeighbor:
 	.string "{PLAYER}{KUN},\p"
 	.string "notre nouveau\n"
 	.string "voisin !\p"
-	.string "Enchanté !$"
+	.string "Enchanté !{STR_VAR_1}{STR_VAR_1}{STR_VAR_1}$"
 
 RivalsHouse_1F_Text_LikeChildLikeFather:
 	.string "Tel père, tel fils.\p"

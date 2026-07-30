@@ -50,7 +50,7 @@ PewterCity_Gym_Text_Brock_WinLoss:
 	.string "PIERRE : Les attaques puissantes de tes POKéMON\n"
 	.string "ont surmonté ma défense rocheuse…\p"
 	.string "Tu es plus fort que je ne pensais…\p"
-	.string "Vas-y — prends ce BADGE.$"
+	.string "Vas-y - prends ce BADGE.$"
 
 PewterCity_Gym_Text_ReceivedBoulderBadge:
 	.string "{PLAYER} a reçu le BADGE ROCHE.$"

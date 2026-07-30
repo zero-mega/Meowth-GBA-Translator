@@ -36,6 +36,6 @@ MossdeepCity_House1_Text_DoesntLikeOrDislikePokeblocks:
 	.string "aucun {POKEBLOCK}.$"
 
 MossdeepCity_House1_Text_HusbandCanTellPokeblockMonLikes:
-	.string "Mon mari peut dire d'un coup d'œil\n"
+	.string "Mon mari peut dire d'un coup d'oeil\n"
 	.string "quels {POKEBLOCK}S un POKéMON préfère.$"
 

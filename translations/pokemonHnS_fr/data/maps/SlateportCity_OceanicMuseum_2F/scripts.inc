@@ -380,13 +380,13 @@ SlateportCity_OceanicMuseum_2F_Text_WantToRideSubmarine:
 	.string "Je veux faire un tour !$"
 
 SlateportCity_OceanicMuseum_2F_Text_WaterQualitySample1:
-	.string "« ÉCHANTILLON QUALITÉ EAU 1\n"
-	.string "», dit l'étiquette. La mer\p"
+	.string "“ÉCHANTILLON QUALITÉ EAU 1\n"
+	.string "”, dit l'étiquette. La mer\p"
 	.string "est toute connectée, mais l'eau\n"
 	.string "semble différer selon les régions.$"
 
 SlateportCity_OceanicMuseum_2F_Text_WaterQualitySample2:
-	.string "« ÉCHANTILLON QUALITÉ EAU 2 »,\n"
+	.string "“ÉCHANTILLON QUALITÉ EAU 2”,\n"
 	.string "dit l'étiquette.\p"
 	.string "La salinité de l'eau de mer diffère-t-elle\n"
 	.string "selon les régions, aussi ?$"
@@ -395,47 +395,47 @@ SlateportCity_OceanicMuseum_2F_Text_PressureExperiment:
 	.string "Une balle en caoutchouc\n"
 	.string "se dilate et\p"
 	.string "se contracte.\n"
-	.string "« Dans la mer, le\p"
+	.string "“Dans la mer, le\p"
 	.string "poids de l'eau lui-même\n"
 	.string "exerce une\p"
-	.string "pression énorme. »\n"
+	.string "pression énorme.”\n"
 	.string "La science est\l"
 	.string "fascinante !$"
 
 SlateportCity_OceanicMuseum_2F_Text_HoennModel:
-	.string "« MAQUETTE DE LA RÉGION HOENN »\p"
+	.string "“MAQUETTE DE LA RÉGION HOENN”\p"
 	.string "C'est une maquette miniature de la\n"
 	.string "région HOENN.\p"
 	.string "Où se trouve BOURG-EN-VOL sur celle-ci ?$"
 
 SlateportCity_OceanicMuseum_2F_Text_DeepSeawaterDisplay:
 	.string "C'est une exposition sur le flux de l'eau de mer.\p"
-	.string "« Près du fond de la mer, l'eau\n"
+	.string "“Près du fond de la mer, l'eau\n"
 	.string "circule en raison de différences de facteurs\l"
-	.string "comme la température et la salinité. »$"
+	.string "comme la température et la salinité.”$"
 
 SlateportCity_OceanicMuseum_2F_Text_SurfaceSeawaterDisplay:
 	.string "C'est une exposition sur le flux de l'eau de\p"
-	.string "mer. « Vers la surface, l'eau de mer\n"
-	.string "circule en courants poussés par le vent. »$"
+	.string "mer. “Vers la surface, l'eau de mer\n"
+	.string "circule en courants poussés par le vent.”$"
 
 SlateportCity_OceanicMuseum_2F_Text_SSTidalReplica:
-	.string "« LE FERRY S.S. MARÉE\p"
-	.string "« Une réplique à l'échelle du navire en\n"
-	.string "construction au CHANTIER NAVAL DE POIVRE. »$"
+	.string "“LE FERRY S.S. MARÉE\p"
+	.string "“Une réplique à l'échelle du navire en\n"
+	.string "construction au CHANTIER NAVAL DE POIVRE.”$"
 
 SlateportCity_OceanicMuseum_2F_Text_SubmarineReplica:
-	.string "« EXPLORATEUR SOUS-MARIN 1\p"
-	.string "« Une réplique du sous-marin d'exploration\n"
-	.string "des fonds marins haute performance. »$"
+	.string "“EXPLORATEUR SOUS-MARIN 1\p"
+	.string "“Une réplique du sous-marin d'exploration\n"
+	.string "des fonds marins haute performance.”$"
 
 SlateportCity_OceanicMuseum_2F_Text_SumbersibleReplica:
-	.string "« NACELLE SOUS-MARINE\p"
-	.string "« Réplique d'une nacelle compacte\n"
-	.string "sans pilote pour l'exploration des fonds marins. »$"
+	.string "“NACELLE SOUS-MARINE\p"
+	.string "“Réplique d'une nacelle compacte\n"
+	.string "sans pilote pour l'exploration des fonds marins.”$"
 
 SlateportCity_OceanicMuseum_2F_Text_SSAnneReplica:
-	.string "« S.S. ANNE\p"
-	.string "« Réplique du paquebot de luxe qui\n"
-	.string "fait le tour du globe. »$"
+	.string "“S.S. ANNE\p"
+	.string "“Réplique du paquebot de luxe qui\n"
+	.string "fait le tour du globe.”$"
 

@@ -140,17 +140,17 @@ Route24_Text_RocketBeaten:
 	.string "pas à ta hauteur !$"
 
 Route24_Text_RocketAfter:
-	.string "OK. Te dire mon\n"
-	.string "secret je vais ?\l"
-	.string "PIÈCE\p"
-	.string "MACHINE voler\n"
-	.string "par moi, cacher\p"
-	.string "j'ai fait dans\p"
-	.string "ARÈNE d'AZURIA.\n"
-	.string "Mais maintenant\p"
-	.string "je regrette…\n"
-	.string "{PLAYER}, aide-moi\l"
-	.string "à la retrouver !$"
+	.string "OK. Tell you mine secret will I?\n"
+	.string "MACHINE PART steal by me, hide it\l"
+	.string "I did in GYM of the CERULEAN.\p"
+	.string "Inside water put it I did. Look\n"
+	.string "for in water center of GYM at.\p"
+	.string "But you forget me not!\p"
+	.string "Beat you for sure will TEAM\n"
+	.string "ROCKET.\p"
+	.string "Come from JOHTO will they, mine\n"
+	.string "friends, yes. Will revenge they\l"
+	.string "are.$"
 
 Route24_Text_RocketDisappears:
 	.string "… La TEAM ROCKET\p"

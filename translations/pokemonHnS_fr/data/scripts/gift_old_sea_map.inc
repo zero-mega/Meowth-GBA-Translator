@@ -37,7 +37,7 @@ OldSeaMap_Obtained:
 sText_MysteryGiftOldSeaMapForYou:
 	.string "Merci d'avoir utilisé le système\n"
 	.string "CADEAU MYSTÈRE.\p"
-	.string "Laisse-moi confirmer — tu es {PLAYER} ?\p"
+	.string "Laisse-moi confirmer - tu es {PLAYER} ?\p"
 	.string "Nous avons reçu cette VIEILLE CARTE MARINE\n"
 	.string "adressée à toi.$"
 

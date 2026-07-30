@@ -1108,7 +1108,7 @@ SlateportCity_Text_IllReadSignForYou:
 SlateportCity_Text_SaysSomethingLikeSeaIsEndless:
 	.string "Voyons voir…\p"
 	.string "Euh… Je crois que ça dit un truc\n"
-	.string "comme « la vie en mer est sans fin ».\p"
+	.string "comme “la vie en mer est sans fin”.\p"
 	.string "Ouais, je suis presque sûr que\n"
 	.string "c'est ça.$"
 
@@ -1251,42 +1251,42 @@ SlateportCity_Text_PleaseComeWithMe:
 
 SlateportCity_Text_BattleTentSign:
 	.string "TENTE DE COMBAT POIVRESSE\n"
-	.string "« Trouve-le ! Le POKéMON ultime ! »$"
+	.string "“Trouve-le ! Le POKéMON ultime !”$"
 
 SlateportCity_Text_SternsShipyardWantedSign:
 	.string "CHANTIER NAVAL DE STERN\p"
-	.string "« Recherché : un marin capable de naviguer\n"
-	.string "dans tous les courants. »$"
+	.string "“Recherché : un marin capable de naviguer\n"
+	.string "dans tous les courants.”$"
 
 SlateportCity_Text_SternsShipyardNearsCompletion:
 	.string "CHANTIER NAVAL DE STERN\p"
-	.string "« Le ferry S.S. MARÉE approche de\n"
+	.string "“Le ferry S.S. MARÉE approche de\n"
 	.string "la fin de sa construction pour desservir\l"
-	.string "les ports de MYOKARA et NÉNUCRIQUE. »$"
+	.string "les ports de MYOKARA et NÉNUCRIQUE.”$"
 
 SlateportCity_Text_SternsShipyardFerryComplete:
 	.string "CHANTIER NAVAL DE STERN\p"
-	.string "« L'embarquement sur le ferry S.S. MARÉE\n"
+	.string "“L'embarquement sur le ferry S.S. MARÉE\n"
 	.string "POIVRESSEL-NÉNUCRIQUE se fait au\l"
-	.string "PORT. »$"
+	.string "PORT.”$"
 
 SlateportCity_Text_PokemonFanClubSign:
 	.string "FAN CLUB POKéMON\n"
-	.string "« Appel à tous les fans de POKéMON ! »$"
+	.string "“Appel à tous les fans de POKéMON !”$"
 
 SlateportCity_Text_OceanicMuseumSign:
-	.string "« La mer infinie nourrit\n"
-	.string "toute vie. »\p"
+	.string "“La mer infinie nourrit\n"
+	.string "toute vie.”\p"
 	.string "MUSÉE OCÉANOGRAPHIQUE$"
 
 SlateportCity_Text_CitySign:
 	.string "POIVRESSE\p"
-	.string "« Le port où les gens et les POKéMON\n"
-	.string "se croisent. »$"
+	.string "“Le port où les gens et les POKéMON\n"
+	.string "se croisent.”$"
 
 SlateportCity_Text_MarketSign:
 	.string "MARCHÉ DE POIVRESSEL\n"
-	.string "« Des objets uniques introuvables ailleurs ! »$"
+	.string "“Des objets uniques introuvables ailleurs !”$"
 
 SlateportCity_Text_HarborFerryUnderConstruction:
 	.string "PORT DE POIVRESSEL. Le\p"
@@ -1297,12 +1297,12 @@ SlateportCity_Text_HarborFerryUnderConstruction:
 
 SlateportCity_Text_HarborSign:
 	.string "PORT DE POIVRESSE\p"
-	.string "« Profitez d'une croisière agréable\n"
-	.string "sur le ferry S.S. MARÉE. »$"
+	.string "“Profitez d'une croisière agréable\n"
+	.string "sur le ferry S.S. MARÉE.”$"
 
 SlateportCity_Text_NameRatersHouseSign:
 	.string "MAISON DU JUGE DE SURNOMS\n"
-	.string "« Surnoms de POKéMON évalués. »$"
+	.string "“Surnoms de POKéMON évalués.”$"
 
 SlateportCity_Text_ExplainBerries:
 	.string "Si un POKéMON sauvage est blessé, il se soigne\n"
@@ -1320,15 +1320,15 @@ SlateportCity_Text_ExplainBerries:
 	.string "quelqu'un comme toi.$"
 
 SlateportCity_Text_ExplainBerryPowder:
-	.string "J'ai récemment fait\n"
-	.string "installer des machines\p"
-	.string "dans les\n"
-	.string "CENTRES POKéMON\p"
-	.string "pour écraser des BAIES.\p"
-	.string "La machine BROYEUSE\n"
-	.string "DE BAIES peut faire\p"
-	.string "des {POKEBLOCK}S !\n"
-	.string "Essaie-la !$"
+	.string "I recently had machines installed at\n"
+	.string "POKéMON CENTERS for crushing BERRIES.\p"
+	.string "The BERRY CRUSH machines are at\n"
+	.string "the DIRECT CORNER upstairs.\p"
+	.string "Did you know?\p"
+	.string "Could you make BERRY POWDER for\n"
+	.string "me using those machines?\p"
+	.string "I can make you all sorts of medicine\n"
+	.string "if you bring me lots of BERRY POWDER.$"
 
 SlateportCity_Text_BroughtMeSomeBerryPowder:
 	.string "M'as-tu apporté de la\n"
@@ -1387,20 +1387,20 @@ SlateportCity_Text_RegisteredScott:
 	.string "enregistrée dans le POKéNAV.$"
 
 SlateportCity_Text_KeepEyeOnTrainersBeSeeingYou:
-	.string "SCOTT : J'aimerais\n"
-	.string "t'accompagner, mais je\l"
-	.string "dois surveiller le\p"
-	.string "PARC DES COMBATS.\n"
-	.string "Bonne chance\p"
-	.string "là-bas !$"
+	.string "SCOTT: What I'd like to do is tag along\n"
+	.string "with you, but I do want to keep an eye\l"
+	.string "on the talents of other people, too.\p"
+	.string "So, I'll be off to roam other towns\n"
+	.string "a bit more.\p"
+	.string "Be seeing you, {PLAYER}{KUN}!$"
 
 SlateportCity_Text_TakingBattleTentChallenge:
-	.string "SCOTT : Oh, hé !\n"
-	.string "Si ce n'est pas\p"
-	.string "{PLAYER}{KUN} !\n"
-	.string "{PLAYER}{KUN}, laisse-moi\p"
-	.string "deviner--tu vas\n"
-	.string "relever le défi de\p"
-	.string "la LIGUE POKéMON !\n"
-	.string "Je t'encourage,\p"
-	.string "{PLAYER}{KUN} !$"
+	.string "SCOTT: Oh, hey!\n"
+	.string "If it isn't {PLAYER}{KUN}!\p"
+	.string "{PLAYER}{KUN}, let me guess--you're going\n"
+	.string "to take the BATTLE TENT challenge?\p"
+	.string "Yeah! That's a good idea!\n"
+	.string "That's a really great idea!\p"
+	.string "After all, a tough TRAINER is\n"
+	.string "the perfect fit for the BATTLE TENT!\p"
+	.string "Give it your best effort!$"

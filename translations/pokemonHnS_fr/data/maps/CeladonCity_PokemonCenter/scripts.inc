@@ -43,7 +43,7 @@ Celadon_Text_EusineLeaves:
 	.string "de nouvelles rumeurs sur\n"
 	.string "un POKéMON aux couleurs\p"
 	.string "de l'arc-en-ciel apparu à\n"
-	.string "{STR_VAR_1}. Tu devrais\p"
+	.string "{PLAYER}. Tu devrais\p"
 	.string "aller voir !$"
 
 Celadon_Text_NoBeasts:

@@ -141,7 +141,7 @@ Route40_Text_MonicaGaveGift:
 
 Route40_Text_MonicaMonday:
 	.string "MONICA : Mes frères et\n"
-	.string "sœurs sont partout.\p"
+	.string "soeurs sont partout.\p"
 	.string "Essaie de tous\n"
 	.string "les trouver !$"
 

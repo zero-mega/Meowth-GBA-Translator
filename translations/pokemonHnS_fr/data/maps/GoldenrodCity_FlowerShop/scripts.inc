@@ -85,7 +85,7 @@ GoldenrodCity_FlowerShop_EventScript_Floria3::
 	end
 
 GoldenrodCity_FlowerShop_Text_Floria:
-	.string "Quand j'ai parlé à ma sœur de l'arbre\n"
+	.string "Quand j'ai parlé à ma soeur de l'arbre\n"
 	.string "qui bouge, elle a dit que c'était dangereux.\p"
 	.string "Si je bats BLAIRE, je me demande si\n"
 	.string "elle me prêtera sa gourde…$"
@@ -105,19 +105,19 @@ GoldenrodCity_FlowerShop_Text_Owner1:
 .string "Ou peut-être pas…$"
 
 GoldenrodCity_FlowerShop_Text_Owner2:
-.string "Apparemment, il y\n"
-.string "a un arbre\p"
-.string "étrange\n"
-.string "sur la ROUTE 36.\p"
-.string "On dit\n"
-.string "qu'il danse\p"
-.string "quand on\p"
-.string "l'arrose…\n"
-.string "Oh, c'est un\p"
-.string "BADGE BASIQUE de\n"
-.string "MAUVILLE ?\l"
-.string "Tu es sur la bonne\p"
-.string "voie, {PLAYER} !$"
+.string "Apparently, there is an odd tree\n"
+.string "on ROUTE 36.\p"
+.string "They say it dances when you water\n"
+.string "it...\p"
+.string "Oh, that's a PLAINBADGE from\n"
+.string "The GOLDENROD GYM!\p"
+.string "Did you defeat WHITNEY?!\p"
+.string "Well, then there's nothing to worry\n"
+.string "about, is there?\p"
+.string "I'll let you use this SQUIRTBOTTLE\n"
+.string "for a while then.\l"
+.string "...\p"
+.string "Oh, never mind. Keep it!$"
 
 GoldenrodCity_FlowerShop_Text_Owner3:
 .string "L'arbre bizarre est sur la ROUTE 36.\n"

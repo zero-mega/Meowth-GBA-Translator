@@ -107,5 +107,5 @@ SlateportCity_NameRatersHouse_Text_MagnificentName:
 
 SlateportCity_NameRatersHouse_Text_ThatIsMerelyAnEgg:
 	.string "Doucement.\n"
-	.string "Ce n'est qu'un ŒUF !$"
+	.string "Ce n'est qu'un OEUF !$"
 

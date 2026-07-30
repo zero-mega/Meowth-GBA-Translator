@@ -16,7 +16,7 @@ SSAqua_RoomSW_Text_BeautyCassieSeen:
     .string "Combattons !$"
 
 SSAqua_RoomSW_Text_BeautyCassieBeaten:
-    .string "Mon cœur saigne…$"
+    .string "Mon coeur saigne…$"
 
 SSAqua_RoomSW_Text_BeautyCassieAfterBattle:
     .string "Un voyage est idéal pour surmonter\n"

@@ -12,7 +12,7 @@ BlackthornMart_EventScript_BlackBelt::
 BlackthornMart_Text_CooltrainerM:
 	.string "On ne peut pas acheter de RAPPEL MAX, mais il\n"
 	.string "restaure complètement un POKéMON K.O.\p"
-	.string "Attention — il ne restaure pas les PP, les\n"
+	.string "Attention - il ne restaure pas les PP, les\n"
 	.string "POINTS DE PUISSANCE nécessaires aux capacités.$"
 
 BlackthornMart_Text_BlackBelt:

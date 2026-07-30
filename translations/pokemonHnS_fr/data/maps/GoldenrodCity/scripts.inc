@@ -307,7 +307,7 @@ GoldenrodCity_Text_MrMime:
 
 GoldenrodCity_Text_ElmCall:
 	.string "PROF.ORME : Bonjour, {PLAYER} ?\n"
-	.string "Cet ŒUF a-t-il éclos ?\p"
+	.string "Cet OEUF a-t-il éclos ?\p"
 	.string "Une fois éclos, n'oublie pas de\n"
 	.string "l'apporter au labo ! Je dois\l"
 	.string "le voir !$"

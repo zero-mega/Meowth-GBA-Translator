@@ -112,24 +112,24 @@ VerdanturfTown_Text_GuyTryingToBustThroughCave:
 VerdanturfTown_Text_EasyToGetToRustboroNow:
 	.string "Cette grotte à côté du POKé-MARCHÉ\n"
 	.string "est maintenant un tunnel vers l'autre côté.\p"
-	.string "C'est génial—c'est facile d'aller acheter\n"
+	.string "C'est génial-c'est facile d'aller acheter\n"
 	.string "de nouveaux produits DEVON à MEROUVILLE maintenant.$"
 
 VerdanturfTown_Text_TownSign:
 	.string "VERGOIGNON\p"
-	.string "« Les hautes terres balayées par le vent avec la\n"
-	.string "douce fragrance de l'herbe. »$"
+	.string "“Les hautes terres balayées par le vent avec la\n"
+	.string "douce fragrance de l'herbe.”$"
 
 VerdanturfTown_Text_WandasHouse:
 	.string "MAISON DE WANDA$"
 
 VerdanturfTown_Text_BattleTentSign:
 	.string "LIEU DE LA TENTE DE COMBAT MYOKARA\n"
-	.string "« Régalez-vous de combats ! »$"
+	.string "“Régalez-vous de combats !”$"
 
 VerdanturfTown_Text_RusturfTunnelSign:
 	.string "TUNNEL RONDOUDOU\n"
-	.string "« Relie KANTEBLA et MYSTHERBE.\p"
-	.string "« Le projet du tunnel a été\n"
-	.string "annulé. »$"
+	.string "“Relie KANTEBLA et MYSTHERBE.\p"
+	.string "“Le projet du tunnel a été\n"
+	.string "annulé.”$"
 

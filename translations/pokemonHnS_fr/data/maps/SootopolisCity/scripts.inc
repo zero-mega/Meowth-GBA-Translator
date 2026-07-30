@@ -1412,13 +1412,13 @@ SootopolisCity_Movement_DestroyTask::
 SootopolisCity_Text_GymSign:
 	.string "ARÈNE POKéMON D'ATMOPOLIS\n"
 	.string "CHAMPION D'ARÈNE : JUAN\p"
-	.string "« Le CHAMPION D'ARÈNE à la beauté\n"
-	.string "de l'eau pure ! »$"
+	.string "“Le CHAMPION D'ARÈNE à la beauté\n"
+	.string "de l'eau pure !”$"
 
 SootopolisCity_Text_CitySign:
 	.string "ATALANOPOLIS\p"
-	.string "« La cité mystique où l'histoire\n"
-	.string "sommeille. »$"
+	.string "“La cité mystique où l'histoire\n"
+	.string "sommeille.”$"
 
 SootopolisCity_Text_DoorIsClosed:
 	.string "La porte est fermée.$"

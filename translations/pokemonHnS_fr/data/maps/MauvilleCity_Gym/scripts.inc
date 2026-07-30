@@ -280,7 +280,7 @@ MauvilleCity_Gym_Text_KirkDefeat:
 	.string "surchargé et amplifié, mec !$"
 
 MauvilleCity_Gym_Text_KirkPostBattle:
-	.string "POKéMON et roche, c'est une question de cœur,\n"
+	.string "POKéMON et roche, c'est une question de coeur,\n"
 	.string "ouais !$"
 
 MauvilleCity_Gym_Text_ShawnIntro:

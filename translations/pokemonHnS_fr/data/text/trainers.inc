@@ -82,7 +82,7 @@ Route103_Text_DaisyPostBattle:
 
 Route103_Text_AmyIntro:
 	.string "AMY : Je suis AMY.\n"
-	.string "Et voici ma petite sœur LIV.\l"
+	.string "Et voici ma petite soeur LIV.\l"
 	.string "On combat ensemble !$"
 
 Route103_Text_AmyDefeated:
@@ -103,11 +103,11 @@ Route103_Text_LivIntro:
 	.string "une seule équipe.$"
 
 Route103_Text_LivDefeated:
-	.string "LIV : Oh, on a perdu, grande sœur…$"
+	.string "LIV : Oh, on a perdu, grande soeur…$"
 
 Route103_Text_LivPostBattle:
 	.string "LIV : On travaille parfaitement ensemble,\n"
-	.string "ma grande sœur et moi…\p"
+	.string "ma grande soeur et moi…\p"
 	.string "Mais on a quand même perdu…$"
 
 Route103_Text_AmyLivRegister:
@@ -121,7 +121,7 @@ Route103_Text_LivNotEnoughPokemon:
 
 Route103_Text_AmyRematchIntro:
 	.string "AMY : Je suis AMY.\n"
-	.string "Et voici ma petite sœur LIV.\l"
+	.string "Et voici ma petite soeur LIV.\l"
 	.string "On combat ensemble !$"
 
 Route103_Text_AmyRematchDefeated:
@@ -144,11 +144,11 @@ Route103_Text_LivRematchIntro:
 
 Route103_Text_LivRematchDefeated:
 	.string "LIV : Awww, on a encore perdu…\n"
-	.string "Grande sœur…$"
+	.string "Grande soeur…$"
 
 Route103_Text_LivRematchPostBattle:
 	.string "LIV : On travaille parfaitement ensemble,\n"
-	.string "moi et ma grande sœur…\p"
+	.string "moi et ma grande soeur…\p"
 	.string "Mais pourquoi on a encore perdu ?$"
 
 Route103_Text_LivRematchNotEnoughPokemon:
@@ -171,7 +171,7 @@ Route103_Text_AndrewPostBattle:
 
 Route103_Text_MiguelIntro:
 	.string "Mon POKéMON est délicieusement adorable !\n"
-	.string "Ne sois pas timide—je vais te le montrer !$"
+	.string "Ne sois pas timide-je vais te le montrer !$"
 
 Route103_Text_MiguelDefeated:
 	.string "Oh, mon Dieu !\n"
@@ -389,7 +389,7 @@ Route104_Text_CindyDefeat:
 	.string "Oh là là !$"
 
 Route104_Text_CindyPostBattle:
-	.string "« Bonjour » est le début de « au revoir ».\n"
+	.string "“Bonjour” est le début de “au revoir”.\n"
 	.string "J'espère qu'on se reverra.$"
 
 Route104_Text_CindyRegister1:
@@ -412,7 +412,7 @@ Route104_Text_CindyRematchDefeat:
 	.string "J'ai fait de mon mieux…$"
 
 Route104_Text_CindyPostRematch:
-	.string "« Bonjour » est le début de « au revoir ».\n"
+	.string "“Bonjour” est le début de “au revoir”.\n"
 	.string "J'espère qu'on se reverra.$"
 
 Route104_Text_DarianIntro:
@@ -621,7 +621,7 @@ Route107_Text_TonyDefeated:
 	.string "Je suis sous le choc !$"
 
 Route107_Text_TonyPostBattle:
-	.string "Je parcours les mers avec un cœur plein de\n"
+	.string "Je parcours les mers avec un coeur plein de\n"
 	.string "rêves…\p"
 	.string "C'est une chanson !\n"
 	.string "Bref, je continue à nager.$"
@@ -668,7 +668,7 @@ Route107_Text_BethPostBattle:
 
 Route107_Text_LisaIntro:
 	.string "LISA : Nous te défions en tant que\n"
-	.string "frère et sœur !$"
+	.string "frère et soeur !$"
 
 Route107_Text_LisaDefeated:
 	.string "LISA : Génial.\n"
@@ -684,7 +684,7 @@ Route107_Text_LisaNotEnoughPokemon:
 
 Route107_Text_RayIntro:
 	.string "RAY : On combat toujours des POKéMON,\n"
-	.string "ma sœur et moi.\p"
+	.string "ma soeur et moi.\p"
 	.string "Je perds toujours, mais on peut te battre\n"
 	.string "en 2 contre 2 !$"
 
@@ -693,7 +693,7 @@ Route107_Text_RayDefeated:
 	.string "supérieur au nôtre !$"
 
 Route107_Text_RayPostBattle:
-	.string "RAY : Ma sœur m'a donné mon POKéMON.\n"
+	.string "RAY : Ma soeur m'a donné mon POKéMON.\n"
 	.string "Je l'ai élevé, et maintenant c'est mon\l"
 	.string "partenaire important !$"
 
@@ -801,7 +801,7 @@ Route108_Text_CarolinaPostBattle:
 
 Route109_Text_DavidIntro:
 	.string "Hiyah ! Regarde mes abdos sculptés !\n"
-	.string "C'est ce qu'on appelle « musclé » !$"
+	.string "C'est ce qu'on appelle “musclé” !$"
 
 Route109_Text_DavidDefeated:
 	.string "Aiyah !\n"
@@ -1118,7 +1118,7 @@ Route110_Text_JaclynPostBattle:
 
 Route110_Text_EdwinIntro:
 	.string "Pourrais-je voir ton POKéMON ?\n"
-	.string "Juste un coup d'œil, s'il te plaît ?$"
+	.string "Juste un coup d'oeil, s'il te plaît ?$"
 
 Route110_Text_EdwinDefeated:
 	.string "Je voulais compléter\n"
@@ -1135,7 +1135,7 @@ Route110_Text_EdwinRegister:
 Route110_Text_EdwinRematchIntro:
 	.string "Salut, as-tu attrapé de nouveaux POKéMON ?\p"
 	.string "Je peux voir ton POKéMON ?\n"
-	.string "Juste un coup d'œil, s'il te plaît ?$"
+	.string "Juste un coup d'oeil, s'il te plaît ?$"
 
 Route110_Text_EdwinRematchDefeated:
 	.string "Tes POKéMON…\n"
@@ -1697,7 +1697,7 @@ Route113_Text_LungIntro:
 
 Route113_Text_LungDefeat:
 	.string "Je vais utiliser mon ninjutsu sur toi…\n"
-	.string "« MANTEAU DE CENDRES VOLCANIQUES » !\p"
+	.string "“MANTEAU DE CENDRES VOLCANIQUES” !\p"
 	.string "…Quoi ?\n"
 	.string "C'est déjà fini ?$"
 
@@ -1790,7 +1790,7 @@ Route114_Text_LennyIntro:
 	.string "Yodelayhihoo !\p"
 	.string "… …\p"
 	.string "Tu es censé crier\n"
-	.string "« yodelayhihoo » car il n'y a pas\l"
+	.string "“yodelayhihoo” car il n'y a pas\l"
 	.string "d'écho ici !$"
 
 Route114_Text_LennyDefeat:
@@ -1799,7 +1799,7 @@ Route114_Text_LennyDefeat:
 Route114_Text_LennyPostBattle:
 	.string "Quand j'étais petit, je croyais qu'il y avait\n"
 	.string "quelqu'un qui me copiait et criait\l"
-	.string "« Yodelayhihoo » en retour.$"
+	.string "“Yodelayhihoo” en retour.$"
 
 Route114_Text_LucasIntro:
 	.string "Si tu n'es pas préparé, tu ne devrais pas\n"
@@ -2464,7 +2464,7 @@ Route117_Text_DerekDefeat:
 	.string "inchangée…$"
 
 Route117_Text_DerekPostBattle:
-	.string "J'ai seulement suivi mon cœur, et maintenant\n"
+	.string "J'ai seulement suivi mon coeur, et maintenant\n"
 	.string "on m'appelle MANIAQUE DES INSECTES…\p"
 	.string "Pourtant, je suis un expert des POKéMON INSECTE,\n"
 	.string "alors c'est tout à fait normal qu'on m'appelle\l"
@@ -2644,10 +2644,10 @@ Route118_Text_BarnyPostBattle:
 Route118_Text_WadeIntro:
 	.string "Pour les PÊCHEURS, l'équipement est la clé. Mais\p"
 	.string "pour les DRESSEURS, les ingrédients clés sont les\n"
-	.string "POKéMON et le cœur, bien sûr !$"
+	.string "POKéMON et le coeur, bien sûr !$"
 
 Route118_Text_WadeDefeat:
-	.string "J'ai été battu dans mon cœur ?$"
+	.string "J'ai été battu dans mon coeur ?$"
 
 Route118_Text_WadePostBattle:
 	.string "En y réfléchissant, la pêche est un combat\n"
@@ -2989,7 +2989,7 @@ Route120_Text_LorenzoDefeat:
 	.string "pas besoin d'être secouru !$"
 
 Route120_Text_LorenzoPostBattle:
-	.string "Voyager où ton cœur te mène\n"
+	.string "Voyager où ton coeur te mène\n"
 	.string "avec des POKéMON…\l"
 	.string "C'est la joie d'être DRESSEUR.$"
 
@@ -3191,7 +3191,7 @@ Route121_Text_TammyDefeat:
 Route121_Text_TammyPostBattle:
 	.string "MONT PYRE…\n"
 	.string "Une puissance mystérieuse\l"
-	.string "œuvre là-bas…$"
+	.string "oeuvre là-bas…$"
 
 Route121_Text_KateIntro:
 	.string "KATE : Ensemble, nous n'avons pas peur !\n"
@@ -3695,15 +3695,15 @@ Route124_Text_LilaNotEnoughMons:
 	.string "Pas sans deux POKéMON.$"
 
 Route124_Text_RoyIntro:
-	.string "ROY : Ma grande sœur est coriace aux POKéMON !\p"
+	.string "ROY : Ma grande soeur est coriace aux POKéMON !\p"
 	.string "Ne pleure pas quand tu perdras !$"
 
 Route124_Text_RoyDefeat:
 	.string "ROY : Oh-oh…\n"
-	.string "Ma grande sœur va me gronder…$"
+	.string "Ma grande soeur va me gronder…$"
 
 Route124_Text_RoyPostBattle:
-	.string "ROY : Ma grande sœur fait vraiment peur\n"
+	.string "ROY : Ma grande soeur fait vraiment peur\n"
 	.string "quand elle se met en colère.\p"
 	.string "C'est pour ça qu'elle n'a pas de\n"
 	.string "copain.$"
@@ -3743,10 +3743,10 @@ Route124_Text_RoyRematchIntro:
 
 Route124_Text_RoyRematchDefeat:
 	.string "ROY : Oh-oh…\n"
-	.string "Ma grande sœur va encore me gronder.$"
+	.string "Ma grande soeur va encore me gronder.$"
 
 Route124_Text_RoyPostRematch:
-	.string "ROY : Ma grande sœur fait\n"
+	.string "ROY : Ma grande soeur fait\n"
 	.string "vraiment peur quand elle se met\p"
 	.string "en colère. Elle va me faire\n"
 	.string "m'entraîner dur avec des POKéMON après…$"
@@ -4023,11 +4023,11 @@ Route126_Text_IsobelPostBattle:
 	.string "C'est amer ! C'est salé !!$"
 
 Route126_Text_SiennaIntro:
-	.string "Je mets tout mon cœur\n"
+	.string "Je mets tout mon coeur\n"
 	.string "dans ça !$"
 
 Route126_Text_SiennaDefeat:
-	.string "Tu avais plus de cœur !$"
+	.string "Tu avais plus de coeur !$"
 
 Route126_Text_SiennaPostBattle:
 	.string "J'ai besoin de me rafraîchir…\n"
@@ -4063,7 +4063,7 @@ Route127_Text_JonahIntro:
 	.string "Permets-moi de te le démontrer...$"
 
 Route127_Text_JonahDefeat:
-	.string "Bien que j'aie perdu, mon cœur\n"
+	.string "Bien que j'aie perdu, mon coeur\n"
 	.string "reste calme…$"
 
 Route127_Text_JonahPostBattle:
@@ -4091,7 +4091,7 @@ Route127_Text_RogerDefeat:
 
 Route127_Text_RogerPostBattle:
 	.string "Ma ligne de pêche danse !\n"
-	.string "La danse des nœuds ! Hahaha, emmêlée !$"
+	.string "La danse des noeuds ! Hahaha, emmêlée !$"
 
 Route127_Text_AidanIntro:
 	.string "Les POKéMON OISEAU ont une excellente vision.\n"
@@ -4344,7 +4344,7 @@ Route130_Text_RodneyPostBattle:
 
 Route130_Text_KatieIntro:
 	.string "Dans la mer bleue profonde,\n"
-	.string "mon cœur bleu brisé trouve\l"
+	.string "mon coeur bleu brisé trouve\l"
 	.string "du réconfort parmi les vagues.$"
 
 Route130_Text_KatieDefeat:
@@ -4424,7 +4424,7 @@ Route131_Text_KaraPostBattle:
 
 Route131_Text_ReliIntro:
 	.string "RELI : On va se battre ensemble,\n"
-	.string "frère et sœur, contre toi !$"
+	.string "frère et soeur, contre toi !$"
 
 Route131_Text_ReliDefeat:
 	.string "RELI : On n'a pas pu gagner même\n"
@@ -4441,10 +4441,10 @@ Route131_Text_ReliNotEnoughMons:
 
 Route131_Text_IanIntro:
 	.string "IAN : Je fais de mon mieux avec\n"
-	.string "ma sœur !$"
+	.string "ma soeur !$"
 
 Route131_Text_IanDefeat:
-	.string "IAN : J'ai fait de mon mieux avec ma sœur,\n"
+	.string "IAN : J'ai fait de mon mieux avec ma soeur,\n"
 	.string "mais on n'a quand même pas gagné…$"
 
 Route131_Text_IanPostBattle:
@@ -4468,7 +4468,7 @@ Route131_Text_TaliaDefeat:
 Route131_Text_TaliaPostBattle:
 	.string "Il y a un endroit étrange à proximité.\n"
 	.string "Il y a une énorme tour là-bas.\l"
-	.string "Pourquoi n'irais-tu pas jeter un œil ?$"
+	.string "Pourquoi n'irais-tu pas jeter un oeil ?$"
 
 Route131_Text_KevinIntro:
 	.string "Les gens de RELIFAC-LE-HAUT sont\n"

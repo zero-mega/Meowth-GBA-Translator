@@ -783,11 +783,11 @@ PetalburgCity_Text_FullPartyExplanation:
 PetalburgCity_Text_GymSign:
 	.string "ARÈNE POKéMON DE PETALBURG\n"
 	.string "CHAMPION D'ARÈNE : NORMAN\l"
-	.string "« Un homme en quête de puissance ! »$"
+	.string "“Un homme en quête de puissance !”$"
 
 PetalburgCity_Text_CitySign:
 	.string "ROSALIA\n"
-	.string "« Là où les gens et la nature s'épanouissent. »$"
+	.string "“Là où les gens et la nature s'épanouissent.”$"
 
 PetalburgCity_Text_WallyHouseSign:
 	.string "MAISON DE WALLY$"

@@ -191,7 +191,7 @@ Route104_PrettyPetalFlowerShop_Text_WailmerPailExplanation:
 	.string "C'est pas génial ? C'est comme si elles avaient la volonté de vivre.$"
 
 Route104_PrettyPetalFlowerShop_Text_ImGrowingFlowers:
-	.string "J'essaie d'être comme mes grandes sœurs.\n"
+	.string "J'essaie d'être comme mes grandes soeurs.\n"
 	.string "Je fais pousser des fleurs aussi !\p"
 	.string "Tiens !\n"
 	.string "C'est pour toi !$"
@@ -212,7 +212,7 @@ SootopolisCity_Text_NameIsKiriHaveOneOfThese:
 	.string "Je m'appelle KIRI. Maman et papa\p"
 	.string "m'ont donné ce nom pour que\n"
 	.string "je grandisse en bonne santé et\l"
-	.string "au cœur chaleureux. C'était leur souhait.\p"
+	.string "au coeur chaleureux. C'était leur souhait.\p"
 	.string "Tu peux en prendre un.$"
 
 SootopolisCity_Text_GiveYouThisBerryToo:

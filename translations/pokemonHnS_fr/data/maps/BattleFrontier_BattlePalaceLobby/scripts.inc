@@ -378,7 +378,7 @@ BattleFrontier_BattlePalaceLobby_EventScript_ExitRules::
 	end
 
 BattleFrontier_BattlePalaceLobby_Text_WelcomeForSingleBattle:
-	.string "Là où les cœurs des DRESSEURS\n"
+	.string "Là où les coeurs des DRESSEURS\n"
 	.string "sont mis à l'épreuve.\p"
 	.string "Je t'accueille au PALAIS DE COMBAT.\p"
 	.string "J'accepte les défis aux SALLES\n"
@@ -412,7 +412,7 @@ BattleFrontier_BattlePalaceLobby_Text_ExplainSingleBattleChallenge:
 	.string "tu seras disqualifié.$"
 
 BattleFrontier_BattlePalaceLobby_Text_ReturnWhenFortified:
-	.string "Quand tu auras fortifié ton cœur\n"
+	.string "Quand tu auras fortifié ton coeur\n"
 	.string "et tes POKéMON, tu devras revenir.$"
 
 BattleFrontier_BattlePalaceLobby_Text_WhichChallenge:
@@ -421,28 +421,28 @@ BattleFrontier_BattlePalaceLobby_Text_WhichChallenge:
 	.string "Lequel choisis-tu comme défi ?$"
 
 BattleFrontier_BattlePalaceLobby_Text_NotEnoughValidMonsLv50:
-	.string "Soupir…\p"
-	.string "Tu n'as pas les\n"
-	.string "trois POKéMON\p"
-	.string "requis pour\n"
-	.string "le défi.\p"
-	.string "Pour entrer, tu\n"
-	.string "dois fournir trois\p"
-	.string "POKéMON différents.\p"
-	.string "Reviens quand\n"
-	.string "tu seras prêt !$"
+	.string "Sigh…\p"
+	.string "You do not have the three POKéMON\n"
+	.string "required for the challenge.\p"
+	.string "To enter, you must provide three\n"
+	.string "different kinds of POKéMON.\p"
+	.string "They also must not be holding\n"
+	.string "the same kinds of items.\p"
+	.string "EGGS{STR_VAR_1} ineligible.\p"
+	.string "Come back when you have made\n"
+	.string "your preparations.$"
 
 BattleFrontier_BattlePalaceLobby_Text_NotEnoughValidMonsLvOpen:
-	.string "Soupir…\p"
-	.string "Tu n'as pas les\n"
-	.string "trois POKéMON\p"
-	.string "requis pour\n"
-	.string "le défi.\p"
-	.string "Pour entrer, tu\n"
-	.string "dois fournir trois\p"
-	.string "POKéMON différents.\p"
-	.string "Reviens quand\n"
-	.string "tu seras prêt !$"
+	.string "Sigh…\p"
+	.string "You do not have the three POKéMON\n"
+	.string "required for the challenge.\p"
+	.string "To enter, you must provide three\n"
+	.string "different kinds of POKéMON.\p"
+	.string "They also must not be holding\n"
+	.string "the same kinds of items.\p"
+	.string "EGGS{STR_VAR_1} ineligible.\p"
+	.string "Come back when you have made\n"
+	.string "your preparations.$"
 
 BattleFrontier_BattlePalaceLobby_Text_NowSelectThreeMons:
 	.string "Bien. Maintenant, tu dois choisir\n"
@@ -464,7 +464,7 @@ BattleFrontier_BattlePalaceLobby_Text_ResultsWillBeRecorded:
 
 BattleFrontier_BattlePalaceLobby_Text_FirmTrueBondsFor7WinStreak:
 	.string "Pour une série de 7 victoires...\p"
-	.string "Les liens entre ton cœur et tes POKéMON\n"
+	.string "Les liens entre ton coeur et tes POKéMON\n"
 	.string "semblent solides et sincères.$"
 
 BattleFrontier_BattlePalaceLobby_Text_FeatWillBeRecorded:
@@ -502,20 +502,20 @@ BattleFrontier_BattlePalaceLobby_Text_ReceivedPrize:
 	.string "{STR_VAR_1}.$"
 
 BattleFrontier_BattlePalaceLobby_Text_LadyCanTellWhatMonsThink:
-	.string "EUSINE : Je suis choqué !\n"
-	.string "SUICUNE est passé comme un éclair,\p"
-	.string "droit devant mes yeux !\n"
-	.string "Pendant dix ans j'ai poursuivi\p"
-	.string "SUICUNE, et j'ai enfin pu\n"
-	.string "le voir.\p"
-	.string "J'en ai la gorge serrée !\n"
-	.string "{PLAYER}, je dois tout ça à toi !\p"
-	.string "Merci !\n"
-	.string "J'ai entendu que le POKéMON légendaire\p"
-	.string "d'ECRUTEAK met les humains choisis\n"
-	.string "à l'épreuve en les laissant s'approcher.\p"
-	.string "Je vais suivre SUICUNE.\n"
-	.string "{PLAYER}, on se reverra ! Adieu !$"
+	.string "For a hardy fellow like me,\n"
+	.string "hardy POKéMON are the best.\p"
+	.string "Offense is the best defense!\n"
+	.string "A relentless attack is the ultimate!\p"
+	.string "But that's not what I wanted to chat\n"
+	.string "about.\p"
+	.string "Every so often a really cute lady\n"
+	.string "swings by here.\p"
+	.string "She says that she can tell what\n"
+	.string "POKéMON are thinking.\p"
+	.string "I don't know about that part,\n"
+	.string "but she is really cute.\p"
+	.string "Huh?\n"
+	.string "Why are you looking at me like that?$"
 
 BattleFrontier_BattlePalaceLobby_Text_NatureAndMovesKeyHere:
 	.string "Hmm…\p"
@@ -546,7 +546,7 @@ BattleFrontier_BattlePalaceLobby_Text_WhatNatureFavorsChippingAway:
 	.string "ça ne peut pas être ça.$"
 
 BattleFrontier_BattlePalaceLobby_Text_WelcomeForDoubleBattle:
-	.string "Là où les cœurs des DRESSEURS\n"
+	.string "Là où les coeurs des DRESSEURS\n"
 	.string "sont mis à l'épreuve.\p"
 	.string "Je t'accueille au PALAIS DE COMBAT.\p"
 	.string "J'accepte les défis aux SALLES\n"

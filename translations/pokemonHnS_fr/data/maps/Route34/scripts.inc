@@ -190,7 +190,7 @@ Route34_Text_CooltrainerIrene_Beaten:
 	.string "IRENE : Ohhh ! Tu es trop fort !$"
 
 Route34_Text_CooltrainerIrene_After1:
-	.string "IRENE : Ma sœur KATE va t'avoir\n"
+	.string "IRENE : Ma soeur KATE va t'avoir\n"
 	.string "pour ça !$"
 
 Route34_Text_CooltrainerIrene_After2:
@@ -202,10 +202,10 @@ Route34_Text_CooltrainerJenn_Seen:
 	.string "Qu'est-ce que tu fais ?$"
 
 Route34_Text_CooltrainerJenn_Beaten:
-	.string "JENN : Désolée, IRENE ! Ma chère sœur !$"
+	.string "JENN : Désolée, IRENE ! Ma chère soeur !$"
 
 Route34_Text_CooltrainerJenn_After1:
-	.string "JENN : Ne te laisse pas aller ! Ma sœur\n"
+	.string "JENN : Ne te laisse pas aller ! Ma soeur\n"
 	.string "KATE est costaude !$"
 
 Route34_Text_CooltrainerJenn_After2:
@@ -214,7 +214,7 @@ Route34_Text_CooltrainerJenn_After2:
 
 Route34_Text_CooltrainerKate_Seen:
 	.string "KATE : Je dois te remercier de\n"
-	.string "t'avoir occupé de mes sœurs !$"
+	.string "t'avoir occupé de mes soeurs !$"
 
 Route34_Text_CooltrainerKate_Beaten:
 	.string "KATE : Non ! Je n'arrive pas à croire que j'ai perdu.$"
