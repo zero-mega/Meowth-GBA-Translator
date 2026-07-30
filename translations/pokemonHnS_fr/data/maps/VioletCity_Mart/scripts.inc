@@ -1,0 +1,42 @@
+VioletCity_Mart_MapScripts::
+	.byte 0
+
+VioletCity_Mart_EventScript_Clerk::
+	lock
+	faceplayer
+	message gText_HowMayIServeYou
+	waitmessage
+	pokemart 0
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+VioletCity_Mart_EventScript_Granny::
+	lock
+	faceplayer
+	msgbox VioletCity_Mart_Text_Granny, MSGBOX_DEFAULT
+	closemessage
+	release
+	end
+
+VioletCity_Mart_EventScript_Rocker::
+	lock
+	faceplayer
+	msgbox VioletCity_Mart_Text_CooltrainerM, MSGBOX_DEFAULT
+	closemessage
+	release
+	end
+	
+VioletCity_Mart_Text_Granny:
+	.string "Quand tu attrapes un POKéMON pour la\n"
+	.string "première fois, il peut être faible.\p"
+	.string "Mais il finira par devenir\n"
+	.string "fort.\p"
+	.string "Il est important de traiter les POKéMON\n"
+	.string "avec amour.$"
+
+VioletCity_Mart_Text_CooltrainerM:
+	.string "Les POKéMON peuvent tenir des objets\n"
+	.string "comme des POTIONS et des ANTIDOTES.\p"
+	.string "Mais ils ne semblent pas savoir\n"
+	.string "utiliser les objets fabriqués par l'homme.$"

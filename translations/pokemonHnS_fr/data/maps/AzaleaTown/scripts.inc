@@ -1,0 +1,453 @@
+.set LOCALID_AZALEA_TOWN_KURT_GS, 18
+.set LOCALID_AZALEA_TOWN_SILVER, 6
+
+AzaleaTown_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION, AzaleaTown_OnTransition
+	map_script MAP_SCRIPT_ON_FRAME_TABLE, AzaleaTown_OnFrame
+	.byte 0
+
+AzaleaTown_OnTransition::
+	goto_if_eq VAR_AZALEA_TOWN_STATE, 5, AzaleaTown_MapScript_Hide_Silver
+	end
+	
+AzaleaTown_OnFrame::
+	map_script_2 VAR_AZALEA_TOWN_STATE, 8, AzaleaTown_EventScript_GSBall
+	.2byte 0
+
+AzaleaTown_MapScript_Hide_Silver:
+	setflag FLAG_HIDE_AZALEA_TOWN_SILVER
+	removeobject LOCALID_AZALEA_TOWN_SILVER
+	end
+
+AzaleaTown_EventScript_Trigger:: @flagheap
+	setflag FLAG_VISITED_AZALEA_TOWN
+	setflag FLAG_HIDE_AZALEA_TOWN_SLOWPOKE
+	setflag FLAG_HIDE_AZALEA_TOWN_SILVER
+	setflag FLAG_HIDE_KURT_2
+	setflag FLAG_HIDE_ILEX_FOREST_APPRENTICE
+	setflag FLAG_HIDE_ILEX_FOREST_MASTER
+	setflag FLAG_HIDE_ILEX_FOREST_FARFETCHD_4
+	setflag FLAG_HIDE_ILEX_FOREST_FARFETCHD_3
+	setflag FLAG_HIDE_ILEX_FOREST_FARFETCHD_2
+	setflag FLAG_HIDE_ILEX_FOREST_FARFETCHD_1
+	setflag FLAG_HIDE_CELEBI
+	setflag FLAG_HIDE_ILEX_FOREST_KURT
+	setflag FLAG_HIDE_AZALEA_TOWN_KURT
+	setflag FLAG_HIDE_AZALEA_ARIADOS_LEFT
+	setflag FLAG_HIDE_AZALEA_ARIADOS_MID
+	setflag FLAG_HIDE_AZALEA_ARIADOS_RIGHT
+	
+
+	clearflag FLAG_HIDE_ILEX_FOREST_KIMONO
+	clearflag FLAG_ITEM_SLOWPOKE_WELL_RAIN_DANCE
+	clearflag FLAG_HIDE_AZALEA_TOWN_ROCKETS
+	clearflag FLAG_HIDE_AZALEA_TOWN_WELL_ROCKET
+	clearflag FLAG_HIDE_KURT_1
+	clearflag FLAG_GOT_CHARCOAL
+	clearflag FLAG_HIDE_AZALEA_TOWN_FARFETCHD
+	clearflag FLAG_HIDE_AZALEA_TOWN_CUT_MASTER
+	clearflag FLAG_MOVE_TUTOR_TAUGHT_HEADBUTT
+
+	removeitem ITEM_HM_SURF
+	setvar VAR_AZALEA_TOWN_STATE, 1
+	end
+
+AzaleaTown_EventScript_Rocket1::
+	lock
+	faceplayer
+	msgbox AzaleaTown_Text_Rocket1, MSGBOX_DEFAULT
+	closemessage
+	release
+	end
+
+AzaleaTown_EventScript_Rocket2::
+	lock
+	faceplayer
+	msgbox AzaleaTown_Text_Rocket2, MSGBOX_DEFAULT
+	closemessage
+	release
+	end
+
+AzaleaTown_EventScript_Gramps::
+	lock
+	faceplayer
+	goto_if_set FLAG_HIDE_AZALEA_TOWN_ROCKETS, AzaleaTown_EventScript_Gramps2
+	msgbox AzaleaTown_Text_GrampsBefore, MSGBOX_DEFAULT
+	closemessage
+	release
+	end
+
+AzaleaTown_EventScript_Gramps2::
+	msgbox AzaleaTown_Text_GrampsAfter, MSGBOX_DEFAULT
+	closemessage
+	release
+	end
+
+AzaleaTown_EventScript_Lass::
+	lock
+	faceplayer
+	msgbox AzaleaTown_Text_Teacher, MSGBOX_DEFAULT
+	closemessage
+	release
+	end
+
+AzaleaTown_EventScript_Youngster::
+	lock
+	faceplayer
+	msgbox AzaleaTown_Text_Youngster, MSGBOX_DEFAULT
+	closemessage
+	release
+	end
+
+AzaleaTown_EventScript_Slowpoke::
+	lock
+	faceplayer
+	waitse
+	playmoncry SPECIES_SLOWPOKE, CRY_MODE_NORMAL
+	msgbox AzaleaTown_Text_Slowpoke1, MSGBOX_DEFAULT
+	waitmoncry
+	release
+	end
+
+
+AzaleaTown_EventScript_GymSign::
+	lock
+	msgbox AzaleaTown_Text_GymSign, MSGBOX_SIGN
+	closemessage
+	release
+	end
+
+AzaleaTown_EventScript_KurtSign::
+	lock
+	msgbox AzaleaTown_Text_KurtsHouseSign, MSGBOX_SIGN
+	closemessage
+	release
+	end
+
+AzaleaTown_EventScript_KilnSign::
+	lock
+	msgbox AzaleaTown_Text_CharcoalKilnSign, MSGBOX_SIGN
+	closemessage
+	release
+	end
+
+AzaleaTown_EventScript_IlexSign::
+	lock
+	msgbox AzaleaTown_Text_IlexForestSign, MSGBOX_SIGN
+	closemessage
+	release
+	end
+
+AzaleaTown_EventScript_WellSign::
+	lock
+	msgbox AzaleaTown_Text_SlowpokeWellSign, MSGBOX_SIGN
+	closemessage
+	release
+	end
+
+AzaleaTown_EventScript_AzaleaSign::
+	lock
+	msgbox AzaleaTown_Text_Sign, MSGBOX_SIGN
+	closemessage
+	release
+	end
+
+AzaleaTown_EventScript_SilverTriggerTop::
+	lock
+	clearflag FLAG_HIDE_AZALEA_TOWN_SILVER
+	addobject LOCALID_AZALEA_TOWN_SILVER
+	playbgm MUS_HG_ENCOUNTER_RIVAL, TRUE
+	applymovement LOCALID_AZALEA_TOWN_SILVER, AzaleaTown_Movement_Silver_EnterTop
+	waitmovement 0
+	turnobject OBJ_EVENT_ID_PLAYER, DIR_EAST
+	msgbox AzaleaTown_Text_RivalBefore, MSGBOX_DEFAULT
+	closemessage
+	call_if_eq VAR_STARTER_MON, 0, AzaleaTown_Silver_Battle_Cyndaquil
+	call_if_eq VAR_STARTER_MON, 1, AzaleaTown_Silver_Battle_Totodile
+	call_if_eq VAR_STARTER_MON, 2, AzaleaTown_Silver_Battle_Chikorita
+	msgbox AzaleaTown_Text_RivalAfter, MSGBOX_DEFAULT
+	closemessage
+	applymovement OBJ_EVENT_ID_PLAYER, AzaleaTown_Movement_Player_LeaveTop
+	waitmovement 0
+	applymovement LOCALID_AZALEA_TOWN_SILVER, AzaleaTown_Movement_Silver_LeaveTop
+	waitmovement 0
+	playse SE_EXIT
+	setflag FLAG_HIDE_AZALEA_TOWN_SILVER
+	removeobject LOCALID_AZALEA_TOWN_SILVER
+	setvar VAR_AZALEA_TOWN_STATE, 6
+	fadedefaultbgm
+	release
+	end
+
+AzaleaTown_EventScript_SilverTriggerBot::
+	lock
+	clearflag FLAG_HIDE_AZALEA_TOWN_SILVER
+	addobject LOCALID_AZALEA_TOWN_SILVER
+	playbgm MUS_HG_ENCOUNTER_RIVAL, TRUE
+	applymovement LOCALID_AZALEA_TOWN_SILVER, AzaleaTown_Movement_Silver_EnterBot
+	waitmovement 0
+	turnobject OBJ_EVENT_ID_PLAYER, DIR_EAST
+	msgbox AzaleaTown_Text_RivalBefore, MSGBOX_DEFAULT
+	closemessage
+	call_if_eq VAR_STARTER_MON, 0, AzaleaTown_Silver_Battle_Cyndaquil
+	call_if_eq VAR_STARTER_MON, 1, AzaleaTown_Silver_Battle_Totodile
+	call_if_eq VAR_STARTER_MON, 2, AzaleaTown_Silver_Battle_Chikorita
+	playbgm MUS_HG_RIVAL_EXIT, TRUE
+	msgbox AzaleaTown_Text_RivalAfter, MSGBOX_DEFAULT
+	closemessage
+	applymovement OBJ_EVENT_ID_PLAYER, AzaleaTown_Movement_Player_LeaveBot
+	waitmovement 0
+	applymovement LOCALID_AZALEA_TOWN_SILVER, AzaleaTown_Movement_Silver_LeaveBot
+	waitmovement 0
+	playse SE_EXIT
+	setflag FLAG_HIDE_AZALEA_TOWN_SILVER
+	removeobject LOCALID_AZALEA_TOWN_SILVER
+	setvar VAR_AZALEA_TOWN_STATE, 6
+	fadedefaultbgm
+	release
+	end
+
+AzaleaTown_Silver_Battle_Cyndaquil::
+	trainerbattle_no_intro TRAINER_RIVAL_CYNDAQUIL_2, AzaleaTown_Text_RivalWin
+	return
+
+AzaleaTown_Silver_Battle_Totodile::
+	trainerbattle_no_intro TRAINER_RIVAL_TOTODILE_2, AzaleaTown_Text_RivalWin
+	return
+
+AzaleaTown_Silver_Battle_Chikorita::
+	trainerbattle_no_intro TRAINER_RIVAL_CHIKORITA_2, AzaleaTown_Text_RivalWin
+	return
+
+
+AzaleaTown_EventScript_GSBall::
+	lock
+	applymovement OBJ_EVENT_ID_PLAYER, AzaleaTown_Movement_PlayerGSBall
+	waitmovement 0
+	clearflag FLAG_HIDE_AZALEA_TOWN_KURT
+	addobject LOCALID_AZALEA_TOWN_KURT_GS
+	opendoor 19, 11
+	waitdooranim
+	waitmovement 0
+	closedoor 19, 11
+	waitdooranim
+	applymovement LOCALID_AZALEA_TOWN_KURT_GS, AzaleaTown_Movement_Kurt2
+	playse SE_M_PETAL_DANCE
+	waitmovement 0
+	msgbox AzaleaTown_Text_Kurt1, MSGBOX_DEFAULT
+	closemessage
+	playse SE_M_PETAL_DANCE
+	msgbox AzaleaTown_Text_Kurt2, MSGBOX_DEFAULT
+	giveitem ITEM_GS_BALL
+	waitse
+	playse SE_M_PETAL_DANCE
+	turnobject LOCALID_AZALEA_TOWN_KURT_GS, DIR_WEST
+	turnobject OBJ_EVENT_ID_PLAYER, DIR_WEST
+	playse SE_M_PETAL_DANCE
+	waitse
+	turnobject LOCALID_AZALEA_TOWN_KURT_GS, DIR_SOUTH
+	turnobject OBJ_EVENT_ID_PLAYER, DIR_NORTH
+	msgbox AzaleaTown_Text_Kurt3, MSGBOX_DEFAULT
+	closemessage
+	applymovement LOCALID_AZALEA_TOWN_KURT_GS, AzaleaTown_Movement_KurtLeave
+	delay 60
+	opendoor 19, 11
+	waitdooranim
+	waitmovement 0
+	setflag FLAG_HIDE_AZALEA_TOWN_KURT
+	removeobject LOCALID_AZALEA_TOWN_KURT_GS
+	closedoor 19, 11
+	waitdooranim
+	setvar VAR_AZALEA_TOWN_STATE, 9
+	release
+	end
+
+AzaleaTown_Movement_Silver_EnterTop:
+	walk_fast_left
+	walk_fast_left
+	walk_fast_left
+	walk_fast_left
+	walk_fast_left
+	walk_fast_left
+	walk_fast_left
+	step_end
+
+AzaleaTown_Movement_Silver_EnterBot:
+	walk_fast_down
+	walk_fast_left
+	walk_fast_left
+	walk_fast_left
+	walk_fast_left
+	walk_fast_left
+	walk_fast_left
+	walk_fast_left
+	step_end
+
+AzaleaTown_Movement_Silver_LeaveTop:
+	walk_fast_left
+	walk_fast_left
+	walk_fast_left
+	walk_fast_left
+	step_end
+
+AzaleaTown_Movement_Silver_LeaveBot:
+	walk_fast_left
+	walk_fast_left
+	walk_fast_left
+	walk_fast_up
+	walk_fast_left
+	step_end
+
+AzaleaTown_Movement_Player_LeaveTop:
+	lock_facing_direction
+	walk_fast_down
+	unlock_facing_direction
+	face_up
+	step_end
+
+AzaleaTown_Movement_Player_LeaveBot:
+	lock_facing_direction
+	walk_fast_up
+	unlock_facing_direction
+	face_down
+	step_end
+
+AzaleaTown_Movement_Kurt1:
+	walk_down
+	step_end
+
+AzaleaTown_Movement_Kurt2:
+	walk_down
+	walk_down
+	walk_down
+	face_right
+	delay_8
+	face_left
+	delay_8
+	face_down
+	step_end
+
+AzaleaTown_Movement_PlayerGSBall:
+	walk_down
+	walk_down
+	walk_down
+	face_left
+	delay_16
+	face_right
+	delay_8
+	face_up
+	step_end
+
+AzaleaTown_Movement_KurtLeave:
+	walk_up
+	walk_up
+	walk_up
+	step_end
+
+AzaleaTown_Text_RivalBefore:
+	.string "…Dis-moi quelque chose.\p"
+	.string "Est-ce vrai que la TEAM ROCKET\n"
+	.string "est de retour ?\p"
+	.string "Quoi ? Tu les as battus ? Ha !\n"
+	.string "Arrête de mentir.\p"
+	.string "Tu ne plaisantes pas ?\n"
+	.string "Alors voyons voir à quel point tu es fort.$"
+
+AzaleaTown_Text_RivalWin:
+	.string "…Humph ! POKéMON inutiles !\p"
+	.string "Écoute, toi. Tu n'as gagné que parce que\n"
+	.string "mes POKéMON étaient faibles.$"
+
+AzaleaTown_Text_RivalAfter:
+	.string "I hate the weak.\p"
+	.string "POKéMON, trainers. It doesn't\n"
+	.string "matter who or what.\p"
+	.string "I'm going to be strong and wipe\n"
+	.string "out the weak.\p"
+	.string "That goes for TEAM ROCKET too.\p"
+	.string "They act big and tough in a group.\p"
+	.string "But get them alone, and they're weak.\n"
+	.string "I hate them all.\p"
+	.string "You stay out of my way. A weakling\n"
+	.string "like you is only a distraction.$"
+
+AzaleaTown_Text_RivalLoss:
+	.string "…Humph ! Je savais que tu mentais.$"
+
+AzaleaTown_Text_Rocket1:
+	.string "C'est dangereux d'entrer là,\n"
+	.string "alors je monte la garde.\p"
+	.string "Ne suis-je pas un bon samaritain ?$"
+
+AzaleaTown_Text_Rocket2:
+	.string "Tu connais la QUEUE RAMOLOSS ?\n"
+	.string "J'ai entendu dire que c'est bon !\p"
+	.string "Tu es content que je te l'aie dit ?$"
+
+AzaleaTown_Text_GrampsBefore:
+	.string "Les RAMOLOSS ont disparu\n"
+	.string "de la ville…\p"
+	.string "J'ai entendu dire qu'on vendait leurs QUEUES\n"
+	.string "quelque part.$"
+
+AzaleaTown_Text_GrampsAfter:
+	.string "Les RAMOLOSS sont revenus.\p"
+	.string "Connaissant leur nature, ils ont peut-être juste\n"
+	.string "flâné quelque part.$"
+
+AzaleaTown_Text_Teacher:
+	.string "Tu es venu voir KURT pour qu'il fabrique\n"
+	.string "des BALLS ?\p"
+	.string "Beaucoup de gens font pareil.$"
+
+AzaleaTown_Text_Youngster:
+	.string "Traverse BOURG GEON et tu seras\n"
+	.string "dans le BOIS AUX CHÊNES.\p"
+	.string "Mais ces arbres fins rendent\n"
+	.string "le passage impossible.\p"
+	.string "Le POKéMON du CHARBONNIER\n"
+	.string "peut utiliser COUPE pour abattre les arbres.$"
+
+AzaleaTown_Text_Slowpoke1:
+	.string "RAMOLOSS:..........\p"
+	.string "...............BÂILLE ?$"
+
+AzaleaTown_Text_Kurt1:
+	.string "La FORÊT DE ILEX est agitée !\p"
+	.string "Que se passe-t-il ?$"
+
+AzaleaTown_Text_Kurt2:
+	.string "{PLAYER}, voici ta GS BALL !$"
+
+AzaleaTown_Text_Kurt3:
+	.string "Pourrais-tu aller voir pourquoi\n"
+	.string "la FORÊT DE ILEX est si agitée ?$"
+
+AzaleaTown_Text_Sign:
+	.string "ÉCORCIA\n"
+	.string "Où les gens et les POKéMON vivent en\l"
+	.string "heureuse harmonie.$"
+
+AzaleaTown_Text_KurtsHouseSign:
+	.string "MAISON DE KURT$"
+
+AzaleaTown_Text_GymSign:
+	.string "MAUVILLE\n"
+	.string "ARÈNE POKéMON\p"
+	.string "CHAMPION : HECTOR\p"
+	.string "L'Encyclopédie Vivante des POKéMON Insecte\n$"
+
+AzaleaTown_Text_SlowpokeWellSign:
+	.string "PUITS RAMOLOSS\p"
+	.string "Aussi connu sous le nom de PUITS PLUIE.\p"
+	.string "Les habitants croient que le bâillement\n"
+	.string "d'un RAMOLOSS appelle la pluie.\p"
+	.string "Les archives montrent que le bâillement\n"
+	.string "d'un RAMOLOSS a mis fin à une sécheresse il y a 400 ans.$"
+
+AzaleaTown_Text_CharcoalKilnSign:
+	.string "FOUR À CHARBON$"
+
+AzaleaTown_Text_IlexForestSign:
+	.string "FORÊT DE ILEX\p"
+	.string "Entrer par la porte.$"

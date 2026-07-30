@@ -282,6 +282,9 @@ class TranslationEngine:
             # Try glossary lookup
             zh = self.glossary.lookup(original)
             if zh:
+                # Match GBA name-table casing (usually ALL CAPS in English sources)
+                if original.isupper() and any(c.isalpha() for c in original):
+                    zh = zh.upper()
                 ok, bad = self.charmap.can_encode(zh)
                 if ok:
                     entry["translated"] = zh
@@ -291,6 +294,8 @@ class TranslationEngine:
             if "description" in category or (category == "map_names" and not zh) or category == "battle_text":
                 needs_llm.append(entry)
             elif zh:
+                if original.isupper() and any(c.isalpha() for c in original):
+                    zh = zh.upper()
                 entry["translated"] = zh
             else:
                 entry["translated"] = original
