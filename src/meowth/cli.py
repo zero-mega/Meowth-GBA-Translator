@@ -197,5 +197,142 @@ def full(rom_path, output_dir, work_dir, source, target,
     engine.run_full()
 
 
+@main.command("decomp-extract")
+@click.argument("source_root", type=click.Path(exists=True, file_okay=False))
+@click.option("-o", "--output", default="work/decomp_texts.json", help="Output texts JSON path")
+def decomp_extract(source_root, output):
+    """Extract texts from a pokeemerald-style decomp source tree."""
+    from .decomp import write_extract
+
+    data = write_extract(Path(source_root), Path(output))
+    click.echo(f"Extracted {len(data['entries'])} strings → {output}")
+
+
+@main.command("decomp-apply")
+@click.argument("source_root", type=click.Path(exists=True, file_okay=False))
+@click.option("--translations", required=True, type=click.Path(exists=True))
+@click.option(
+    "--output-root",
+    default=None,
+    type=click.Path(file_okay=False),
+    help="Write modified sources here (default: modify source_root in place)",
+)
+def decomp_apply(source_root, translations, output_root):
+    """Apply translated JSON back into a decomp source tree."""
+    import json
+
+    from .decomp import apply_decomp_translations
+
+    data = json.loads(Path(translations).read_text(encoding="utf-8"))
+    summary = apply_decomp_translations(
+        Path(source_root),
+        data,
+        Path(output_root) if output_root else None,
+    )
+    click.echo(
+        f"Applied {summary['strings_applied']} strings across "
+        f"{summary['files_changed']} files → {summary['output_root']}"
+    )
+
+
+@main.command("decomp-full")
+@click.argument("source_root", type=click.Path(exists=True, file_okay=False))
+@click.option("-o", "--output-root", default="outputs/decomp_fr", help="Translated source tree")
+@click.option("--work-dir", default="work")
+@click.option("--source", default="en", help="Source language code (default: from config or en)")
+@click.option("--target", default="fr", help="Target language code (default: from config or fr)")
+@click.option("--batch-size", default=30, help="Texts per LLM batch")
+@click.option("--workers", default=10, help="Parallel translation threads")
+@click.option(
+    "--glossary-only",
+    is_flag=True,
+    help="Only apply PokeAPI glossary to name tables (no LLM dialogue translation)",
+)
+@add_provider_options
+def decomp_full(source_root, output_root, work_dir, source, target,
+                batch_size, workers, glossary_only,
+                provider, api_base, api_key_env, model):
+    """Full decomp pipeline: extract → translate → write French (or other) sources."""
+    import json
+    import shutil
+
+    from .decomp import apply_decomp_translations, write_extract
+    from .core.engine import TABLE_CATEGORIES, convert_format
+
+    source = _get_language(source, "en", "source_language")
+    target = _get_language(target, "fr", "target_language")
+    validate_language(source)
+    validate_language(target)
+    kwargs = _provider_kwargs(provider, api_base, api_key_env, model)
+
+    work = Path(work_dir)
+    work.mkdir(parents=True, exist_ok=True)
+    texts_json = work / "decomp_texts.json"
+    translated_json = work / "decomp_texts_translated.json"
+
+    click.echo(f"Extracting from {source_root}…")
+    data = write_extract(Path(source_root), texts_json)
+    click.echo(f"  {len(data['entries'])} strings")
+
+    config = TranslationConfig(
+        source_lang=source,
+        target_lang=target,
+        batch_size=batch_size,
+        max_workers=workers,
+        work_dir=work,
+        **kwargs,
+    )
+    engine = TranslationEngine(config, CLICallbacks())
+    if glossary_only:
+        click.echo(f"Glossary-only localization {source} → {target}…")
+        converted = convert_format(data)
+        for table in converted["tables"]:
+            if table["category"] in TABLE_CATEGORIES:
+                engine._translate_table(table)
+        for entry in converted["free_texts"]:
+            entry.setdefault("translated", entry["original"])
+        translated_json.write_text(
+            json.dumps(converted, ensure_ascii=False, indent=2), encoding="utf-8"
+        )
+    else:
+        click.echo(f"Translating {source} → {target}…")
+        engine.translate_texts(texts_json, translated_json)
+
+    out = Path(output_root)
+    if out.resolve() != Path(source_root).resolve():
+        if out.exists():
+            shutil.rmtree(out)
+        click.echo(f"Copying source tree → {out}…")
+        shutil.copytree(
+            source_root,
+            out,
+            ignore=shutil.ignore_patterns(
+                ".git", "build", "*.o", "*.i", "*.ii", "*.s", "*.exe"
+            ),
+        )
+        apply_root = out
+    else:
+        apply_root = Path(source_root)
+
+    translated = json.loads(translated_json.read_text(encoding="utf-8"))
+    # Preserve extract metadata (path/kind/meta) lost when convert_format runs
+    by_id = {e["id"]: e for e in data["entries"]}
+    flat = []
+    for table in translated.get("tables", []):
+        flat.extend(table.get("entries", []))
+    flat.extend(translated.get("free_texts", translated.get("entries", [])))
+    for entry in flat:
+        meta_src = by_id.get(entry.get("id"), {})
+        for key in ("path", "kind", "meta", "category"):
+            if key not in entry and key in meta_src:
+                entry[key] = meta_src[key]
+
+    summary = apply_decomp_translations(apply_root, {"entries": flat}, apply_root)
+    click.echo(
+        f"Done: {summary['strings_applied']} strings in "
+        f"{summary['files_changed']} files → {summary['output_root']}"
+    )
+
+
 if __name__ == "__main__":
     main()
