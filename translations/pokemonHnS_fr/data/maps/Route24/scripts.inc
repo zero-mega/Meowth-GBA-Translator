@@ -1,0 +1,178 @@
+.set LOCALID_ROUTE24_WOMAN, 4
+.set LOCALID_ROUTE24_MAN, 3
+.set LOCALID_ROUTE24_GRUNT, 1
+
+Route24_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION, Route24_OnTransition
+	map_script MAP_SCRIPT_ON_RESUME, SetTimeEncounters
+	.byte 0
+
+Route24_OnTransition:
+	call_if_eq VAR_KANTO_ROCKET_STORY_STATE, 4, Route24_MapScript_SetRocketScene
+	callnative SetTimeBasedEncounters
+	end
+
+Route24_MapScript_SetRocketScene:
+	setobjectxyperm LOCALID_ROUTE24_GRUNT, 10, 28
+	setobjectxyperm LOCALID_ROUTE24_WOMAN, 10, 29
+	setobjectmovementtype LOCALID_ROUTE24_GRUNT, MOVEMENT_TYPE_FACE_LEFT
+	setobjectmovementtype LOCALID_ROUTE24_WOMAN, MOVEMENT_TYPE_FACE_UP
+	setobjectmovementtype LOCALID_ROUTE24_MAN, MOVEMENT_TYPE_FACE_DOWN
+	return
+
+Route24_EventScript_Woman::
+	goto_if_eq VAR_KANTO_ROCKET_STORY_STATE, 4, Route24_EventScript_WomanRocket
+	goto_if_eq VAR_KANTO_ROCKET_STORY_STATE, 5, Route24_EventScript_WomanAfterRocket
+	msgbox Route24_Text_Woman, MSGBOX_NPC
+	end
+
+Route24_EventScript_WomanRocket::
+	msgbox Route24_Text_WomanRocket, MSGBOX_NPC
+	end
+
+Route24_EventScript_WomanAfterRocket::
+	msgbox Route24_Text_WomanAfterRocket, MSGBOX_NPC
+	end
+
+Route24_EventScript_Man::
+	goto_if_eq VAR_KANTO_ROCKET_STORY_STATE, 4, Route24_EventScript_ManRocket
+		goto_if_eq VAR_KANTO_ROCKET_STORY_STATE, 5, Route24_EventScript_ManAfterRocket
+	msgbox Route24_Text_Man, MSGBOX_NPC
+	end
+
+Route24_EventScript_ManRocket::
+	msgbox Route24_Text_ManRocket, MSGBOX_NPC
+	end
+
+Route24_EventScript_ManAfterRocket::
+	msgbox Route24_Text_ManAfterRocket, MSGBOX_NPC
+	end
+
+Route24_Trigger_GruntScene::
+	lock
+	playse SE_PIN
+	applymovement2 LOCALID_ROUTE24_GRUNT Common_Movement_ExclamationMark
+	delay 60
+	applymovement2 LOCALID_ROUTE24_GRUNT, Route24_Movement_GruntHide
+	delay 10
+	applymovement2 LOCALID_ROUTE24_WOMAN, Route24_Movement_WomanMove
+	waitmovement 0
+	turnobject LOCALID_ROUTE24_MAN, DIR_SOUTH
+	setvar VAR_KANTO_ROCKET_STORY_STATE, 4
+	call Route24_MapScript_SetRocketScene
+	release
+	end
+
+Route24_Movement_GruntHide:
+	walk_fast_left
+	walk_fast_left
+	step_end
+
+Route24_Movement_WomanMove:
+	lock_facing_direction
+	walk_fast_down
+	unlock_facing_direction
+	face_up
+	step_end
+
+Route24_EventScript_Grunt::
+	lock
+	faceplayer
+	msgbox Route24_Text_RocketSeen, MSGBOX_DEFAULT
+	trainerbattle_no_intro TRAINER_GRUNT_31, Route24_Text_RocketBeaten
+	msgbox Route24_Text_RocketAfter, MSGBOX_DEFAULT
+	closemessage
+	playse SE_PIN
+	applymovement2 FLAG_HIDE_CERULEAN_CAPE_ROCKET, Common_Movement_QuestionMark
+	delay 50
+	msgbox Route24_Text_RocketDisappears, MSGBOX_DEFAULT
+	closemessage
+	applymovement OBJ_EVENT_ID_PLAYER, Route24_Movement_PlayerSlide
+	delay 20
+	applymovement LOCALID_ROUTE24_GRUNT, Route24_Movement_GruntLeave
+	waitmovement LOCALID_ROUTE24_GRUNT
+	setflag FLAG_HIDE_CERULEAN_CAPE_ROCKET
+	removeobject LOCALID_ROUTE24_GRUNT
+	setvar VAR_KANTO_ROCKET_STORY_STATE, 5
+	clearflag FLAG_HIDDEN_ITEM_MACHINE_PART
+	release
+	end
+
+Route24_Movement_PlayerSlide:
+	delay_16
+	lock_facing_direction
+	walk_fast_up
+	unlock_facing_direction
+	face_down
+	step_end
+
+Route24_Movement_GruntLeave:
+	walk_fast_right
+	walk_fast_down
+	walk_fast_down
+	walk_fast_down
+	walk_fast_down
+	walk_fast_down
+	walk_fast_down
+	walk_fast_down
+	walk_fast_down
+	walk_fast_down
+	step_end
+
+Route24_Text_RocketSeen:
+	.string "Hé, gamin ! Moi\n"
+	.string "être membre de la\p"
+	.string "TEAM ROCKET !\n"
+	.string "Venir d'un autre\p"
+	.string "pays, un dresseur\n"
+	.string "numéro un, moi !\p"
+	.string "Penser avoir\n"
+	.string "gagné, mais\p"
+	.string "perdre\n"
+	.string "contre toi !\l"
+	.string "Toi être fort !\p"
+	.string "Moi impressionné !$"
+
+Route24_Text_RocketBeaten:
+	.string "Ayieeeh ! Non, non, non, je n'y crois\n"
+	.string "pas !\p"
+	.string "Tu es très fort ! Je ne suis\n"
+	.string "pas à ta hauteur !$"
+
+Route24_Text_RocketAfter:
+	.string "OK. Te dire mon\n"
+	.string "secret je vais ?\l"
+	.string "PIÈCE\p"
+	.string "MACHINE voler\n"
+	.string "par moi, cacher\p"
+	.string "j'ai fait dans\p"
+	.string "ARÈNE d'AZURIA.\n"
+	.string "Mais maintenant\p"
+	.string "je regrette…\n"
+	.string "{PLAYER}, aide-moi\l"
+	.string "à la retrouver !$"
+
+Route24_Text_RocketDisappears:
+	.string "… La TEAM ROCKET\p"
+	.string "bye-bye a go-go ?\n"
+	.string "C'est fini, tu dis\l"
+	.string "? Oh, non !\p"
+	.string "Qu'est-ce que je fais\n"
+	.string "maintenant, moi ?$"
+
+
+
+Route24_Text_Woman:
+	.string "La vue n'est-elle pas magnifique ?$"
+Route24_Text_Man:
+	.string "Je pourrais rester ici toute la journée.$"
+
+Route24_Text_WomanRocket:
+	.string "Personne ne me bouscule !$"
+Route24_Text_ManRocket:
+	.string "Personne ne touche à ma copine !$"
+
+Route24_Text_WomanAfterRocket:
+	.string "C'était quoi, tout ça ?$"
+Route24_Text_ManAfterRocket:
+	.string "C'était un ROCKET ?$"

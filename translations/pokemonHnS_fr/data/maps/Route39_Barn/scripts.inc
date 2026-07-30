@@ -1,0 +1,182 @@
+Route39_Barn_MapScripts::
+	.byte 0
+
+Route39_Barn_EventScript_Miltank::
+	lock
+	faceplayer
+	waitse
+	playmoncry SPECIES_MILTANK, CRY_MODE_NORMAL
+	goto_if_eq VAR_ROUTE39_BARN, 0, Route39_Barn_EventScript_Miltank_NeedBerries5
+	goto_if_eq VAR_ROUTE39_BARN, 1, Route39_Barn_EventScript_Miltank_NeedBerries4
+	goto_if_eq VAR_ROUTE39_BARN, 2, Route39_Barn_EventScript_Miltank_NeedBerries3
+	goto_if_eq VAR_ROUTE39_BARN, 3, Route39_Barn_EventScript_Miltank_NeedBerries2
+	goto_if_eq VAR_ROUTE39_BARN, 4, Route39_Barn_EventScript_Miltank_NeedBerries1
+	msgbox Route39_Text_MoomooHappyMoo, MSGBOX_DEFAULT
+	waitmoncry
+	release
+	end
+
+Route39_Barn_EventScript_Miltank_NeedBerries5::
+	msgbox Route39_Text_MoomooWeakMoo, MSGBOX_DEFAULT
+	waitmoncry
+	closemessage
+	delay 10
+	msgbox Route39_Text_BarnCryIsWeak, MSGBOX_YESNO
+	call_if_eq VAR_RESULT, FALSE, Route39_Barn_EventScript_Miltank_Refused
+
+	checkitem ITEM_ORAN_BERRY
+	goto_if_eq VAR_RESULT, FALSE, Route39_Barn_EventScript_Miltank_NoBerries
+	removeitem ITEM_ORAN_BERRY, 1
+	playse SE_USE_ITEM
+	msgbox Route39_Text_BarnGaveBerry, MSGBOX_AUTOCLOSE
+	waitse
+	msgbox Route39_Text_BarnLittleHealthier, MSGBOX_DEFAULT
+	closemessage
+
+	setvar VAR_ROUTE39_BARN, 1
+	release
+	end
+Route39_Barn_EventScript_Miltank_NeedBerries4::
+	msgbox Route39_Text_MoomooWeakMoo, MSGBOX_DEFAULT
+	waitmoncry
+	closemessage
+	delay 10
+	msgbox Route39_Text_BarnCryIsWeak, MSGBOX_YESNO
+	call_if_eq VAR_RESULT, FALSE, Route39_Barn_EventScript_Miltank_Refused
+
+	checkitem ITEM_ORAN_BERRY
+	goto_if_eq VAR_RESULT, FALSE, Route39_Barn_EventScript_Miltank_NoBerries
+	removeitem ITEM_ORAN_BERRY, 1
+	playse SE_USE_ITEM
+	msgbox Route39_Text_BarnGaveBerry, MSGBOX_AUTOCLOSE
+	waitse
+	msgbox Route39_Text_BarnLittleHealthier, MSGBOX_DEFAULT
+	closemessage
+
+	setvar VAR_ROUTE39_BARN, 2
+	release
+	end
+Route39_Barn_EventScript_Miltank_NeedBerries3::
+	msgbox Route39_Text_MoomooWeakMoo, MSGBOX_DEFAULT
+	waitmoncry
+	closemessage
+	delay 10
+	msgbox Route39_Text_BarnCryIsWeak, MSGBOX_YESNO
+	call_if_eq VAR_RESULT, FALSE, Route39_Barn_EventScript_Miltank_Refused
+	checkitem ITEM_ORAN_BERRY
+	goto_if_eq VAR_RESULT, FALSE, Route39_Barn_EventScript_Miltank_NoBerries
+	removeitem ITEM_ORAN_BERRY, 1
+	playse SE_USE_ITEM
+	msgbox Route39_Text_BarnGaveBerry, MSGBOX_AUTOCLOSE
+	waitse
+	msgbox Route39_Text_BarnQuiteHealthy, MSGBOX_DEFAULT
+	closemessage
+	setvar VAR_ROUTE39_BARN, 3
+	release
+	end
+Route39_Barn_EventScript_Miltank_NeedBerries2::
+	msgbox Route39_Text_MoomooWeakMoo, MSGBOX_DEFAULT
+	waitmoncry
+	closemessage
+	delay 10
+	msgbox Route39_Text_BarnCryIsWeak, MSGBOX_YESNO
+	call_if_eq VAR_RESULT, FALSE, Route39_Barn_EventScript_Miltank_Refused
+	checkitem ITEM_ORAN_BERRY
+	goto_if_eq VAR_RESULT, FALSE, Route39_Barn_EventScript_Miltank_NoBerries
+	removeitem ITEM_ORAN_BERRY, 1
+	playse SE_USE_ITEM
+	msgbox Route39_Text_BarnGaveBerry, MSGBOX_AUTOCLOSE
+	waitse
+	msgbox Route39_Text_BarnQuiteHealthy, MSGBOX_DEFAULT
+	closemessage
+	setvar VAR_ROUTE39_BARN, 4
+	release
+	end
+Route39_Barn_EventScript_Miltank_NeedBerries1::
+	msgbox Route39_Text_MoomooWeakMoo, MSGBOX_DEFAULT
+	waitmoncry
+	closemessage
+	delay 10
+	msgbox Route39_Text_BarnCryIsWeak, MSGBOX_YESNO
+	call_if_eq VAR_RESULT, FALSE, Route39_Barn_EventScript_Miltank_Refused
+	checkitem ITEM_ORAN_BERRY
+	goto_if_eq VAR_RESULT, FALSE, Route39_Barn_EventScript_Miltank_NoBerries
+	removeitem ITEM_ORAN_BERRY, 1
+	playse SE_USE_ITEM
+	msgbox Route39_Text_BarnGaveBerry, MSGBOX_AUTOCLOSE
+	waitse
+	msgbox Route39_Text_BarnTotallyHealthy, MSGBOX_DEFAULT
+	playfanfare MUS_OBTAIN_BADGE 
+	waitfanfare
+	closemessage
+	setvar VAR_ROUTE39_BARN, 5
+	release
+	end
+
+Route39_Barn_EventScript_Miltank_Refused::
+	msgbox Route39_Text_BarnRefusedBerry, MSGBOX_DEFAULT
+	closemessage
+	release
+	end
+
+Route39_Barn_EventScript_Miltank_NoBerries::
+	msgbox Route39_Text_BarnNoBerries, MSGBOX_DEFAULT
+	release
+	end
+
+Route39_Barn_EventScript_Twins::
+	lock
+	faceplayer
+	goto_if_eq VAR_ROUTE39_BARN, 5, Route39_Barn_EventScript_TwinsAfter
+	msgbox Route39_Text_BarnTwinMoomooIsSick, MSGBOX_DEFAULT
+	closemessage
+	release
+	end
+
+Route39_Barn_EventScript_TwinsAfter::
+	msgbox Route39_Text_BarnTwinFeedingMoomoo
+	closemessage
+	release
+	end
+
+Route39_Text_BarnTwinMoomooIsSick:
+	.string "ÉCUMU est malade…\p"
+	.string "Il lui faut plein de BAIES ORAN.$"
+
+Route39_Text_BarnTwinFeedingMoomoo:
+	.string "ÉCANGRIFF va mieux !\n"
+	.string "Merci !$"
+
+Route39_Text_MoomooWeakMoo:
+	.string "MILTANK : …Meuh…$"
+
+Route39_Text_BarnCryIsWeak:
+	.string "Son cri est faible…\n"
+	.string "Donner une BAIE ORAN à ÉCUMU ?$"
+
+Route39_Text_MoomooHappyMoo:
+	.string "MILTANK : Meuuuh !$"
+
+Route39_Text_BarnGaveBerry:
+	.string "{PLAYER} a donné une BAIE ORAN\n"
+	.string "à MILTANK.$"
+
+Route39_Text_BarnLittleHealthier:
+	.string "ÉCANGRIFF est un peu plus\n"
+	.string "en forme !$"
+
+Route39_Text_BarnQuiteHealthy:
+	.string "ECREMEUH est devenue\n"
+	.string "très en forme !$"
+
+Route39_Text_BarnTotallyHealthy:
+	.string "ÉCANGRIFF est totalement\n"
+	.string "en forme !$"
+
+Route39_Text_BarnNoBerries:
+	.string "{PLAYER} n'a pas de BAIES ORAN…$"
+
+Route39_Text_BarnRefusedBerry:
+	.string "{PLAYER} n'a pas voulu donner\n"
+	.string "une BAIE ORAN.\p"
+	.string "ÉCUMEUR a l'air triste.$"

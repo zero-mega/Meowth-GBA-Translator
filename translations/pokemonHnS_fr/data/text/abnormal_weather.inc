@@ -1,0 +1,7 @@
+gText_AbnormalWeatherEnded_Rain::
+	.string "La forte averse semble\n"
+	.string "s'être arrêtée…$"
+
+gText_AbnormalWeatherEnded_Sun::
+	.string "Le soleil intense semble\n"
+	.string "s'être calmé…$"
